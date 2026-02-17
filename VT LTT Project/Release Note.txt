@@ -1,0 +1,17 @@
+LTT Version 1.1.0.20(Release)
+
+Fix:
+1. Added Default User ID as mentioned in the User Manual
+2. Issue in running any socket independently -Fixed, need to verify
+3. CAN log not visible in Manual Mode - Fixed, need to verify
+4. Issue in running any socket independently -Fixed, need to verify
+5. CAN log not visible in Manual Mode - Fixed, need to verify
+
+
+New feature: NA
+
+
+
+Known issues in Version 1.1.0.20
+1. Rename of Mission Mode needed in Manul mode to make is generic
+2. WaitMOnitor Step: Raw power Monitor is hard coded, ignore only if MODE 0 and 9. Need to make it configurable from step

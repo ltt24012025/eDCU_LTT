@@ -1,0 +1,45 @@
+ID,UnitID,Alias,Enable,RegisterName,RegisterAddres,DataLength,Action,Modbus_Type,Description
+1,1,HV TC-1,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+2,2,HV TC-2,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+3,3,HV TC-3,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+4,4,HV TC-4,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+5,5,HV TC-5,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+6,6,HV TC-6,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+7,7,LV TC-7,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+8,8,CHAMBER TC-8,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+9,1,HV TC-1,1,Set Value,8451,1,WriteSingleRegister,RTU,
+10,2,HV TC-2,1,Set Value,8451,1,WriteSingleRegister,RTU,
+11,3,HV TC-3,1,Set Value,8451,1,WriteSingleRegister,RTU,
+12,4,HV TC-4,1,Set Value,8451,1,WriteSingleRegister,RTU,
+13,5,HV TC-5,1,Set Value,8451,1,WriteSingleRegister,RTU,
+14,6,HV TC-6,1,Set Value,8451,1,WriteSingleRegister,RTU,
+15,7,LV TC-7,1,Set Value,8451,1,WriteSingleRegister,RTU,
+16,8,CHAMBER TC-8,1,Set Value,8451,1,WriteSingleRegister,RTU,
+17,1,HV TC-1,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+18,2,HV TC-2,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+19,3,HV TC-3,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+20,4,HV TC-4,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+21,5,HV TC-5,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+22,6,HV TC-6,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+23,7,LV TC-7,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+24,8,CHAMBER TC-8,1,Preset Value,8194,1,ReadHoldingRegister,RTU,
+25,11,LOAD TC-U1,1,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-U1- Sensor 1
+26,12,LOAD TC-V1,1,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-V1- Sensor 1
+27,13,LOAD TC-W1,1,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-W1- Sensor 1
+28,20,CHAMBER,1,Present Value,10,1,ReadHoldingRegister,TCP,Current Value-Temperature- Address -400011/ Modbus TCP IP details LTT Config Table
+29,20,CHAMBER,1,Set Value,19,1,ReadHoldingRegister,TCP,Set Value-Temperature- Address -400020 / Modbus TCP IP details LTT Config Table
+30,20,CHAMBER,1,Set Coil,0,1,WriteMultipleCoils,TCP,Set Coil-Program Start/Stop- - Address -0001 / Modbus TCP IP details LTT Config Table
+31,11,LOAD TC-U2,1,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-U2-Sensor 2
+32,12,LOAD TC-V2,1,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-V2-Sensor 2
+33,13,LOAD TC-W2,1,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-W2-Sensor 2
+34,11,LOAD TC-U3,1,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-U3- Sesnor 3
+35,12,LOAD TC-V3,1,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-V3- Sesnor 3
+36,13,LOAD TC-W3,1,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-W3- Sesnor 3
+37,1,HV TC-1,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+38,2,HV TC-2,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+39,3,HV TC-3,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+40,4,HV TC-4,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+41,5,HV TC-5,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+42,6,HV TC-6,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+43,7,LV TC-7,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+44,8,CHAMBER TC-8,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range

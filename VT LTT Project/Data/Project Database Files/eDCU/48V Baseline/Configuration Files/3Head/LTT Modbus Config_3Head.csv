@@ -1,0 +1,33 @@
+ID,UnitID,Alias,Enable,RegisterName,RegisterAddres,DataLength,Action,Modbus_Type,Description
+1,1,HV TC-1,1,Present Value,8192,1,ReadHoldingRegister,RTU,
+2,2,HV TC-2,1,Present Value,8192,1,ReadHoldingRegister,RTU,NULL
+3,3,HV TC-3,1,Present Value,8192,1,ReadHoldingRegister,RTU,NULL
+4,4,LV TC-7,1,Present Value,8192,1,ReadHoldingRegister,RTU,NULL
+5,5,CHAMBER TC-8,1,Present Value,8192,1,ReadHoldingRegister,RTU,NULL
+6,1,HV TC-1,1,Set Value,8451,1,WriteSingleRegister,RTU,NULL
+7,2,HV TC-2,1,Set Value,8451,1,WriteSingleRegister,RTU,NULL
+8,3,HV TC-3,1,Set Value,8451,1,WriteSingleRegister,RTU,NULL
+9,4,LV TC-7,1,Set Value,8451,1,WriteSingleRegister,RTU,NULL
+10,5,CHAMBER TC-8,1,Set Value,8451,1,WriteSingleRegister,RTU,NULL
+11,1,HV TC-1,1,Preset Value,8194,1,ReadHoldingRegister,RTU,NULL
+12,2,HV TC-2,1,Preset Value,8194,1,ReadHoldingRegister,RTU,NULL
+13,3,HV TC-3,1,Preset Value,8194,1,ReadHoldingRegister,RTU,NULL
+14,4,LV TC-7,1,Preset Value,8194,1,ReadHoldingRegister,RTU,NULL
+15,5,CHAMBER TC-8,1,Preset Value,8194,1,ReadHoldingRegister,RTU,NULL
+16,11,LOAD TC-U1,0,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-U1- Sensor 1
+17,12,LOAD TC-V1,0,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-V1- Sensor 1
+18,13,LOAD TC-W1,0,Present Value,111,1,ReadHoldingRegister,RTU,LOAD TC-W1- Sensor 1
+19,20,CHAMBER,0,Present Value,10,1,ReadHoldingRegister,TCP,Current Value-Temperature- Address -400011/ Modbus TCP IP details LTT Config Table
+20,20,CHAMBER,0,Set Value,19,1,ReadHoldingRegister,TCP,Set Value-Temperature- Address -400020 / Modbus TCP IP details LTT Config Table
+21,20,CHAMBER,0,Set Coil,0,1,WriteMultipleCoils,TCP,Set Coil-Program Start/Stop- - Address -0001 / Modbus TCP IP details LTT Config Table
+22,11,LOAD TC-U2,0,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-U2-Sensor 2
+23,12,LOAD TC-V2,0,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-V2-Sensor 2
+24,13,LOAD TC-W2,0,Present Value,112,1,ReadHoldingRegister,RTU,LOAD TC-W2-Sensor 2
+25,11,LOAD TC-U3,0,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-U3- Sesnor 3
+26,12,LOAD TC-V3,0,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-V3- Sesnor 3
+27,13,LOAD TC-W3,0,Present Value,113,1,ReadHoldingRegister,RTU,LOAD TC-W3- Sesnor 3
+28,1,HV TC-1,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+29,2,HV TC-2,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+30,3,HV TC-3,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+31,4,LV TC-7,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range
+32,5,CHAMBER TC-8,1,Temperature Trip,8197,1,ReadHoldingRegister,RTU,Value is 1000 Temperature in range

@@ -1,0 +1,27 @@
+ID,DUT_ID,KeyName,KeyValue,KeyValueDescription,IPAddress
+0,NULL,LV Power Supplies,LVPPS,This alias Name created in NI MAX. Device IP and Socket Number 30000 while creating ni max.,192.168.200.100
+1,1,HV Power Supplies,HVPPS1,This alias Name created in NI MAX. Device IP and Socket Number 30000 while creating ni max.,192.168.200.200
+2,2,HV Power Supplies,HVPPS2,This alias Name created in NI MAX. Device IP and Socket Number 30000 while creating ni max.,192.168.200.201
+3,3,HV Power Supplies,HVPPS3,This alias Name created in NI MAX. Device IP and Socket Number 30000 while creating ni max.,192.168.200.202
+4,NULL,ModbusMasterCom,COM3|1|9600|RTU|Even|None,Com Port | Client ID | Baud rate | Serial Type | Parity | Flow Control,NULL
+5,NULL,CAN_TxID,2042,0x7FA,NULL
+6,NULL,CAN_RxID,2043,0x7FB,NULL
+7,NULL,CAN_BaudRate,1000000,500k/1 M,NULL
+8,NULL,CAN_Termination,0,"0-Off, 1-On",NULL
+9,NULL,Analog_Input,1,"0-Disable, 1-Enable",NULL
+10,NULL,Analog_Output,1,"0-Disable, 1-Enable",NULL
+11,NULL,Digital_Input,1,"0-Disable, 1-Enable",NULL
+12,NULL,Digital_Output,1,"0-Disable, 1-Enable",NULL
+13,NULL,PWM_Input,1,"0-Disable, 1-Enable",NULL
+14,NULL,PWM_Output,1,"0-Disable, 1-Enable",NULL
+15,NULL,Waveform_Output,0,"0-Disable, 1-Enable",NULL
+16,NULL,Event_Log,1,"0-Disable, 1-Enable",NULL
+17,NULL,Project Name,eDCU,Selected Project Name,NULL
+18,NULL,Variant,48V,Selected Variant Name,NULL
+19,NULL,LogPath,D:\eDCU LTT\VT LTT Project\Source Code\Log,Error Query Logging Location,NULL
+20,NULL,CAN_Timeout,15,CAN Responce Timeout in Secs,NULL
+21,NULL,LogEnable,1,"Report Log Enable=1, Disable=0",NULL
+22,NULL,Function_Generator,PXI2Slot16,This alias Name created in NI MAX,NULL
+23,NULL,ModbusTCP-Chamber,192.168.31.88|502,This alias device Modbus TCP in Chamber HMI. Device IP and Port,192.168.31.88
+24,NULL,Temperature_log,60,Logtime in secs for Temperature Engine,NULL
+25,NULL,ModbusTCP-IP Chamber Refresh Time,15,ModbusTCP-IP Chamber Refresh Time,NULL

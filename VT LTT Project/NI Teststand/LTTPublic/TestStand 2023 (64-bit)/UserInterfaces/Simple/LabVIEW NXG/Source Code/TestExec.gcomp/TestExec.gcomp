@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="3BE2A101BDB516E293B1488BA1BECCA1F95BDCF0F5A4E414A1E72D90DD6A2D353E65DA1DA21F208142781CF2D21AFB2FD967DB933C112BAE1BBF727CE65F58EE" Timestamp="1D57887A3DDA668" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition Company="National Instruments" DefaultConfigurationName="Configuration1" Description="TestStand Simple User Interface" Id="7406093e5d6463b9cb635c8eafe5caf" Product="[YourproductNameHere]" RootNamespaceId="c42e9fb85509471ba520091958ef39a3" UserVersion="20.0.0.0" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="1bf60b435a1b4e669b7c0a0f8d01ac2a" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="bc2b75b052784606bdf1bffcfbbc0fee" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="ec3f4f196a240d2af0e1afe05515a5e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="53d0b4fd5f034eabb5ab1f69c276ce16" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="3f62dd94b04f442996754ff00cfca78e" Name="Configuration1">
+			<CompilerSymbolTable Id="b2a9a81ec8ac4be9a413d14853c2ef25" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties IconFileEnvoy="3d5a98c5b8df4891add2b981eb7fa573" Id="1a7b021eb5ab4df8905200d8e6c8ca50" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="d01b06df6df84c2680b9740614fb921b" Id="ab8da0d02c824e6eaef7d35ab0153ad5" />
+			<ComponentItemProperties AssociatedEnvoyId="e69660afa39c4a8ab9cfc80dfc11c16b" Id="51a9897318884164baf0ddb7f5747ff9" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="2c59ec6f7b3e436681b4b0bb416174c4" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2b8276646d054388b9cea01fb3d156a5" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="6be1160b3ed7424592d3843a7a7e9b53" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c42e9fb85509471ba520091958ef39a3" Name="TestExec">
+				<FileReference Bindings=".ini" Id="d01b06df6df84c2680b9740614fb921b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TestExec.ini" StoragePath="TestExec.ini" />
+				<SourceFileReference Id="b083005966bd47288666bef00fc28c78" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="TestStand - Append Code and Description to Error Source.gvi" StoragePath="TestStand - Append Code and Description to Error Source.gvi" />
+				<SourceFileReference Id="e69660afa39c4a8ab9cfc80dfc11c16b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Simple UI.gvi" StoragePath="Simple UI.gvi" />
+				<SourceFileReference Id="6d9f54459e554d119af1482be6aef833" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="TS Display Error.gvi" StoragePath="TS Display Error.gvi" />
+				<SourceFileReference Id="2d0e0a185cc54e3e88c04a85598cd7fc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure SeqFileView Manager.gvi" StoragePath="Configure SeqFileView Manager.gvi" />
+				<SourceFileReference Id="8bd054d1c0b044deb73e3184f9d65c9c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Application Manager.gvi" StoragePath="Configure Application Manager.gvi" />
+				<SourceFileReference Id="c4bf94e8287644a49cc6bf082913af10" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure ExecutionView Manager.gvi" StoragePath="Configure ExecutionView Manager.gvi" />
+				<SourceFileReference Id="1956fcbd2e024ccb8de447d0e166a9c5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Callback - DisplaySequenceFile.gvi" StoragePath="Callback - DisplaySequenceFile.gvi" />
+				<SourceFileReference Id="267d053050bf4854b7a888bd0c2236ba" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Callback - DisplayExecution.gvi" StoragePath="Callback - DisplayExecution.gvi" />
+				<SourceFileReference Id="8b97b9cd324945b8839109cd5f4d4ff0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Callback - Wait.gvi" StoragePath="Callback - Wait.gvi" />
+				<SourceFileReference Id="d14aba09922b465b9c7d52724821d6d6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Callback - Report Error.gvi" StoragePath="Callback - Report Error.gvi" />
+				<SourceFileReference Id="ab4e8ba5945f416fb3cc2246b0aea228" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Callback - ExitApplication.gvi" StoragePath="Callback - ExitApplication.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="dd3c6639624a47d6ae9a62ed1db0ba5c" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="States.gtype" StoragePath="States.gtype\States.gtype" />
+				<SourceFileReference Bindings="EnvoyManager" Id="f8c9cefaac6348f485c0f1c8483904e3" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI Data.gtype" StoragePath="UI Data.gtype\UI Data.gtype" />
+				<FileReference Bindings=".ico" Id="3d5a98c5b8df4891add2b981eb7fa573" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="testexec.ico" StoragePath="testexec.ico" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="7c4ac164424e4ddaa2207b3907b4721a" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="TestExec.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="3f62dd94b04f442996754ff00cfca78e" Id="ac514b895817427295dbe9ad4cd1e013" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

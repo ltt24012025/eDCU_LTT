@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="51C87045A079F1379E9702B7BF494CE6" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.1.0.3760" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.0.0.1" Version="5.0.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.3760" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="4.9.0.0" Version="5.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.3760" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.3779" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.1.0.6" Version="5.1.0.6" />
+		<ApplicationVersionInfo Build="5.1.0.3779" Name="LabVIEW Conversion" Version="5.1.0.3779" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@b6774de58405469681edd1dcabf1c30d" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="10" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="13" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="14" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="15" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="16" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFNSURBVEhLxZaNrYMwDIS9QlZgBa/ACqzgFViBFbICs2QFVmAF3gVHpapsIn6id0JVQp3P5uLQ0tZM/4FOKZXRXdlocJlZRMr8lgw0uOM4TtOkn+XudR1oUKAYY5k/lm1IIAohdF1X5rfkoEPo+74JGnvYCq1Vw5YyvyUXjcK16nme0Sp6/5IO9HeHKBrCVJKwsMZcklE1+hqHJaaYNuTZ0cw3DucvGmXCZU6iUEnvoaFlWYohcCLT8/Ad9LquemQgPAHlol9CQxnGDDTSwKJhGB6hfzoEuE9fg/ta1WqFdxoFeyB1i2w0qSHOaQQXIdUE9mJw7aqRjDJ0X4gr070ENrpqiKL3gDwwE7hobOM5Gt+qlI4rv2r2x9KwA43e+O6QVlV7IpqIxg/ag6oMNOLOf3YVfQJV2VVjAZrE+7NQhapcQ6orq3LRz9UMvW1/1SFNVHEzwicAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@b6774de58405469681edd1dcabf1c30d" Id="19" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>8</Field1>
+					<Field2>False</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="StatusBarConnectionSettings\.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Label Id="18" LabelOwner="[UIModel]17" Left="[float]100" Text="[string]Cluster" Top="[float]10" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" ClusterType="[Type]@b6774de58405469681edd1dcabf1c30d" Enabled="[bool]True" Height="[float]168" Id="17" IsTabStop="[bool]True" Label="[UIModel]18" Left="[float]100" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=19}" Width="[float]341" xmlns="http://www.ni.com/PanelCommon">
+						<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" Enabled="[bool]True" Height="[float]24" Id="20" IsTabStop="[bool]True" Label="[UIModel]21" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=captionSource}" ValueFormatter="[string]LV:G0" ValueType="[Type]Int32" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]325" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_NotASource" Value="[int]0" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_MacroExpression" Value="[int]1" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_UUTSerialNumber" Value="[int]2" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_UUTStatus" Value="[int]3" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_BatchSerialNumber" Value="[int]4" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_BatchStatus" Value="[int]5" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_BatchState" Value="[int]6" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_ModelState" Value="[int]7" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_UserName" Value="[int]8" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_ProgressText" Value="[int]9" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_ProgressPercent" Value="[int]10" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequenceFile" Value="[int]11" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequenceFileComment" Value="[int]12" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequence" Value="[int]13" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequenceComment" Value="[int]14" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentStepGroup" Value="[int]15" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentStep" Value="[int]16" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentStepComment" Value="[int]17" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentStepIndex_ZeroBased" Value="[int]18" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentTestIndex_OneBased" Value="[int]19" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_SelectedSteps_ZeroBased" Value="[int]20" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_SelectedTests_OneBased" Value="[int]21" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_NumberOfSteps" Value="[int]22" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_NumberOfTests" Value="[int]23" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentExecution" Value="[int]24" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentThread" Value="[int]25" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentCallStackEntry" Value="[int]26" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentProcessModelFile" Value="[int]27" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_ReportLocation" Value="[int]28" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_TestSocketIndex" Value="[int]29" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_Time" Value="[int]30" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_Date" Value="[int]31" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequenceFile_WithoutFileState" Value="[int]32" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_CurrentSequenceFile_FileStateOnly" Value="[int]33" ValueType="[Type]Int32" />
+							<RingSelectorInfo DisplayValue="[string]CaptionSource_EngineEnvironment" Value="[int]34" ValueType="[Type]Int32" />
+						</RingSelector>
+						<Label Id="21" LabelOwner="[UIModel]20" Left="[float]4" Text="[string]captionSource" Top="[float]4" />
+						<Switch ClickMode="[ClickMode]Press" Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" FalseContent="[string]" FalseContentVisibility="[Visibility]Collapsed" Height="[float]28" Id="22" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]23" Left="[float]13" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]1" Top="[float]76" TrueContent="[string]" Value="{ClusterBinding FieldName=LongName}" Width="[float]50" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="23" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]22" Left="[float]4" Text="[string]LongName" Top="[float]56" />
+						<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="24" IsTabStop="[bool]True" Label="[UIModel]25" Left="[float]4" TabIndex="[int]2" Text="{ClusterBinding FieldName=PaneName}" TextDisplayMode="[SMTextDisplayMode]Default" Top="[float]132" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]100" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Id="25" LabelOwner="[UIModel]24" Left="[float]4" Text="[string]PaneName" Top="[float]112" />
+					</Cluster>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="b6774de58405469681edd1dcabf1c30d">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="captionSource" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="LongName" DataType="Boolean" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PaneName" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

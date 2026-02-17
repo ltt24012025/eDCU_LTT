@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D7451C7A4F838FDC64459CBCE39423542665BFB46EE937D98ED624B9E3F6542FF4F741B7EA058C8E8822D5687820182CEA9FD98EE1EC064C2320914D9822E876" Timestamp="1D5850BC404D00C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Native target compiler" Name="http://www.ni.com/LabVIEW.NativeBackEndCompiler" OldestCompatibleVersion="4.5.0.0" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition Company="National Instruments" DefaultConfigurationName="Configuration1" Description="Teststand Full Featured User Interface" Id="570d2e0bf12d4ebca9f4d341062d0fcd" Product="[YourProductNameHere]" RootNamespaceId="b0258f1703684695a87e98f1cecbdbef" UserVersion="20.0.0.0" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="451a20c03ca542dbada4eef556d8dff9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="d8da0c21651e47a58073f6b02f1ebdf9" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="5110157d7c82487f984c28f52acb1e1c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="e7d9e848df424bf69f4942a2c8c6a97e" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="Application" Id="18b33ca95ce84b6295434ccaae58a291" Name="Configuration1">
+			<CompilerSymbolTable Id="89d8bd6b2a314052b3847428c110035b" xmlns="http://www.ni.com/PlatformFramework" />
+			<NativeApplicationOutputTypeProperties IconFileEnvoy="5146fcd963ef433297969a5078349d95" Id="469cd441bea148278270ee30380af194" xmlns="http://www.ni.com/LabVIEW.NativeBackEndCompiler" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="27722fb4b4c4dacadb916f08ed0ce3d" Id="c69b784c496a4e9ea8d1bc735f4443ee" />
+			<ComponentItemProperties AssociatedEnvoyId="fab83c449cfa43e7985efd9de3b06a91" Id="28ae08dfb47109f92d8cd3150ebad" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5146fcd963ef433297969a5078349d95" Id="79f78c6b854f4611a4dfbb981c734336" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="76c986e9241e4964824a36897bad8639" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="f238216da54b4899865bec3bceb95699" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="e8c2eeffaa424feca6bda5e733b5bb5d" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b0258f1703684695a87e98f1cecbdbef" Name="TestExec">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7b1e3ef94ab34b5a996eefa09bed48e3" Name="Dependencies">
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b67ca6ed39474190a48f1e6f7b425ee0" Name="Callbacks">
+						<SourceFileReference Id="52ff06f4b8054e27bbbe93ceb52e1b89" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Wait Event.gvi" StoragePath="Dependencies\Callbacks\Wait Event.gvi" />
+						<SourceFileReference Id="b96603855e234924980fe9d6b84ea666" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="User Changed.gvi" StoragePath="Dependencies\Callbacks\User Changed.gvi" />
+						<SourceFileReference Id="2ce7ce31b4444bb5a6a099d7c2a7b278" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="TitleBar Requires Update.gvi" StoragePath="Dependencies\Callbacks\TitleBar Requires Update.gvi" />
+						<SourceFileReference Id="9adb46025ad94e38b81ab9c2c1114bca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="StartExecution Event.gvi" StoragePath="Dependencies\Callbacks\StartExecution Event.gvi" />
+						<SourceFileReference Id="3230406713464701b419f1b3c2ac77e1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SequenceView CreateContextMenu Event.gvi" StoragePath="Dependencies\Callbacks\SequenceView CreateContextMenu Event.gvi" />
+						<SourceFileReference Id="c7b4f5ce64034cf28463e769ef422acd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="SequencesList CreateContextMenu Event.gvi" StoragePath="Dependencies\Callbacks\SequencesList CreateContextMenu Event.gvi" />
+						<SourceFileReference Id="b43d9d33b02f4bac92f1c2cd9fd04a63" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Sequences List KeyDown Event.gvi" StoragePath="Dependencies\Callbacks\Sequences List KeyDown Event.gvi" />
+						<SourceFileReference Id="defd0c7d903e4476a9ca60ef190fec8b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Resized Event.gvi" StoragePath="Dependencies\Callbacks\Resized Event.gvi" />
+						<SourceFileReference Id="679c1a10bc23441fb63c3a3e0bc0a9a5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ReportError Event.gvi" StoragePath="Dependencies\Callbacks\ReportError Event.gvi" />
+						<SourceFileReference Id="6267b2e1fede43118279160450d8bfdd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Register Report Error.gvi" StoragePath="Dependencies\Callbacks\Register Report Error.gvi" />
+						<SourceFileReference Id="dea912d1b60a404195d874e515789483" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PostCommandExecute Event.gvi" StoragePath="Dependencies\Callbacks\PostCommandExecute Event.gvi" />
+						<SourceFileReference Id="860a3d56c7fe4377bce7841345117eee" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ListBar CreateContextMenu Event.gvi" StoragePath="Dependencies\Callbacks\ListBar CreateContextMenu Event.gvi" />
+						<SourceFileReference Id="7334c0f31f124fca941d732699e7d7f3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Insertion Palette KeyDown Event.gvi" StoragePath="Dependencies\Callbacks\Insertion Palette KeyDown Event.gvi" />
+						<SourceFileReference Id="2619206dcb8f41838ab10406fd45c4dc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="File Variables KeyDown Event.gvi" StoragePath="Dependencies\Callbacks\File Variables KeyDown Event.gvi" />
+						<SourceFileReference Id="752dafe260604ed3a3df8784477c3846" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="File Steps KeyDown Event.gvi" StoragePath="Dependencies\Callbacks\File Steps KeyDown Event.gvi" />
+						<SourceFileReference Id="ae576659212d4a24a9c841725e31292b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ExitApplication Event.gvi" StoragePath="Dependencies\Callbacks\ExitApplication Event.gvi" />
+						<SourceFileReference Id="4923468b36584194a816fbf0d640c0ea" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ExecutionView CreateContextMenu Event.gvi" StoragePath="Dependencies\Callbacks\ExecutionView CreateContextMenu Event.gvi" />
+						<SourceFileReference Id="26a464e7c7714e3696fddaab0a8dcf70" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ExecutionChanged Event.gvi" StoragePath="Dependencies\Callbacks\ExecutionChanged Event.gvi" />
+						<SourceFileReference Id="b3094512597c4f6f887335e10bb724dd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DisplaySequenceFile Event.gvi" StoragePath="Dependencies\Callbacks\DisplaySequenceFile Event.gvi" />
+						<SourceFileReference Id="c1ea9bb3ad3c466fba6c43c0fb08702b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DisplayReport Event.gvi" StoragePath="Dependencies\Callbacks\DisplayReport Event.gvi" />
+						<SourceFileReference Id="7b9aa27ed3a746cfa4a7940d3898a3ec" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DisplayExecution Event.gvi" StoragePath="Dependencies\Callbacks\DisplayExecution Event.gvi" />
+						<SourceFileReference Id="3b0272bc607e483d94a13a710cfb4b9c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CurPageChanged Event.gvi" StoragePath="Dependencies\Callbacks\CurPageChanged Event.gvi" />
+					</NameScopingEnvoy>
+					<SourceFileReference Id="3bdede0b1ee348a9bea02a14c4f011bb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="RunLauncher.gvi" StoragePath="Dependencies\RunLauncher.gvi" />
+					<SourceFileReference Id="df1fd975f30c4be4a346bc693382ff89" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="About.gvi" StoragePath="Dependencies\About.gvi" />
+					<SourceFileReference Id="dc900875c94d43d09b352c1db4fbae75" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Cast Vi Ref for Event.gvi" StoragePath="Dependencies\Cast Vi Ref for Event.gvi" />
+					<SourceFileReference Id="e9e255d9fc474a798d0a12d4fc27057b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Add User Menu Items.gvi" StoragePath="Dependencies\Add User Menu Items.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="6ee664ee7d22473fa8823b0045da36a6" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Menu Queue Item Type.gtype" StoragePath="Dependencies\Menu Queue Item Type.gtype\Menu Queue Item Type.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="109bb2df9e764b70a6b65f4aee51a43f" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="LabVIEW Events.gtype" StoragePath="Dependencies\LabVIEW Events.gtype\LabVIEW Events.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="fbaadad747d748d78c5b0768dd2bf2d0" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FullUIData.gtype" StoragePath="Dependencies\FullUIData.gtype\FullUIData.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b0f97d315e58495996460ec852dc9539" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Full UI States.gtype" StoragePath="Dependencies\Full UI States.gtype\Full UI States.gtype" />
+					<SourceFileReference Id="d886b32cc6224cf1bd0f122716a91172" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update Title Bar Text.gvi" StoragePath="Dependencies\Update Title Bar Text.gvi" />
+					<SourceFileReference Id="484dd2508b6044888960ee82807aaed4" ModelDefinitionType="{http://www.ni.com/PanelCommon}MenuDefinition" Name="Top-Level VI.grtm" StoragePath="Dependencies\Top-Level VI.grtm" />
+					<SourceFileReference Id="6d8fa668f8a642c7be8b73eaf41bd4fa" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Shutdown.gvi" StoragePath="Dependencies\Shutdown.gvi" />
+					<SourceFileReference Id="295442a0df0342dcb05e1f8050f6236a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="shutdown string constant.gvi" StoragePath="Dependencies\shutdown string constant.gvi" />
+					<SourceFileReference Id="d73a94c1b13941fcbc73071d2b88a66e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Show Appropriate Tabs.gvi" StoragePath="Dependencies\Show Appropriate Tabs.gvi" />
+					<SourceFileReference Id="3ad2996a6dc54f8999c6870474706974" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Tab Value.gvi" StoragePath="Dependencies\Set Tab Value.gvi" />
+					<SourceFileReference Id="8d975bed617243e1b3ee832c2e48ae0b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Tab Control Value for Execution.gvi" StoragePath="Dependencies\Set Tab Control Value for Execution.gvi" />
+					<SourceFileReference Id="baca1a4974264a928ca3929b8e02d903" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Respond to Tab Control Value Change.gvi" StoragePath="Dependencies\Respond to Tab Control Value Change.gvi" />
+					<SourceFileReference Id="c064ff2e07d04541b3778a9802ff81c8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Rebuild Menu Bar.gvi" StoragePath="Dependencies\Rebuild Menu Bar.gvi" />
+					<SourceFileReference Id="406e225f7f3d4337b796b9862b3e9e4a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Process User Menus.gvi" StoragePath="Dependencies\Process User Menus.gvi" />
+					<SourceFileReference Id="b40d8b406372415f8454e84fe8011de0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Process Delete Keydown.gvi" StoragePath="Dependencies\Process Delete Keydown.gvi" />
+					<SourceFileReference Id="459db33137594cc3b76ca1c1949d3d6d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Localize Operator Interface.gvi" StoragePath="Dependencies\Localize Operator Interface.gvi" />
+					<SourceFileReference Id="a0ad993f3f204f7baa3e6c6378dc5879" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initialize.gvi" StoragePath="Dependencies\Initialize.gvi" />
+					<SourceFileReference Id="fe6145a0176f433ea97c5c30a71f7b62" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Tab Control Value for Execution.gvi" StoragePath="Dependencies\Get Tab Control Value for Execution.gvi" />
+					<SourceFileReference Id="992bdb65ede446ebbe5958e5768a88e0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get original panel State.gvi" StoragePath="Dependencies\Get original panel State.gvi" />
+					<SourceFileReference Id="6ef7ac19cfe84c2a86d8faceb460b5cc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get and Set Control Focus.gvi" StoragePath="Dependencies\Get and Set Control Focus.gvi" />
+					<SourceFileReference Id="31e731f51c69459eaf13ae45d37778f2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Find Menu Tags with Command Type.gvi" StoragePath="Dependencies\Find Menu Tags with Command Type.gvi" />
+					<SourceFileReference Id="1d75374a83d046a8a440e634ff6657e4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Display Error.gvi" StoragePath="Dependencies\Display Error.gvi" />
+					<SourceFileReference Id="426292448a9d4e17a2e83491cbdd1874" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create LabVIEW Application Events.gvi" StoragePath="Dependencies\Create LabVIEW Application Events.gvi" />
+					<SourceFileReference Id="3195da7223e43c8b6eecf7066ebe2df" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure StatusBar.gvi" StoragePath="Dependencies\Configure StatusBar.gvi" />
+					<SourceFileReference Id="ccdb37951f75484990371d028620dffd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure SequenceFileView Manager.gvi" StoragePath="Dependencies\Configure SequenceFileView Manager.gvi" />
+					<SourceFileReference Id="c192f8da5c3b4d06b1a534869d01686f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure ListBar.gvi" StoragePath="Dependencies\Configure ListBar.gvi" />
+					<SourceFileReference Id="87e09a6123904b73a6041faf7214fdfb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure ExecutionView Manager.gvi" StoragePath="Dependencies\Configure ExecutionView Manager.gvi" />
+					<SourceFileReference Id="3d71678a92754ff5b2472be963b8c8a6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Event Callbacks.gvi" StoragePath="Dependencies\Configure Event Callbacks.gvi" />
+					<SourceFileReference Id="60d0a1b7f94341d4a54f319e3451ec3c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Engine Environment Menu item.gvi" StoragePath="Dependencies\Configure Engine Environment Menu item.gvi" />
+					<SourceFileReference Id="77e58afccbe243ed837d2408c8c1054c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Application Manager.gvi" StoragePath="Dependencies\Configure Application Manager.gvi" />
+					<SourceFileReference Id="c7c1ffc570434fa6886d9615f26673e4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close Launcher VI Panel.gvi" StoragePath="Dependencies\Close Launcher VI Panel.gvi" />
+					<SourceFileReference Id="bc9ba994496540f1896c622a32a67aed" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close Borders Reference.gvi" StoragePath="Dependencies\Close Borders Reference.gvi" />
+					<SourceFileReference Id="5776665acff848bfb78d741164465d37" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close All Borders.gvi" StoragePath="Dependencies\Close All Borders.gvi" />
+					<SourceFileReference Id="fc021f522bdf41f28cc8d552c96f6865" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="CheckControlReferences.gvi" StoragePath="Dependencies\CheckControlReferences.gvi" />
+					<SourceFileReference Id="bd0ebb89d3b0413db169751b912e2dec" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Add To Menu Queue.gvi" StoragePath="Dependencies\Add To Menu Queue.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3e1a09afbf84c1fbc141efffbe8ba05" Name="Global Controls">
+					<SourceFileReference Bindings="EnvoyManager" Id="4bd3f6a8f34b4596ba16315dd08f5092" ModelDefinitionType="SharedResourceCollection" Name="Control Globals.grsc" StoragePath="Global Controls\Control Globals.grsc" />
+					<SourceFileReference Bindings="EnvoyManager" Id="c9e88f4db57b4bd0ba090938636d9cf6" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="VIRefnum.gtype" StoragePath="Global Controls\VIRefnum.gtype\VIRefnum.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="d08d56f35d2420da4743c6b722dcac1" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="user32.sli" StoragePath="Global Controls\user32.sli" />
+					<SourceFileReference Bindings="EnvoyManager" Id="42c8f0eadada4cf7a631d5194cd145b7" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TS SequenceFileViewMgr.gtype" StoragePath="Global Controls\TS SequenceFileViewMgr.gtype\TS SequenceFileViewMgr.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="98c88f75f524901b9d2e043de786c83" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TS ExecutionViewMgr.gtype" StoragePath="Global Controls\TS ExecutionViewMgr.gtype\TS ExecutionViewMgr.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="1e126957bdcd4d1ea2a962e513111675" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TS ApplicationMgr.gtype" StoragePath="Global Controls\TS ApplicationMgr.gtype\TS ApplicationMgr.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="6d98469ffba7495e89fb547dc7a01301" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="TabCtlRefnum.gtype" StoragePath="Global Controls\TabCtlRefnum.gtype\TabCtlRefnum.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="3dfedd43f53c44638365256ac9293e43" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="StatusBarSettings.gtype" StoragePath="Global Controls\StatusBarSettings.gtype\StatusBarSettings.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="98f1ad08337b42d9b5be2308f8766672" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="NewEngineEnvPath.gtype" StoragePath="Global Controls\NewEngineEnvPath.gtype\NewEngineEnvPath.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="d841cdfb351542fd90a2bc713d484d4b" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="MenuRefnum.gtype" StoragePath="Global Controls\MenuRefnum.gtype\MenuRefnum.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="b1923d4948fe45d786ac2cc0088d41da" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="LabVIEW.sli" StoragePath="Global Controls\LabVIEW.sli" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="baf483ef746e4c98a341c6f1b5ecfb0f" Name="Top Level VIs">
+					<SourceFileReference Id="52921b557118472088786c523f220856" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Launcher.gvi" StoragePath="Top Level VIs\Launcher.gvi" />
+					<SourceFileReference Id="fab83c449cfa43e7985efd9de3b06a91" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Top-Level VI.gvi" StoragePath="Top Level VIs\Top-Level VI.gvi" />
+				</NameScopingEnvoy>
+				<FileReference Bindings=".ini" Id="27722fb4b4c4dacadb916f08ed0ce3d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="TestExec.ini" StoragePath="TestExec.ini" />
+				<FileReference Bindings=".ico" Id="5146fcd963ef433297969a5078349d95" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="testexec.ico" StoragePath="testexec.ico" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4446cb56b3c54c8093f732305cc36d14" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="TestExec.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="18b33ca95ce84b6295434ccaae58a291" Id="a205de83e8684963ba252e1baeacee3b" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

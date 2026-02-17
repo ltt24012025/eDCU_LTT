@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C0283EC80D68CC72A85BE2F0F3193BD2171036AF10D86EE3053DB99044B6FC058F516EE2CB9E29DE9341B593AFEB1946C906903D4493AF4A6D3777F5D9E5993F" Timestamp="1D57886B92BB2FB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Callback - DisplaySequenceFile" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="24" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 65" Parameter="28" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 80" Parameter="36" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="14" Id="23" Label="86">
+				<Terminal DataType="@00526bf642bf46ceb9ee8451f31f42d0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="23" Bounds="-120 0 115 14" Id="86" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Event Common Data</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 100 40 15" DataItem="24" Id="27" Label="87">
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="27" Bounds="0 118 62 14" Id="87" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Ref</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@00526bf642bf46ceb9ee8451f31f42d0" Height="[float]216" Id="15" Left="[float]0" Name="[string]Event Common Data" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=14}" Width="[float]88" xmlns="http://www.ni.com/PanelCommon">
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="16" Interval="[int]1" Label="[UIModel]17" Left="[float]4" Top="[float]24" Value="{ClusterBinding FieldName=Event\ Source}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="17" LabelOwner="[UIModel]16" Left="[float]4" Text="[string]Event Source" Top="[float]4" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="18" Interval="[uint]1" Label="[UIModel]19" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=Event\ Type}" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="19" LabelOwner="[UIModel]18" Left="[float]4" Text="[string]Event Type" Top="[float]56" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="20" Interval="[uint]1" Label="[UIModel]21" Left="[float]4" Top="[float]128" Value="{ClusterBinding FieldName=Time\ Stamp}" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="21" LabelOwner="[UIModel]20" Left="[float]4" Text="[string]Time Stamp" Top="[float]108" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="214" Interval="[uint]1" Label="[UIModel]215" Left="[float]4" Top="[float]180" Value="{ClusterBinding FieldName=Index}" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="215" LabelOwner="[UIModel]214" Left="[float]4" Text="[string]Index" Top="[float]160" />
+			</Cluster>
+			<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="25" Left="[float]0" Name="[string]Control Ref" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" TabIndex="[int]1" Top="[float]0" Value="{DataItemBinding Id=24}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@610d277f93d04b44b42b1606a911e3f2" Height="[float]112" Id="29" Left="[float]0" Name="[string]Event Data" TabIndex="[int]2" Top="[float]0" Value="{DataItemBinding Id=28}" Width="[float]88" xmlns="http://www.ni.com/PanelCommon">
+				<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="30" Label="[UIModel]31" Left="[float]4" RefnumType="[Type]:COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef9c0b611d0939c0020af68e893" Top="[float]24" Value="{ClusterBinding FieldName=file}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="31" LabelOwner="[UIModel]30" Left="[float]4" Text="[string]file" Top="[float]4" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="32" Interval="[int]1" Label="[UIModel]33" Left="[float]4" Top="[float]76" Value="{ClusterBinding FieldName=reason}" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Id="33" LabelOwner="[UIModel]32" Left="[float]4" Text="[string]reason" Top="[float]56" />
+			</Cluster>
+			<Cluster BaseName="[string]UI Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@05eb24b82d6b49cc8bdde2a44874d378" Height="[float]474" Id="385" IsTabStop="[bool]True" Label="[UIModel]440" LabelLinked="[bool]True" Left="[float]100" TabIndex="[int]3" Top="[float]100" Value="{DataItemBinding Id=36}" Width="[float]522" p4:ControlDefinitionChecksum="KFel1DWBXGENUvPd6qEHrIJf8LW4sm9BlwKIf+2R1Pw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="TestExec::UI Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@798c61ff90914832905f42d64b7925c8" Height="[float]164" Id="ddd4dc20f79547599eee29eff8d32871" Label="[UIModel]c3fe76bfe5ae4e779cbf96c397376af7" Left="[float]11" TabIndex="[int]0" Top="[float]22" Value="{ClusterBinding FieldName=Manager\ Controls}" Width="[float]129">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="4261640d0e7c4a928cbab0a53ec38fe9" Label="[UIModel]2ad2b10ce5ec44c699602dd7b30ecb81" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=ApplicationMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="2ad2b10ce5ec44c699602dd7b30ecb81" LabelOwner="[UIModel]4261640d0e7c4a928cbab0a53ec38fe9" Left="[float]4" Text="[string]ApplicationMgr" Top="[float]4" Width="[float]83" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="761100d68e3849b3a07ec847dca1d7a7" Label="[UIModel]b5b5b2736ee347beba2e9f50b8f4ceef" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=ExecutionViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="b5b5b2736ee347beba2e9f50b8f4ceef" LabelOwner="[UIModel]761100d68e3849b3a07ec847dca1d7a7" Left="[float]4" Text="[string]ExecutionViewMgr" Top="[float]56" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="97fd3cb527e34e40a49019f74a0d7b9a" Label="[UIModel]ac5f1a681032431596b4dda36c5cc3a7" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=SequenceFileViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="ac5f1a681032431596b4dda36c5cc3a7" LabelOwner="[UIModel]97fd3cb527e34e40a49019f74a0d7b9a" Left="[float]4" Text="[string]SequenceFileViewMgr" Top="[float]108" Width="[float]117" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="c3fe76bfe5ae4e779cbf96c397376af7" LabelOwner="[UIModel]ddd4dc20f79547599eee29eff8d32871" Left="[float]11" Text="[string]Manager Controls" Top="[float]2" Width="[float]96" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@39e0ae27f46d47118a7af9813fa206f3" Height="[float]437" Id="f671e7a24c9144c3838d6f1ae0a384e7" Label="[UIModel]8dbcd172154e4e74a01514d3af478056" Left="[float]235" TabIndex="[int]1" Top="[float]22" Value="{ClusterBinding FieldName=Visible\ Controls}" Width="[float]266">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="fe60e32cf43641b7bcf7c997d6b4a682" Label="[UIModel]61da498c048949dcbaaf377f3f437c1b" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Open\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="61da498c048949dcbaaf377f3f437c1b" LabelOwner="[UIModel]fe60e32cf43641b7bcf7c997d6b4a682" Left="[float]9" Text="[string]Open Sequence File" Top="[float]0" Width="[float]106" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="349ec7a454c44655afb6e8f5f62c76a3" Label="[UIModel]a96d3e7f2476443ba266e4bf85525b50" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]1" Top="[float]72" Value="{ClusterBinding FieldName=Close\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="a96d3e7f2476443ba266e4bf85525b50" LabelOwner="[UIModel]349ec7a454c44655afb6e8f5f62c76a3" Left="[float]9" Text="[string]Close Sequence File" Top="[float]52" Width="[float]105" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="b0e1ccdf71ca45dfa29790dcb01a2c04" Label="[UIModel]a55b98b835174060b6540405155bdb62" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]2" Top="[float]124" Value="{ClusterBinding FieldName=EntryPoint\ 1}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="a55b98b835174060b6540405155bdb62" LabelOwner="[UIModel]b0e1ccdf71ca45dfa29790dcb01a2c04" Left="[float]9" Text="[string]EntryPoint 1" Top="[float]104" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="725b0d151f994bf6bd7c7b52b471bafb" Label="[UIModel]1c065f4cf0af4f6a886bc4878982d40a" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]3" Top="[float]176" Value="{ClusterBinding FieldName=EntryPoint\ 2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="1c065f4cf0af4f6a886bc4878982d40a" LabelOwner="[UIModel]725b0d151f994bf6bd7c7b52b471bafb" Left="[float]9" Text="[string]EntryPoint 2" Top="[float]156" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="a67d49bb954e458aa2da147ca2197cb4" Label="[UIModel]28f33bdf505849e7834fc06caf37ee57" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]4" Top="[float]228" Value="{ClusterBinding FieldName=Run\ Sequence}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="28f33bdf505849e7834fc06caf37ee57" LabelOwner="[UIModel]a67d49bb954e458aa2da147ca2197cb4" Left="[float]9" Text="[string]Run Sequence" Top="[float]208" Width="[float]76" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="5a23c29efd744c999119097cd8998314" Label="[UIModel]351e726cb76645d18c07c1c40c641a14" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]5" Top="[float]280" Value="{ClusterBinding FieldName=Close\ Execution}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="351e726cb76645d18c07c1c40c641a14" LabelOwner="[UIModel]5a23c29efd744c999119097cd8998314" Left="[float]9" Text="[string]Close Execution" Top="[float]260" Width="[float]84" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="cc610bdb41c249048bffe534c7d8e1ff" Label="[UIModel]a2c9409dfce2403cad527140bfb6ff8a" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]6" Top="[float]332" Value="{ClusterBinding FieldName=Break/Resume}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="a2c9409dfce2403cad527140bfb6ff8a" LabelOwner="[UIModel]cc610bdb41c249048bffe534c7d8e1ff" Left="[float]9" Text="[string]Break/Resume" Top="[float]312" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="3a419b3d8a3e40f394ff3fc6fb3a58d8" Label="[UIModel]422046ad9940497faf06cc866774b6b4" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]7" Top="[float]22" Value="{ClusterBinding FieldName=Terminate/Restart}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="422046ad9940497faf06cc866774b6b4" LabelOwner="[UIModel]3a419b3d8a3e40f394ff3fc6fb3a58d8" Left="[float]155" Text="[string]Terminate/Restart" Top="[float]2" Width="[float]95" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="416d36b460724d6fac828fccc13f0ccd" Label="[UIModel]1b496ad548dc40f3a1fd50c4053174b7" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]8" Top="[float]74" Value="{ClusterBinding FieldName=Terminate\ All}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="1b496ad548dc40f3a1fd50c4053174b7" LabelOwner="[UIModel]416d36b460724d6fac828fccc13f0ccd" Left="[float]155" Text="[string]Terminate All" Top="[float]54" Width="[float]71" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="1060a56f0d1f4e1ea2abe4f45d5205dc" Label="[UIModel]64ed9dd856c4b44b3f760630dfa6763" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]9" Top="[float]126" Value="{ClusterBinding FieldName=Login/Logout}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="64ed9dd856c4b44b3f760630dfa6763" LabelOwner="[UIModel]1060a56f0d1f4e1ea2abe4f45d5205dc" Left="[float]155" Text="[string]Login/Logout" Top="[float]106" Width="[float]72" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="1d355d81ac7b4674895702706ae073d5" Label="[UIModel]98b671a857b34e99a5b2e102a651e2e4" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]10" Top="[float]178" Value="{ClusterBinding FieldName=Exit}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="98b671a857b34e99a5b2e102a651e2e4" LabelOwner="[UIModel]1d355d81ac7b4674895702706ae073d5" Left="[float]155" Text="[string]Exit" Top="[float]158" Width="[float]19" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="4ae91817f1ac4875929ebc7a31f9ead6" Label="[UIModel]6b53a62c86c0404cbe4ea42ba4060b53" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]11" Top="[float]230" Value="{ClusterBinding FieldName=Sequence\ Files\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="6b53a62c86c0404cbe4ea42ba4060b53" LabelOwner="[UIModel]4ae91817f1ac4875929ebc7a31f9ead6" Left="[float]155" Text="[string]Sequence Files List" Top="[float]210" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="41c0124b4159479886fec4b3acb94fbe" Label="[UIModel]8bf8f23445834569b734273ec6b18232" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]12" Top="[float]282" Value="{ClusterBinding FieldName=Sequences\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="8bf8f23445834569b734273ec6b18232" LabelOwner="[UIModel]41c0124b4159479886fec4b3acb94fbe" Left="[float]155" Text="[string]Sequences List" Top="[float]262" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="46a1c1a5a9784d25afb69abc575eaf81" Label="[UIModel]ca48039d2b914343bf8c4e9aa7630208" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]13" Top="[float]334" Value="{ClusterBinding FieldName=Executions\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="ca48039d2b914343bf8c4e9aa7630208" LabelOwner="[UIModel]46a1c1a5a9784d25afb69abc575eaf81" Left="[float]155" Text="[string]Executions List" Top="[float]314" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="11c08daa94004da6976d3fe2020526a9" Label="[UIModel]79bf464e81234ccc991becfc1f962c3b" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" TabIndex="[int]14" Top="[float]386" Value="{ClusterBinding FieldName=SequenceView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="79bf464e81234ccc991becfc1f962c3b" LabelOwner="[UIModel]11c08daa94004da6976d3fe2020526a9" Left="[float]155" Text="[string]SequenceView" Top="[float]366" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="cf07683fd89440bab25b086dcf7c986" Label="[UIModel]295033a6517f45259dadfcd8e3c605b1" Left="[float]11" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" TabIndex="[int]15" Top="[float]389" Value="{ClusterBinding FieldName=ReportView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="295033a6517f45259dadfcd8e3c605b1" LabelOwner="[UIModel]cf07683fd89440bab25b086dcf7c986" Left="[float]11" Text="[string]ReportView" Top="[float]369" Width="[float]62" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="8dbcd172154e4e74a01514d3af478056" LabelOwner="[UIModel]f671e7a24c9144c3838d6f1ae0a384e7" Left="[float]235" Text="[string]Visible Controls" Top="[float]2" Width="[float]83" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1ff47a88c02848569a64e7433b7aacab" Height="[float]240" Id="1c04c5462e8048eba829448c508a1c86" Label="[UIModel]2c89e852ab284cfb90d1e84387970fbe" Left="[float]11" TabIndex="[int]2" Top="[float]218" Value="{ClusterBinding FieldName=Other\ References}" Width="[float]210">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="46a590faf88e44c593a2c0756eb0d4df" Label="[UIModel]faed9d449e114a15a0e15f91e1d0442c" Left="[float]8" RefnumType="[Type]@1215a398322c46edb5cdd6742d2c10ee" TabIndex="[int]0" Top="[float]112" Value="{ClusterBinding FieldName=LabVIEW\ -\ Event\ Registration\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="faed9d449e114a15a0e15f91e1d0442c" LabelOwner="[UIModel]46a590faf88e44c593a2c0756eb0d4df" Left="[float]8" Text="[string]LabVIEW - Event Registration Ref" Top="[float]92" Width="[float]175" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d4c1512d27e64230868cc9a640002ebd" Label="[UIModel]ccc5a17dce604041a6115bc25bc432cc" Left="[float]8" RefnumType="[Type]@882f43c8ee75407b88c40ab7ad6dd6e8" TabIndex="[int]1" Top="[float]158" Value="{ClusterBinding FieldName=LabVIEW\ -\ Quit\ Application\ Event}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="ccc5a17dce604041a6115bc25bc432cc" LabelOwner="[UIModel]d4c1512d27e64230868cc9a640002ebd" Left="[float]8" Text="[string]LabVIEW - Quit Application Event" Top="[float]138" Width="[float]177" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="179af410a4624456bc0e9cf93155851e" Label="[UIModel]f10ad6bcca724caaa72b3a8d455bcfdb" Left="[float]7" RefnumType="[Type]:VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" TabIndex="[int]2" Top="[float]65" Value="{ClusterBinding FieldName=Top\ Level\ VI\ reference}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="f10ad6bcca724caaa72b3a8d455bcfdb" LabelOwner="[UIModel]179af410a4624456bc0e9cf93155851e" Left="[float]7" Text="[string]Top Level VI reference" Top="[float]45" Width="[float]118" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="ea94ac536c3f4ab4b9228dbc0760f109" Label="[UIModel]da505f88728449ffa0a590df7b9da691" Left="[float]9" RefnumType="[Type]@02448e8e71274c669626395b4618e34e" TabIndex="[int]3" Top="[float]205" Value="{ClusterBinding FieldName=ActiveX\ event\ callback\ ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="da505f88728449ffa0a590df7b9da691" LabelOwner="[UIModel]ea94ac536c3f4ab4b9228dbc0760f109" Left="[float]9" Text="[string]ActiveX event callback ref" Top="[float]185" Width="[float]135" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="ee24b8d7c074404188f6bd06298c834e" Label="[UIModel]243338d243b84e1dae31d26daaf7beb3" Left="[float]6" RefnumType="[Type]:COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef5c0b611d0939c0020af68e893" TabIndex="[int]4" Top="[float]20" Value="{ClusterBinding FieldName=TestStand\ Engine}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="243338d243b84e1dae31d26daaf7beb3" LabelOwner="[UIModel]ee24b8d7c074404188f6bd06298c834e" Left="[float]6" Text="[string]TestStand Engine" Top="[float]0" Width="[float]92" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="2c89e852ab284cfb90d1e84387970fbe" LabelOwner="[UIModel]1c04c5462e8048eba829448c508a1c86" Left="[float]11" Text="[string]Other References" Top="[float]198" Width="[float]92" />
+			</Cluster>
+			<Label Height="[float]16" Id="440" LabelOwner="[UIModel]385" Left="[float]100" Text="[string]User Parameter" Top="[float]80" Width="[float]40" xmlns="http://www.ni.com/PanelCommon" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="0 200 40 15" DataItem="28" Id="35" Label="88" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@610d277f93d04b44b42b1606a911e3f2" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="0 300 40 15" DataItem="36" Id="85" Label="89" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@05eb24b82d6b49cc8bdde2a44874d378" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="35" Bounds="0 218 62 14" Id="88" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Event Data</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="85" Bounds="0 318 86 14" Id="89" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>User Parameter</p.Text>
+			</NodeLabel>
+			<PropertyNode Bounds="120 215 51 20" HasErrorTerminals="False" Id="203" InstanceDataType="@610d277f93d04b44b42b1606a911e3f2" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<PropertyItemTerminal DataType=":COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef9c0b611d0939c0020af68e893" Hotspot="51 15" Id="c0t0v" Path="file" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<PropertyNode Bounds="120 300 256 20" HasErrorTerminals="False" Id="204" InstanceDataType="@05eb24b82d6b49cc8bdde2a44874d378" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="TestExec::UI Data.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" Hotspot="256 15" Id="c0t0v" Path="Manager Controls:SequenceFileViewMgr" PathElementMemberKinds="Field:Field" Usage="Optional" />
+			</PropertyNode>
+			<PropertyNode Bounds="450 310 189 45" Id="205" InstanceDataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<PropertyItemTerminal Action="Write" DataType=":COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef9c0b611d0939c0020af68e893" Hotspot="0 25" Id="c0t0v" Path="SequenceFile" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="206" Joints="N(204:c0t0v)|(376,315) N(205:instance in)|(450,315)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="207" Joints="N(203:c0t0v)|(171,230) h(259) v(105) N(205:c0t0v)|(450,335)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="450 275 270 28" Id="208" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>"Set the current sequence file to be the newly\nopened sequence file."</p.Text>
+			</Comment>
+			<Wire Id="212" Joints="N(85:Value)|(40,305) N(204:instance in)|(120,305)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="213" Joints="N(35:Value)|(40,205) h(73) v(15) N(203:instance in)|(120,220)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowMaximize="[bool]False" EnforceMaximumSize="[bool]True" Height="[float]1600" Id="13" Left="[float]0" MaxHeight="[float]1600" MaxWidth="[float]2000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<PanelExecutionWindow Id="441" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="@00526bf642bf46ceb9ee8451f31f42d0" Id="14" Name="Event Common Data" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0_0_0_</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Id="24" Name="Control Ref" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="2" DataType="@610d277f93d04b44b42b1606a911e3f2" Id="28" Name="Event Data" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0_</p.DefaultValue>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="3" DataType="@05eb24b82d6b49cc8bdde2a44874d378" Id="36" Name="User Parameter" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="TestExec::UI Data.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="00526bf642bf46ceb9ee8451f31f42d0">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Event Source" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Event Type" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Time Stamp" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="610d277f93d04b44b42b1606a911e3f2">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="file" DataType=":COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef9c0b611d0939c0020af68e893" />
+					<Field FieldAccessPolicy="ReadWrite" Name="reason" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="05eb24b82d6b49cc8bdde2a44874d378">
+			<Attributed AttributedType="@761fd3236b474621b8b1e707f7edb458">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="798c61ff90914832905f42d64b7925c8">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ApplicationMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ExecutionViewMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SequenceFileViewMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="39e0ae27f46d47118a7af9813fa206f3">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Open Sequence File" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Close Sequence File" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EntryPoint 1" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EntryPoint 2" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Run Sequence" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Close Execution" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Break/Resume" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Terminate/Restart" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Terminate All" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Login/Logout" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Exit" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sequence Files List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sequences List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Executions List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SequenceView" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ReportView" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1ff47a88c02848569a64e7433b7aacab">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="LabVIEW - Event Registration Ref" DataType="@1215a398322c46edb5cdd6742d2c10ee" />
+					<Field FieldAccessPolicy="ReadWrite" Name="LabVIEW - Quit Application Event" DataType="@882f43c8ee75407b88c40ab7ad6dd6e8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Top Level VI reference" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ActiveX event callback ref" DataType="@02448e8e71274c669626395b4618e34e" />
+					<Field FieldAccessPolicy="ReadWrite" Name="TestStand Engine" DataType=":COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef5c0b611d0939c0020af68e893" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1215a398322c46edb5cdd6742d2c10ee">
+			<Attributed AttributedType="@e0b47ed76597481d9bfeaee3394f3fee">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="882f43c8ee75407b88c40ab7ad6dd6e8">
+			<Attributed AttributedType="@07d4e6fea9ad428695f6d38821c5a30e">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="02448e8e71274c669626395b4618e34e">
+			<Attributed AttributedType="@8571fd989d0b4966b42948e2b61b8d8b">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="761fd3236b474621b8b1e707f7edb458">
+			<Typedef TypedefName="UI Data.gtype" UnderlyingType="@f339328ba70b4479ada7e39000cfb824" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e0b47ed76597481d9bfeaee3394f3fee">
+			<Composite Id="1" Name="CoreRuntime.EventRegistrationRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Quit Application Event" DataType="@882f43c8ee75407b88c40ab7ad6dd6e8" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="07d4e6fea9ad428695f6d38821c5a30e">
+			<Event Id="1" Name="Quit Application Event" GenericTypeDefinition="Void">
+				<Parameters>
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="Int32" />
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8571fd989d0b4966b42948e2b61b8d8b">
+			<Composite Id="1" Name="CoreRuntime.EventCallbackRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f339328ba70b4479ada7e39000cfb824">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Manager Controls" DataType="@798c61ff90914832905f42d64b7925c8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Visible Controls" DataType="@39e0ae27f46d47118a7af9813fa206f3" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Other References" DataType="@1ff47a88c02848569a64e7433b7aacab" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

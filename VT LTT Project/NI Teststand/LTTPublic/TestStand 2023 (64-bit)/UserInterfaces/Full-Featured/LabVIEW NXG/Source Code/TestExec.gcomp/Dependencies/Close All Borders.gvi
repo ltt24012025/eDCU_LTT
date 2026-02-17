@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CB4CD6C66FE24FF13D6E4157B79A453D" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.1.0.2" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Data Communication" Name="http://www.ni.com/LabVIEW.DataComms" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.1.0.49153" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.1.0.49153" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.1.0.8" Version="5.1.0.49152" />
+		<ApplicationVersionInfo Build="5.1.0.4407" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="16" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="18" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="19" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="20" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="21" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="22" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEASURBVEhLvY+BDsQgCEP3/3+wr/XQIhbQLdnNvSyXlhYuHudZNn16+ujcWlUUsTBb9VCpbZ9b8GnYcs2h/P7KsoZl4aKhaBombsHXQsc1h6ISyFHQNrEhp7H34oe/3EPZxoen+SnhTRwJsELQRlxmwdWLSAgWXDXYmmYx1YbzXGUrhMjITSOOpGQ9aIEta2FqgTPvsvm0PoaewxZauLWqLMJITW88sEKMoECbp0aHhyZaMiZALUZqevuBFWIEBdq8wjaIllRsCKBtWH9hdvDt6fa+SraqZlFmfpoFb670lEksO4Bt1kKwgflpFrw8PbS6flW108AmAENBfWIZ/EspPz/VSIF6igl2AAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="70" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="945 860 40 15" DataItem="14" Id="43" Label="44" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="43" Bounds="990 860 50 14" Id="44" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="220 860 40 15" DataItem="15" Id="45" Label="46" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="45" Bounds="115 860 100 14" Id="46" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in (no error)</p.Text>
+			</NodeLabel>
+			<IONameConstant Bounds="-100 810 331 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="47" Label="48" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\ListBar Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="47" Bounds="-100 789 131 18" Id="48" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 810 40 40" Id="49" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="50" Joints="N(47:Out)|(231,815) N(49:ref in)|(255,815)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 750 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="51" Label="52" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\CallStack Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="51" Bounds="-105 729 131 18" Id="52" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 750 40 40" Id="53" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="54" Joints="N(51:Out)|(231,755) N(53:ref in)|(255,755)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 690 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="55" Label="56" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\Threads Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="55" Bounds="-105 669 131 18" Id="56" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 690 40 40" Id="57" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="58" Joints="N(55:Out)|(231,695) N(57:ref in)|(255,695)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 510 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="59" Label="60" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\FileVariables Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="59" Bounds="-105 489 131 18" Id="60" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 510 40 40" Id="61" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="62" Joints="N(59:Out)|(231,515) N(61:ref in)|(255,515)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 450 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="63" Label="64" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\FileSteps Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="63" Bounds="-105 429 131 18" Id="64" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 450 40 40" Id="65" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="66" Joints="N(63:Out)|(231,455) N(65:ref in)|(255,455)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 630 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="67" Label="68" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\SequencesList Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="67" Bounds="-105 609 131 18" Id="68" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 630 40 40" Id="69" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="70" Joints="N(67:Out)|(231,635) N(69:ref in)|(255,635)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 390 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="71" Label="72" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\ExecutionSteps Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="71" Bounds="-105 369 131 18" Id="72" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 390 40 40" Id="73" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="74" Joints="N(71:Out)|(231,395) N(73:ref in)|(255,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 570 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="75" Label="76" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\InsertionPalette Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="75" Bounds="-105 549 131 18" Id="76" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 570 40 40" Id="77" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="78" Joints="N(75:Out)|(231,575) N(77:ref in)|(255,575)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-105 330 336 30" DataType="@7b7685188c264acbb51ce88c4489887a" Id="79" Label="80" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\ExecutionVariables Borders"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="79" Bounds="-105 309 131 18" Id="80" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="255 330 40 40" Id="81" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="82" Joints="N(79:Out)|(231,335) N(81:ref in)|(255,335)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="80 205 110 15" Id="101" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Close all borders</p.Text>
+			</Comment>
+			<Wire Id="103" Joints="N(169:R3)|(925,865) N(43:Value)|(948,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="104" Joints="N(81:Data)|(295,345) h(580) v(490) N(169:L0)|(885,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="105" Joints="N(160:R3)|(865,865) N(169:L3)|(885,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="107" Joints="N(73:Data)|(295,405) h(505) v(430) N(160:L0)|(825,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="108" Joints="N(161:R3)|(785,865) N(160:L3)|(825,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="109" Joints="N(162:R3)|(715,865) N(161:L3)|(745,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="110" Joints="N(65:Data)|(295,465) h(435) v(370) N(161:L0)|(745,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="111" Joints="N(61:Data)|(295,525) h(370) v(310) N(162:L0)|(675,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="112" Joints="N(157:R3)|(645,865) N(162:L3)|(675,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="113" Joints="N(153:R3)|(575,865) N(157:L3)|(605,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="114" Joints="N(77:Data)|(295,585) h(300) v(250) N(157:L0)|(605,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="115" Joints="N(146:R3)|(505,865) N(153:L3)|(535,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="116" Joints="N(69:Data)|(295,645) h(230) v(190) N(153:L0)|(535,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="117" Joints="N(57:Data)|(295,705) h(155) v(130) N(146:L0)|(465,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="118" Joints="N(145:R3)|(435,865) N(146:L3)|(465,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="119" Joints="N(139:R3)|(365,865) N(145:L3)|(395,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="120" Joints="N(53:Data)|(295,765) h(85) v(70) N(145:L0)|(395,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="121" Joints="N(49:Data)|(295,825) h(15) v(10) N(139:L0)|(325,835)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="325 830 40 40" DomainName="TestExec:Dependencies" Id="139" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="142" Joints="N(45:Value)|(260,865) N(139:L3)|(325,865)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="395 830 40 40" DomainName="TestExec:Dependencies" Id="145" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="465 830 40 40" DomainName="TestExec:Dependencies" Id="146" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="535 830 40 40" DomainName="TestExec:Dependencies" Id="153" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="605 830 40 40" DomainName="TestExec:Dependencies" Id="157" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="825 830 40 40" DomainName="TestExec:Dependencies" Id="160" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="745 830 40 40" DomainName="TestExec:Dependencies" Id="161" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="675 830 40 40" DomainName="TestExec:Dependencies" Id="162" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<MethodCall Bounds="885 830 40 40" DomainName="TestExec:Dependencies" Id="169" ResolveFailedHint="" Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Borders Ref" />
+						<Parameter Id="L3" Desc="error in (no error)" />
+						<Parameter Id="R3" Desc="error out" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+		</BlockDiagram>
+		<CPFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="24" IsTabStop="[bool]True" Label="[UIModel]32" Left="[float]355" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=14}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="123" IsReadOnly="[bool]True" Label="[UIModel]124" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="124" LabelOwner="[UIModel]123" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="125" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]126" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="126" LabelOwner="[UIModel]125" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="127" IsReadOnly="[bool]True" Label="[UIModel]128" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="128" LabelOwner="[UIModel]127" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="32" LabelOwner="[UIModel]24" Left="[float]355" Text="[string]error out" Top="[float]10" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="34" IsTabStop="[bool]True" Label="[UIModel]42" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]30" Value="{DataItemBinding Id=15}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="131" Label="[UIModel]132" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="132" LabelOwner="[UIModel]131" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="133" Label="[UIModel]134" Left="[float]54" MinHeight="[float]24" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="134" LabelOwner="[UIModel]133" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="135" Label="[UIModel]136" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="136" LabelOwner="[UIModel]135" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="42" LabelOwner="[UIModel]34" Left="[float]100" Text="[string]error in (no error)" Top="[float]10" Width="[float]93" xmlns="http://www.ni.com/PanelCommon" />
+			<Menu Id="102" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<PanelExecutionWindow Id="129" />
+		</CPFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="Error" Id="14" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Error" Id="15" Name="error in (no error)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"The &lt;B&gt;error in&lt;/B&gt; cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed. "</p.UserDescription>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="7b7685188c264acbb51ce88c4489887a">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@cfacae64cc0843d5b42dc22380a8c819">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cfacae64cc0843d5b42dc22380a8c819">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f57ea81acb454fcfba3fcb02929dae1e">
+			<Attributed AttributedType="@c9360091ec584b6d9416364ad3b4ade3">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c9360091ec584b6d9416364ad3b4ade3">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<GenericParameters>
+					<Generic GenericName="DataType" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+				<Interfaces>
+					<Attributed AttributedType="@9b45f57dd67448a2a9491ff8e3cf4c71">
+						<AttributeValues>
+							<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]DataComms" />
+						</AttributeValues>
+					</Attributed>
+				</Interfaces>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Scope" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="State" DataType="@2c321e28b0f54fa3b8aeed02c781702f" />
+					<Field FieldAccessPolicy="Read" Name="Timestamp" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9b45f57dd67448a2a9491ff8e3cf4c71">
+			<Typedef TypedefName="TagEndpoint" UnderlyingType="@1a2b76b6db0d4f73844c1c5a90d58276" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2c321e28b0f54fa3b8aeed02c781702f">
+			<Typedef TypedefName="DataCommsEndpointState.gtype" UnderlyingType="@5d641d96c8c948ad85ad4def409488d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a2b76b6db0d4f73844c1c5a90d58276">
+			<Attributed AttributedType="@66d2af1f53864856b2b55b2774203b0c">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5d641d96c8c948ad85ad4def409488d8">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Inactive" />
+					<EnumerationMember Value="1" Name="Active" />
+					<EnumerationMember Value="2" Name="Linking" />
+					<EnumerationMember Value="3" Name="Unresponsive" />
+					<EnumerationMember Value="4" Name="Error" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="66d2af1f53864856b2b55b2774203b0c">
+			<Composite Id="1" Name="TagEndpoint" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void">
+				<Interfaces>
+					<Attributed AttributedType="@13b15744bb2c47bc9b90e2ab57c84b0a">
+						<AttributeValues>
+							<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]DataComms" />
+						</AttributeValues>
+					</Attributed>
+				</Interfaces>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Scope" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="State" DataType="@2c321e28b0f54fa3b8aeed02c781702f" />
+					<Field FieldAccessPolicy="Read" Name="Timestamp" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="13b15744bb2c47bc9b90e2ab57c84b0a">
+			<Typedef TypedefName="Endpoint" UnderlyingType="@403ba24502184406983a74e7b0e4b924" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="403ba24502184406983a74e7b0e4b924">
+			<Attributed AttributedType="@56601ec9ea664877bb19b107548ce150">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Endpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="56601ec9ea664877bb19b107548ce150">
+			<Composite Id="1" Name="Endpoint" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="TestExec:Dependencies:Close\ Borders\ Reference\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACbSURBVEhL7ZFLDoQwDEO5/6WLG0ceEwpCI7qYUd/Kv2bTrU3jD05vgTQF8QrQgqKdw9qFT28qUKwYvCdupV0MtXP53telEuelU6faUQO3rsHQiupfZJ0uTD6dH2xf7JYaPLEgPaBR+pYF6UlGpzXxUCKaDkMgm3WEn/XXVsBmTZgCt0VE0/FQIppO15FPYZ0urNOFdbrwi6db2wFQtypV0/v3DQAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]TestExec.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

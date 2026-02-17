@@ -1,0 +1,1907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="EF91CC38EB8E0A0686ABB92FADA7BC96" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.1.0.2" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Data Communication" Name="http://www.ni.com/LabVIEW.DataComms" OldestCompatibleVersion="5.1.0.0" Version="5.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.1.0.49153" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.1.0.49153" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4407" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.1.0.8" Version="5.1.0.49152" />
+		<ApplicationVersionInfo Build="5.1.0.4407" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">Checks whether the Globals for UI Control References are valid</p.UserDescription>
+		<Icon Id="16" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="18" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="19" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="20" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="21" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="22" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD3SURBVEhLvY9BFoQgDEPn/jfwtAwQJqQl6GLU/1wkTVofn+MoD33j9OfHpR1KIhW0TU+1tPmFhZimrdCcKu7vrGpYFSGaSqZpEhZiLXVCcyopgTVKmhMONc29Gz/88hnKY7x1Wt+RRE8aHKpOAkyTGjtbsZEWgFkA1RJaRhBAI2WOGEPsbMVGWgDB15iNJHrS4FB1EiCYe3n9dH/ufCZIGhbCYrJ1cydoLSZbF/QioIWwnJ2+FLQWn9UdXaNOopU6GCb89BbePT0eKW8H59GKP61CN3faYuK6A9SuupJswp9Wocv20O76WZWnAScAw8rwC9vgX0r5ApH7oicEjFwXAAAAAElFTkSuQmCC" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="70" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="15" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="14" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="1375 385 40 15" DataItem="14" Id="43" Label="44" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="43" Bounds="1420 385 50 14" Id="44" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="695 350 40 15" DataItem="15" Id="45" Label="46" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="45" Bounds="590 350 100 14" Id="46" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in (no error)</p.Text>
+			</NodeLabel>
+			<IONameConstant Bounds="-5 465 426 30" DataType="@8f52a7c1c3574e568804bf671ae66c4f" Id="47" Label="48" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\ListBar"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="47" Bounds="-5 444 131 18" Id="48" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 465 40 40" Id="49" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="50" Joints="N(47:Out)|(421,470) N(49:ref in)|(445,470)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IsNotANumberOrPathOrRefnum Bounds="570 465 30 30" Id="51" Label="52" />
+			<NodeLabel AttachedTo="51" Bounds="570 444 216 18" Id="52" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<CaseStructure Bounds="755 235 595 500" Default="54" Id="53" Label="57" Selected="54" UserSelectorBounds="254 0 88 17">
+				<CaseStructure.Case Bounds="5 5 585 490" Id="54" Pattern="False">
+					<Wire Id="136" Joints="N(58:54)|(4,115) h(572) v(35) N(59:54)|(581,150)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Case Bounds="5 5 585 490" Id="55" Pattern="True">
+					<ClusterLiteral Bounds="355 195 61 89" DataType="Error" Id="62" Label="69" p6:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>
+							<Cluster>
+								<Field1>True</Field1>
+								<Field2>0</Field2>
+								<Field3>""</Field3>
+							</Cluster>
+						</p.Data>
+						<p6:p.TypeDefinitionTargets>
+							<p6:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+							<p6:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+						</p6:p.TypeDefinitionTargets>
+						<ClusterBehavior AutoArrange="SizeToFit" />
+						<Literal Bounds="13 2 15 15" DataType="Boolean" Id="63" Label="64">
+							<p.Data>True</p.Data>
+							<BooleanBehavior />
+						</Literal>
+						<NodeLabel AttachedTo="63" Bounds="13 -16 30 15" Id="64" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>status</p.Text>
+						</NodeLabel>
+						<Literal Bounds="2 32 40 15" DataType="Int32" Id="65" Label="66">
+							<p.Data>0</p.Data>
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+						<NodeLabel AttachedTo="65" Bounds="2 14 30 15" Id="66" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>code</p.Text>
+						</NodeLabel>
+						<Literal Bounds="2 62 40 15" DataType="String" Id="67" Label="68">
+							<p.Data>""</p.Data>
+							<StringBehavior TextDisplayMode="Default" />
+						</Literal>
+						<NodeLabel AttachedTo="67" Bounds="2 44 30 15" Id="68" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>source</p.Text>
+						</NodeLabel>
+					</ClusterLiteral>
+					<NodeLabel AttachedTo="62" Bounds="355 174 134 18" Id="69" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>error in (no error)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="20 160 225 125" DataType="String" Id="72" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>Control(s) could not be loaded. This TestStand User Interface may have been built for a version of TestStand different than the version that is currently active. Use the TestStand Version Selector to activate the correct version and ensure that %s TestStand is installed.</p.Data>
+						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
+					</Literal>
+					<DisableStructure Bounds="30 325 215 70" Default="77" Id="75" Selected="76" UserSelectorBounds="0 0 215 17">
+						<DisableStructure.DisableDiagram Bounds="5 5 205 60" Id="76" Pattern="TARGET_BITNESS==&quot;64&quot;">
+							<Literal Bounds="135 30 60 15" DataType="String" Id="79" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>64-bit</p.Data>
+								<StringBehavior TextDisplayMode="Default" />
+							</Literal>
+							<Wire Id="137" Joints="N(79:Out)|(195,35) h(3) v(-5) N(78:76)|(201,30)" xmlns="http://www.ni.com/PlatformFramework" />
+						</DisableStructure.DisableDiagram>
+						<DisableStructure.DisableDiagram Bounds="5 5 205 60" Id="77" Pattern="TARGET_BITNESS==&quot;32&quot;">
+							<Literal Bounds="135 25 60 15" DataType="String" Id="80" xmlns="http://www.ni.com/MocCommon">
+								<p.Data>32-bit</p.Data>
+								<StringBehavior TextDisplayMode="Default" />
+							</Literal>
+							<Wire Id="138" Joints="N(80:Out)|(195,30) N(78:77)|(201,30)" xmlns="http://www.ni.com/PlatformFramework" />
+						</DisableStructure.DisableDiagram>
+						<DisableStructure.Tunnel Bounds="206 30 13 10" Docking="Right" Id="78" Terminals="75=140, 76=137, 77=138" />
+					</DisableStructure>
+					<PropertyNode Bounds="455 145 76 50" HasErrorTerminals="False" Id="81" InstanceDataType="Error" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+							<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+						</p.TypeDefinitionTargets>
+						<PropertyItemTerminal Action="Write" DataType="Int32" Hotspot="0 15" Id="c0t0v" Path="code" PathElementMemberKinds="Field" Usage="Required" />
+						<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 30" Id="c1t0v" Path="source" PathElementMemberKinds="Field" Usage="Required" />
+					</PropertyNode>
+					<FormatIntoString Bounds="285 170 40 40" Id="82" Terminals="formatString=142, outString=141, c0t0v=140" />
+					<Comment Bounds="30 405 220 70" Id="83" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+						<p.Text>"If the controls aren't registered, that likely means the engine isn't registered either. Thus we cannot reliably localize this error message. "</p.Text>
+					</Comment>
+					<Wire Id="139" Joints="N(81:instance out)|(531,150) N(59:55)|(581,150)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="140" Joints="N(78:75)|(249,360) h(6) v(-155) N(82:c0t0v)|(285,205)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="141" Joints="N(82:outString)|(325,175) N(81:c1t0v)|(455,175)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="142" Joints="N(72:Out)|(245,165) h(65) N(82:formatString)|(310,170)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="144" Joints="N(62:Out)|(416,200) h(24) v(-50) N(81:instance in)|(455,150)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Literal Bounds="160 135 165 15" DataType="@00d446d17bf345ed841be5cb6fd5ca70" Id="183" p6:ControlDefinitionChecksum="t347/fpPQCFolF53XxrhPg==" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>1027</p.Data>
+						<p6:p.TypeDefinitionTargets>
+							<p6:TypeDefinitionTarget TargetName="TSUtility:TestStand\ API\ Numeric\ Constants\.gtype" />
+							<p6:TypeDefinitionTarget TargetName="TSUtility:TestStand\ API\ Numeric\ Constants\.gtype:ControlDefinition" />
+						</p6:p.TypeDefinitionTargets>
+						<EnumBehavior />
+					</Literal>
+					<MethodCall Bounds="335 125 40 40" DomainName="TSUtility" Id="184" ResolveFailedHint="" Target="TSUtility:TestStand\ API\ Numeric\ Constants\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<p.MethodDeclaration>
+							<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+								<Parameter Id="L1" Desc="TestStand API Numeric Constants" />
+								<Parameter Id="R1" Desc="Value" />
+							</MethodDeclaration>
+						</p.MethodDeclaration>
+						<Terminal DataType="@00d446d17bf345ed841be5cb6fd5ca70" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="Int32" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+					</MethodCall>
+					<Wire Id="185" Joints="N(183:Out)|(325,140) N(184:L1)|(335,140)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="188" Joints="N(184:R1)|(375,140) h(35) v(20) N(81:c0t0v)|(455,160)" xmlns="http://www.ni.com/PlatformFramework" />
+				</CaseStructure.Case>
+				<CaseStructure.Selector Bounds="-4 385 13 10" Docking="Left" Id="56" Terminals="53=247, 54, 55" />
+				<CaseStructure.Tunnel Bounds="-4 115 13 10" Docking="Left" Id="58" Terminals="53=165, 54=136, 55" />
+				<CaseStructure.Tunnel Bounds="586 150 13 10" Docking="Right" Id="59" Terminals="53=166, 54=136, 55=139" />
+			</CaseStructure>
+			<NodeLabel AttachedTo="53" Bounds="755 214 110 18" Id="57" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Case Structure</p.Text>
+			</NodeLabel>
+			<IONameConstant Bounds="-5 510 426 30" DataType="@863205fa31aa4743b859ceec34c76261" Id="84" Label="85" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\CallStack"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="84" Bounds="-5 489 131 18" Id="85" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 510 40 40" Id="86" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="87" Joints="N(84:Out)|(421,515) N(86:ref in)|(445,515)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-5 555 426 30" DataType="@863205fa31aa4743b859ceec34c76261" Id="88" Label="89" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\Threads"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="88" Bounds="-5 534 131 18" Id="89" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 555 40 40" Id="90" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="91" Joints="N(88:Out)|(421,560) N(90:ref in)|(445,560)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-5 600 426 30" DataType="@ec1b019661534c7bbf1f1d4f713aa43d" Id="92" Label="93" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\Execution Variables"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="92" Bounds="-5 579 131 18" Id="93" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 600 40 40" Id="94" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="95" Joints="N(92:Out)|(421,605) N(94:ref in)|(445,605)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="-5 645 426 30" DataType="@ec1b019661534c7bbf1f1d4f713aa43d" Id="96" Label="97" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\File Variables"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="96" Bounds="-5 624 131 18" Id="97" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 645 40 40" Id="98" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="99" Joints="N(96:Out)|(421,650) N(98:ref in)|(445,650)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="0 690 421 30" DataType="@e061eea4300d415ebe86d2903195b1e5" Id="100" Label="101" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\FileSteps"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="100" Bounds="0 669 131 18" Id="101" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 690 40 40" Id="102" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="103" Joints="N(100:Out)|(421,695) N(102:ref in)|(445,695)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="0 735 421 30" DataType="@863205fa31aa4743b859ceec34c76261" Id="104" Label="105" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\SequencesList"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="104" Bounds="0 714 131 18" Id="105" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 735 40 40" Id="106" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="107" Joints="N(104:Out)|(421,740) N(106:ref in)|(445,740)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="0 780 421 30" DataType="@e061eea4300d415ebe86d2903195b1e5" Id="108" Label="109" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\Execution Steps"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="108" Bounds="0 759 131 18" Id="109" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 780 40 40" Id="110" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="111" Joints="N(108:Out)|(421,785) N(110:ref in)|(445,785)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IONameConstant Bounds="0 825 421 30" DataType="@5dd6b611ca4e4aa0af3b4b1f42709ebf" Id="112" Label="113" UdrClass="TagEndpoint" UdrNamespace="DataComms" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>"TestExec\\Global Controls\\Control Globals.grsc\\InsertionPalette"</p.Data>
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="DataComms:TagEndpoint" />
+					<TypeDefinitionTarget TargetName="DataCommsEndpointState\.gtype" />
+				</p.TypeDefinitionTargets>
+				<IONameConstantBehavior />
+			</IONameConstant>
+			<NodeLabel AttachedTo="112" Bounds="0 804 131 18" Id="113" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Control Globals.vi</p.Text>
+			</NodeLabel>
+			<TagRead Bounds="445 825 40 40" Id="114" xmlns="http://www.ni.com/LabVIEW.DataComms" />
+			<Wire Id="115" Joints="N(112:Out)|(421,830) N(114:ref in)|(445,830)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IsNotANumberOrPathOrRefnum Bounds="570 510 30 30" Id="116" Label="117" />
+			<NodeLabel AttachedTo="116" Bounds="570 489 216 18" Id="117" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 555 30 30" Id="118" Label="119" />
+			<NodeLabel AttachedTo="118" Bounds="570 534 216 18" Id="119" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 600 30 30" Id="120" Label="121" />
+			<NodeLabel AttachedTo="120" Bounds="570 579 216 18" Id="121" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 645 30 30" Id="122" Label="123" />
+			<NodeLabel AttachedTo="122" Bounds="570 624 216 18" Id="123" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 690 30 30" Id="124" Label="125" />
+			<NodeLabel AttachedTo="124" Bounds="570 669 216 18" Id="125" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 735 30 30" Id="126" Label="127" />
+			<NodeLabel AttachedTo="126" Bounds="570 714 216 18" Id="127" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 780 30 30" Id="128" Label="129" />
+			<NodeLabel AttachedTo="128" Bounds="570 759 216 18" Id="129" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<IsNotANumberOrPathOrRefnum Bounds="570 825 30 30" Id="130" Label="131" />
+			<NodeLabel AttachedTo="130" Bounds="570 804 216 18" Id="131" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Not a Number/Path/Refnum?</p.Text>
+			</NodeLabel>
+			<LogicalOr Bounds="695 615 25 90" Id="132" Label="133" Terminals="o=247, c0t0v=252, c1t0v=253, c2t0v=254, c3t0v=255, c4t0v=256, c5t0v=257, c6t0v=258, c7t0v=259, c8t0v=260" VerticalChunkCount="9" />
+			<NodeLabel AttachedTo="132" Bounds="695 594 161 18" Id="133" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>OR</p.Text>
+			</NodeLabel>
+			<Comment Bounds="805 170 280 55" Id="134" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>Check to see if the control references are valid before doing anything else. Create an appropriate error message if not.</p.Text>
+			</Comment>
+			<Wire Id="147" Joints="N(110:Data)|(485,795) N(128:number)|(570,795)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="148" Joints="N(106:Data)|(485,750) N(126:number)|(570,750)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="149" Joints="N(102:Data)|(485,705) N(124:number)|(570,705)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="150" Joints="N(98:Data)|(485,660) N(122:number)|(570,660)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="151" Joints="N(94:Data)|(485,615) N(120:number)|(570,615)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="152" Joints="N(90:Data)|(485,570) N(118:number)|(570,570)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="153" Joints="N(86:Data)|(485,525) N(116:number)|(570,525)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="154" Joints="N(49:Data)|(485,480) N(51:number)|(570,480)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="165" Joints="N(45:Value)|(735,355) N(58:53)|(751,355)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="166" Joints="N(59:53)|(1354,390) N(43:Value)|(1378,390)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="205" Joints="N(114:Data)|(485,840) N(130:number)|(570,840)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="247" Joints="N(132:o)|(720,625) N(56:53)|(751,625)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="252" Joints="N(51:NaN?)|(600,480) h(81) v(140) N(132:c0t0v)|(697,620)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="253" Joints="N(116:NaN?)|(600,525) h(60) v(105) N(132:c1t0v)|(697,630)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="254" Joints="N(118:NaN?)|(600,570) h(45) v(70) N(132:c2t0v)|(695,640)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="255" Joints="N(120:NaN?)|(600,615) h(25) v(35) N(132:c3t0v)|(695,650)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="256" Joints="N(122:NaN?)|(600,660) N(132:c4t0v)|(695,660)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="257" Joints="N(124:NaN?)|(600,705) h(25) v(-35) N(132:c5t0v)|(695,670)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="258" Joints="N(126:NaN?)|(600,750) h(45) v(-70) N(132:c6t0v)|(695,680)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="259" Joints="N(128:NaN?)|(600,795) h(60) v(-105) N(132:c7t0v)|(695,690)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="260" Joints="N(130:NaN?)|(600,840) h(80) v(-140) N(132:c8t0v)|(695,700)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel AllowClose="[bool]True" AllowMinimize="[bool]True" Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" ShowApplicationMenu="[bool]True" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="24" IsTabStop="[bool]True" Label="[UIModel]32" Left="[float]315" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=14}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" Height="[float]22" Id="168" IsReadOnly="[bool]True" Label="[UIModel]169" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="169" LabelOwner="[UIModel]168" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="170" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" Label="[UIModel]171" Left="[float]54" Maximum="[int]2147483647" MinHeight="[float]24" Minimum="[int]-2147483648" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="171" LabelOwner="[UIModel]170" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]95" Id="172" IsReadOnly="[bool]True" Label="[UIModel]173" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="173" LabelOwner="[UIModel]172" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="32" LabelOwner="[UIModel]24" Left="[float]315" Text="[string]error out" Top="[float]10" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Enabled="[bool]True" Height="[float]176" Id="34" IsTabStop="[bool]True" Label="[UIModel]42" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]30" Value="{DataItemBinding Id=15}" Width="[float]176" p4:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Enabled="[bool]True" Height="[float]22" Id="177" Label="[UIModel]178" Left="[float]3" MinHeight="[float]22" MinWidth="[float]22" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="178" LabelOwner="[UIModel]177" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Enabled="[bool]True" Height="[float]24" Id="179" Interval="[int]1" Label="[UIModel]180" Left="[float]54" Maximum="[int]2147483647" MinHeight="[float]24" Minimum="[int]-2147483648" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="180" LabelOwner="[UIModel]179" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Enabled="[bool]True" Height="[float]95" Id="181" Label="[UIModel]182" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="182" LabelOwner="[UIModel]181" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="42" LabelOwner="[UIModel]34" Left="[float]100" Text="[string]error in (no error)" Top="[float]10" Width="[float]93" xmlns="http://www.ni.com/PanelCommon" />
+			<Menu Id="135" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<PanelExecutionWindow Id="248" />
+		</CPFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="Error" Id="14" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error.</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Error" Id="15" Name="error in (no error)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI:G\ Core:Error:Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;B&gt;error in&lt;/B&gt; can accept error information wired from VIs previously called. Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.&lt;br/&gt;&lt;br/&gt;Right-click the &lt;B&gt;error in&lt;/B&gt; control on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error.</p.UserDescription>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="8f52a7c1c3574e568804bf671ae66c4f">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@891c503a08f84b5bbdc0a3c745735d7a">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="00d446d17bf345ed841be5cb6fd5ca70">
+			<Attributed AttributedType="@d68e21ed72a044b4871ef143c70bf2a7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TSUtility" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="863205fa31aa4743b859ceec34c76261">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@ebc60c3e0dc8424aa1336e372852118e">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ec1b019661534c7bbf1f1d4f713aa43d">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@8df1fb6d2fd340d9b82eac2525e0e3d2">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="e061eea4300d415ebe86d2903195b1e5">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@0aaebec918a3421fa92e595c40007d55">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5dd6b611ca4e4aa0af3b4b1f42709ebf">
+			<Generic>
+				<Constraints>
+					<Attributed AttributedType="@8ee382965b004d3bad09b4d6e1b47835">
+						<AttributeValues>
+							<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+							<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+							<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+						</AttributeValues>
+					</Attributed>
+					<Composite Id="1" Name="IDataCommsTagRead" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+					<Composite Id="2" Name="IDataCommsTagWrite" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void" />
+				</Constraints>
+			</Generic>
+		</p.TypeReference>
+		<p.TypeReference TypeId="891c503a08f84b5bbdc0a3c745735d7a">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,5ca55ac1a7f1470c90943dbeefe0acf9</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d68e21ed72a044b4871ef143c70bf2a7">
+			<Typedef TypedefName="TestStand API Numeric Constants.gtype" UnderlyingType="@7dbea9241adf4f5fa4c3d7bf66758414" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ebc60c3e0dc8424aa1336e372852118e">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998b98ef11d293b700a02411ebe6</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8df1fb6d2fd340d9b82eac2525e0e3d2">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,aabdf204cd204fdf822e5db98192a4b9</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0aaebec918a3421fa92e595c40007d55">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8ee382965b004d3bad09b4d6e1b47835">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<ClosedGenericParameters>
+					<TypeRef>:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,7575abc295204ef49df82c33b6da18bc</TypeRef>
+				</ClosedGenericParameters>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f57ea81acb454fcfba3fcb02929dae1e">
+			<Attributed AttributedType="@c9360091ec584b6d9416364ad3b4ade3">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="7dbea9241adf4f5fa4c3d7bf66758414">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="APILocation_ActiveXModule_ActiveXReferenceExpr" />
+					<EnumerationMember Value="1" Name="APILocation_ActiveXModule_FilePath" />
+					<EnumerationMember Value="2" Name="APILocation_ActiveXModule_RemoteHost" />
+					<EnumerationMember Value="3" Name="APILocation_ActiveXParameter_ValueExpr" />
+					<EnumerationMember Value="4" Name="APILocation_AdditionalResult_Condition" />
+					<EnumerationMember Value="5" Name="APILocation_AdditionalResult_Name" />
+					<EnumerationMember Value="6" Name="APILocation_AdditionalResult_ValueToLog" />
+					<EnumerationMember Value="7" Name="APILocation_CommonCModule_ModulePath" />
+					<EnumerationMember Value="8" Name="APILocation_CommonCModule_ProjectFilePath" />
+					<EnumerationMember Value="9" Name="APILocation_CommonCModule_SourceFilePath" />
+					<EnumerationMember Value="10" Name="APILocation_CommonCModule_WorkspaceFilePath" />
+					<EnumerationMember Value="11" Name="APILocation_CommonCParameter_StringBufferSizeExpr" />
+					<EnumerationMember Value="12" Name="APILocation_CommonCParameter_ValueExpr" />
+					<EnumerationMember Value="13" Name="APILocation_DllParameter_ImaginaryPartValueExpr" />
+					<EnumerationMember Value="14" Name="APILocation_DotNetModule_GetAssembly" />
+					<EnumerationMember Value="15" Name="APILocation_DotNetModule_ProjectFilePath" />
+					<EnumerationMember Value="16" Name="APILocation_DotNetModule_SolutionFilePath" />
+					<EnumerationMember Value="17" Name="APILocation_DotNetModule_SourceFilePath" />
+					<EnumerationMember Value="18" Name="APILocation_DotNetParameter_ParameterName" />
+					<EnumerationMember Value="19" Name="APILocation_DotNetParameter_ValueExpr" />
+					<EnumerationMember Value="20" Name="APILocation_HTBasicModule_SubroutineFilePath" />
+					<EnumerationMember Value="21" Name="APILocation_LabVIEWModule_CallName" />
+					<EnumerationMember Value="22" Name="APILocation_LabVIEWModule_ClassPath" />
+					<EnumerationMember Value="23" Name="APILocation_LabVIEWModule_GetVIAbsolutePath" />
+					<EnumerationMember Value="24" Name="APILocation_LabVIEWModule_NodeLibraryName" />
+					<EnumerationMember Value="25" Name="APILocation_LabVIEWModule_ProjectPath" />
+					<EnumerationMember Value="26" Name="APILocation_LabVIEWModule_RemoteConnectionTimeout" />
+					<EnumerationMember Value="27" Name="APILocation_LabVIEWModule_RemoteHost" />
+					<EnumerationMember Value="28" Name="APILocation_LabVIEWModule_RemotePortNumber" />
+					<EnumerationMember Value="29" Name="APILocation_LabVIEWModule_VIPath" />
+					<EnumerationMember Value="30" Name="APILocation_LabVIEWModule_VIType" />
+					<EnumerationMember Value="31" Name="APILocation_LabVIEWParameterElement_ElementCaption" />
+					<EnumerationMember Value="32" Name="APILocation_LabVIEWParameterElement_ValueExpr" />
+					<EnumerationMember Value="33" Name="APILocation_LabVIEWParameter_ParameterCaption" />
+					<EnumerationMember Value="34" Name="APILocation_LabVIEWParameter_ValueExpr" />
+					<EnumerationMember Value="35" Name="APILocation_None" />
+					<EnumerationMember Value="36" Name="APILocation_SequenceCallModule_CustomCPUAffinityForNewThread" />
+					<EnumerationMember Value="37" Name="APILocation_SequenceCallModule_NewExecutionBreakOnEntryExpr" />
+					<EnumerationMember Value="38" Name="APILocation_SequenceCallModule_NewExecutionModelPath" />
+					<EnumerationMember Value="39" Name="APILocation_SequenceCallModule_NewExecutionTypeMaskExpr" />
+					<EnumerationMember Value="40" Name="APILocation_SequenceCallModule_RemoteHost" />
+					<EnumerationMember Value="41" Name="APILocation_SequenceCallModule_SequenceFilePath" />
+					<EnumerationMember Value="42" Name="APILocation_SequenceCallModule_SequenceName" />
+					<EnumerationMember Value="43" Name="APILocation_SequenceCallModule_StoreActiveXReferenceExpr" />
+					<EnumerationMember Value="44" Name="APILocation_SequenceCallParameter_ValueExpr" />
+					<EnumerationMember Value="45" Name="APILocation_SequenceFile_ModelPath" />
+					<EnumerationMember Value="46" Name="APILocation_Sequence_DisableResults" />
+					<EnumerationMember Value="47" Name="APILocation_StepType_BatchSyncOption" />
+					<EnumerationMember Value="48" Name="APILocation_StepType_CustomActionExpression" />
+					<EnumerationMember Value="49" Name="APILocation_StepType_CustomFalseAction" />
+					<EnumerationMember Value="50" Name="APILocation_StepType_CustomFalseActionTargetByExpr" />
+					<EnumerationMember Value="51" Name="APILocation_StepType_CustomTrueAction" />
+					<EnumerationMember Value="52" Name="APILocation_StepType_CustomTrueActionTargetByExpr" />
+					<EnumerationMember Value="53" Name="APILocation_StepType_DefaultNameExpr" />
+					<EnumerationMember Value="54" Name="APILocation_StepType_DescriptionExpr" />
+					<EnumerationMember Value="55" Name="APILocation_StepType_EvalPrecondForInteractiveExecution" />
+					<EnumerationMember Value="56" Name="APILocation_StepType_FailAction" />
+					<EnumerationMember Value="57" Name="APILocation_StepType_FailActionTargetByExpr" />
+					<EnumerationMember Value="58" Name="APILocation_StepType_IconName" />
+					<EnumerationMember Value="59" Name="APILocation_StepType_IgnoreRTE" />
+					<EnumerationMember Value="60" Name="APILocation_StepType_LoopIncExpression" />
+					<EnumerationMember Value="61" Name="APILocation_StepType_LoopInitExpression" />
+					<EnumerationMember Value="62" Name="APILocation_StepType_LoopStatusExpression" />
+					<EnumerationMember Value="63" Name="APILocation_StepType_LoopType" />
+					<EnumerationMember Value="64" Name="APILocation_StepType_LoopWhileExpression" />
+					<EnumerationMember Value="65" Name="APILocation_StepType_MenuItemNameExpr" />
+					<EnumerationMember Value="66" Name="APILocation_StepType_ModuleLoadOption" />
+					<EnumerationMember Value="67" Name="APILocation_StepType_ModuleUnloadOption" />
+					<EnumerationMember Value="68" Name="APILocation_StepType_MutexNameOrRefExpr" />
+					<EnumerationMember Value="69" Name="APILocation_StepType_PassAction" />
+					<EnumerationMember Value="70" Name="APILocation_StepType_PassActionTargetByExpr" />
+					<EnumerationMember Value="71" Name="APILocation_StepType_PostExpression" />
+					<EnumerationMember Value="72" Name="APILocation_StepType_PreExpression" />
+					<EnumerationMember Value="73" Name="APILocation_StepType_Precondition" />
+					<EnumerationMember Value="74" Name="APILocation_StepType_RecordLoopIterationResults" />
+					<EnumerationMember Value="75" Name="APILocation_StepType_RecordResult" />
+					<EnumerationMember Value="76" Name="APILocation_StepType_ResultRecordingOption" />
+					<EnumerationMember Value="77" Name="APILocation_StepType_RunMode" />
+					<EnumerationMember Value="78" Name="APILocation_StepType_StatusExpression" />
+					<EnumerationMember Value="79" Name="APILocation_StepType_StepFailCausesSequenceFail" />
+					<EnumerationMember Value="80" Name="APILocation_StepType_SwitchExecConnectionLifetime" />
+					<EnumerationMember Value="81" Name="APILocation_StepType_SwitchExecEnabled" />
+					<EnumerationMember Value="82" Name="APILocation_StepType_SwitchExecMulticonnectMode" />
+					<EnumerationMember Value="83" Name="APILocation_StepType_SwitchExecOperation" />
+					<EnumerationMember Value="84" Name="APILocation_StepType_SwitchExecOperationOrder" />
+					<EnumerationMember Value="85" Name="APILocation_StepType_SwitchExecRoutesToConnect" />
+					<EnumerationMember Value="86" Name="APILocation_StepType_SwitchExecRoutesToDisconnect" />
+					<EnumerationMember Value="87" Name="APILocation_StepType_SwitchExecVirtualDevice" />
+					<EnumerationMember Value="88" Name="APILocation_StepType_SwitchExecWaitForDebounce" />
+					<EnumerationMember Value="89" Name="APILocation_StepType_UseMutex" />
+					<EnumerationMember Value="90" Name="APILocation_StepType_WindowActivation" />
+					<EnumerationMember Value="91" Name="APILocation_Step_BatchSyncOption" />
+					<EnumerationMember Value="92" Name="APILocation_Step_CustomActionExpression" />
+					<EnumerationMember Value="93" Name="APILocation_Step_CustomFalseAction" />
+					<EnumerationMember Value="94" Name="APILocation_Step_CustomFalseActionTargetByExpr" />
+					<EnumerationMember Value="95" Name="APILocation_Step_CustomTrueAction" />
+					<EnumerationMember Value="96" Name="APILocation_Step_CustomTrueActionTargetByExpr" />
+					<EnumerationMember Value="97" Name="APILocation_Step_EvalPrecondForInteractiveExecution" />
+					<EnumerationMember Value="98" Name="APILocation_Step_FailAction" />
+					<EnumerationMember Value="99" Name="APILocation_Step_FailActionTargetByExpr" />
+					<EnumerationMember Value="100" Name="APILocation_Step_IconName" />
+					<EnumerationMember Value="101" Name="APILocation_Step_IgnoreRTE" />
+					<EnumerationMember Value="102" Name="APILocation_Step_LoopIncExpression" />
+					<EnumerationMember Value="103" Name="APILocation_Step_LoopInitExpression" />
+					<EnumerationMember Value="104" Name="APILocation_Step_LoopStatusExpression" />
+					<EnumerationMember Value="105" Name="APILocation_Step_LoopType" />
+					<EnumerationMember Value="106" Name="APILocation_Step_LoopWhileExpression" />
+					<EnumerationMember Value="107" Name="APILocation_Step_ModuleLoadOption" />
+					<EnumerationMember Value="108" Name="APILocation_Step_ModuleUnloadOption" />
+					<EnumerationMember Value="109" Name="APILocation_Step_MutexNameOrRefExpr" />
+					<EnumerationMember Value="110" Name="APILocation_Step_PassAction" />
+					<EnumerationMember Value="111" Name="APILocation_Step_PassActionTargetByExpr" />
+					<EnumerationMember Value="112" Name="APILocation_Step_PostExpression" />
+					<EnumerationMember Value="113" Name="APILocation_Step_PreExpression" />
+					<EnumerationMember Value="114" Name="APILocation_Step_Precondition" />
+					<EnumerationMember Value="115" Name="APILocation_Step_RecordLoopIterationResults" />
+					<EnumerationMember Value="116" Name="APILocation_Step_RecordResult" />
+					<EnumerationMember Value="117" Name="APILocation_Step_ResultRecordingOption" />
+					<EnumerationMember Value="118" Name="APILocation_Step_RunMode" />
+					<EnumerationMember Value="119" Name="APILocation_Step_StatusExpression" />
+					<EnumerationMember Value="120" Name="APILocation_Step_StepFailCausesSequenceFail" />
+					<EnumerationMember Value="121" Name="APILocation_Step_SwitchExecConnectionLifetime" />
+					<EnumerationMember Value="122" Name="APILocation_Step_SwitchExecEnabled" />
+					<EnumerationMember Value="123" Name="APILocation_Step_SwitchExecMulticonnectMode" />
+					<EnumerationMember Value="124" Name="APILocation_Step_SwitchExecOperation" />
+					<EnumerationMember Value="125" Name="APILocation_Step_SwitchExecOperationOrder" />
+					<EnumerationMember Value="126" Name="APILocation_Step_SwitchExecRoutesToConnect" />
+					<EnumerationMember Value="127" Name="APILocation_Step_SwitchExecRoutesToDisconnect" />
+					<EnumerationMember Value="128" Name="APILocation_Step_SwitchExecVirtualDevice" />
+					<EnumerationMember Value="129" Name="APILocation_Step_SwitchExecWaitForDebounce" />
+					<EnumerationMember Value="130" Name="APILocation_Step_UniqueStepId" />
+					<EnumerationMember Value="131" Name="APILocation_Step_UseMutex" />
+					<EnumerationMember Value="132" Name="APILocation_Step_WindowActivation" />
+					<EnumerationMember Value="133" Name="AcquireLicenseOption_NoOptions" />
+					<EnumerationMember Value="134" Name="AcquireLicenseOption_ShowExitButton" />
+					<EnumerationMember Value="135" Name="AcquireLicenseOption_SuppressStartupDialog" />
+					<EnumerationMember Value="136" Name="AcquireLicenseOption_SuppressStartupDialogIfAlreadyShown" />
+					<EnumerationMember Value="137" Name="AdditionalResultKind_Call" />
+					<EnumerationMember Value="138" Name="AdditionalResultKind_Custom" />
+					<EnumerationMember Value="139" Name="AdditionalResultKind_InParameter" />
+					<EnumerationMember Value="140" Name="AdditionalResultKind_OutParameter" />
+					<EnumerationMember Value="141" Name="AllowAutomaticTypeConflictResolutionOption_Always" />
+					<EnumerationMember Value="142" Name="AllowAutomaticTypeConflictResolutionOption_Never" />
+					<EnumerationMember Value="143" Name="AllowAutomaticTypeConflictResolutionOption_OnlyIfATypePaletteFileHasTheH" />
+					<EnumerationMember Value="144" Name="AllowAutomaticTypeConflictResolutionOption_OnlyIfTypePaletteFilesWillNot" />
+					<EnumerationMember Value="145" Name="ApplicationLicense_CustomEditor" />
+					<EnumerationMember Value="146" Name="ApplicationLicense_OperatorInterface" />
+					<EnumerationMember Value="147" Name="ApplicationLicense_SequenceEditor" />
+					<EnumerationMember Value="148" Name="ApplicationLicense_Unspecified" />
+					<EnumerationMember Value="149" Name="ApplicationSite_DefaultSite" />
+					<EnumerationMember Value="150" Name="ApplicationSite_ItemList" />
+					<EnumerationMember Value="151" Name="ApplicationSite_PropertyBrowser" />
+					<EnumerationMember Value="152" Name="ApplicationSite_Settings" />
+					<EnumerationMember Value="153" Name="ApplicationSite_Variables" />
+					<EnumerationMember Value="154" Name="ArrayBounds_InitializeArray" />
+					<EnumerationMember Value="155" Name="ArrayBounds_NoOptions" />
+					<EnumerationMember Value="156" Name="ArrayBounds_ReturnOkCancel" />
+					<EnumerationMember Value="157" Name="BatchSyncOption_NoSync" />
+					<EnumerationMember Value="158" Name="BatchSyncOption_OneThreadOnly" />
+					<EnumerationMember Value="159" Name="BatchSyncOption_Parallel" />
+					<EnumerationMember Value="160" Name="BatchSyncOption_Serial" />
+					<EnumerationMember Value="161" Name="BatchSyncOption_UseModelSetting" />
+					<EnumerationMember Value="162" Name="BatchSyncOption_UseSeqFileSetting" />
+					<EnumerationMember Value="163" Name="BlockFlag_AppliesToBlockStructure" />
+					<EnumerationMember Value="164" Name="BlockFlag_Close" />
+					<EnumerationMember Value="165" Name="BlockFlag_End" />
+					<EnumerationMember Value="166" Name="BlockFlag_None" />
+					<EnumerationMember Value="167" Name="BlockFlag_Open" />
+					<EnumerationMember Value="168" Name="BlockFlag_Start" />
+					<EnumerationMember Value="169" Name="BlockFlag_Unmatched" />
+					<EnumerationMember Value="170" Name="BrowseExpr_ForViewingTypes" />
+					<EnumerationMember Value="171" Name="BrowseExpr_ModalToAppMainWind" />
+					<EnumerationMember Value="172" Name="BrowseExpr_NoContextMenus" />
+					<EnumerationMember Value="173" Name="BrowseExpr_NoOptions" />
+					<EnumerationMember Value="174" Name="BrowseExpr_UsesCRLF" />
+					<EnumerationMember Value="175" Name="CPUAffinityForNewThreadOption_UseAffinityOfCaller" />
+					<EnumerationMember Value="176" Name="CPUAffinityForNewThreadOption_UseAllCPUs" />
+					<EnumerationMember Value="177" Name="CPUAffinityForNewThreadOption_UseCustomAffinity" />
+					<EnumerationMember Value="178" Name="CPUAffinityForNewThreadOption_UseStationOption" />
+					<EnumerationMember Value="179" Name="CallbackType_ModelPostError" />
+					<EnumerationMember Value="180" Name="CallbackType_ModelPostFail" />
+					<EnumerationMember Value="181" Name="CallbackType_ModelPostInteractive" />
+					<EnumerationMember Value="182" Name="CallbackType_ModelPostResult" />
+					<EnumerationMember Value="183" Name="CallbackType_ModelPostResults" />
+					<EnumerationMember Value="184" Name="CallbackType_ModelPostStep" />
+					<EnumerationMember Value="185" Name="CallbackType_ModelPreInteractive" />
+					<EnumerationMember Value="186" Name="CallbackType_ModelPreStep" />
+					<EnumerationMember Value="187" Name="CallbackType_SeqFilePostError" />
+					<EnumerationMember Value="188" Name="CallbackType_SeqFilePostFail" />
+					<EnumerationMember Value="189" Name="CallbackType_SeqFilePostInteractive" />
+					<EnumerationMember Value="190" Name="CallbackType_SeqFilePostResult" />
+					<EnumerationMember Value="191" Name="CallbackType_SeqFilePostResults" />
+					<EnumerationMember Value="192" Name="CallbackType_SeqFilePostStep" />
+					<EnumerationMember Value="193" Name="CallbackType_SeqFilePreInteractive" />
+					<EnumerationMember Value="194" Name="CallbackType_SeqFilePreStep" />
+					<EnumerationMember Value="195" Name="CallbackType_StationPostError" />
+					<EnumerationMember Value="196" Name="CallbackType_StationPostFail" />
+					<EnumerationMember Value="197" Name="CallbackType_StationPostInteractive" />
+					<EnumerationMember Value="198" Name="CallbackType_StationPostResult" />
+					<EnumerationMember Value="199" Name="CallbackType_StationPostResults" />
+					<EnumerationMember Value="200" Name="CallbackType_StationPostStep" />
+					<EnumerationMember Value="201" Name="CallbackType_StationPreInteractive" />
+					<EnumerationMember Value="202" Name="CallbackType_StationPreStep" />
+					<EnumerationMember Value="203" Name="CheckForModifiedTypes_AutoIncrementVersions" />
+					<EnumerationMember Value="204" Name="CheckForModifiedTypes_NoAction" />
+					<EnumerationMember Value="205" Name="CheckForModifiedTypes_Prompt" />
+					<EnumerationMember Value="206" Name="CheckForModifiedTypes_RemoveTypesModifiedMark" />
+					<EnumerationMember Value="207" Name="CheckForModifiedTypes_UseStationOptions" />
+					<EnumerationMember Value="208" Name="CheckedState_Checked" />
+					<EnumerationMember Value="209" Name="CheckedState_Indeterminate" />
+					<EnumerationMember Value="210" Name="CheckedState_Unchecked" />
+					<EnumerationMember Value="211" Name="CodeTemplateType_CVI" />
+					<EnumerationMember Value="212" Name="CodeTemplateType_CppOrC" />
+					<EnumerationMember Value="213" Name="CodeTemplateType_HTBasic" />
+					<EnumerationMember Value="214" Name="CodeTemplateType_LabVIEW" />
+					<EnumerationMember Value="215" Name="CodeTemplateType_Legacy" />
+					<EnumerationMember Value="216" Name="CodeTemplateType_VisualBasicDotNet" />
+					<EnumerationMember Value="217" Name="CodeTemplateType_VisualCSharpDotNet" />
+					<EnumerationMember Value="218" Name="CodeTemplateType_VisualCppDotNet" />
+					<EnumerationMember Value="219" Name="CommonDlgOption_ModalToAppMainWind" />
+					<EnumerationMember Value="220" Name="CommonDlgOption_NoOptions" />
+					<EnumerationMember Value="221" Name="CommonDlgOption_ReadOnly" />
+					<EnumerationMember Value="222" Name="ConflictHandler_Error" />
+					<EnumerationMember Value="223" Name="ConflictHandler_Prompt" />
+					<EnumerationMember Value="224" Name="ConflictHandler_UseGlobalType" />
+					<EnumerationMember Value="225" Name="CopyLocationsOption_DeepCopy" />
+					<EnumerationMember Value="226" Name="CopyLocationsOption_ShallowCopy" />
+					<EnumerationMember Value="227" Name="CreateUndoItemOption_CreateOnly" />
+					<EnumerationMember Value="228" Name="CreateUndoItemOption_NoOptions" />
+					<EnumerationMember Value="229" Name="CustomUIMsgOptions_AppliesToAllThreads" />
+					<EnumerationMember Value="230" Name="CustomUIMsgOptions_NoOptions" />
+					<EnumerationMember Value="231" Name="CustomUIMsgOptions_SuppressIfTraceSent" />
+					<EnumerationMember Value="232" Name="DebugOption_BufferChecking" />
+					<EnumerationMember Value="233" Name="DebugOption_NoOptions" />
+					<EnumerationMember Value="234" Name="DebugOption_ReportKnownOSandComponentProblems" />
+					<EnumerationMember Value="235" Name="DebugOption_ReportObjectLeaks" />
+					<EnumerationMember Value="236" Name="DebugOption_SendOutputMessagesToDebugger" />
+					<EnumerationMember Value="237" Name="DebugOption_StackChecking" />
+					<EnumerationMember Value="238" Name="DecimalPoint_UseComma" />
+					<EnumerationMember Value="239" Name="DecimalPoint_UsePeriod" />
+					<EnumerationMember Value="240" Name="DecimalPoint_UsePreference" />
+					<EnumerationMember Value="241" Name="DecimalPoint_UseSystemSetting" />
+					<EnumerationMember Value="242" Name="EditBreakAndWatch_DisplayBreakpointTab" />
+					<EnumerationMember Value="243" Name="EditBreakAndWatch_DisplayWatchExpressionTab" />
+					<EnumerationMember Value="244" Name="EditBreakAndWatch_ModalToAppMainWind" />
+					<EnumerationMember Value="245" Name="EditBreakAndWatch_NoOptions" />
+					<EnumerationMember Value="246" Name="EditBreakAndWatch_ReadOnly" />
+					<EnumerationMember Value="247" Name="EditKind_ChangeObject" />
+					<EnumerationMember Value="248" Name="EditKind_ChangeRepresentation" />
+					<EnumerationMember Value="249" Name="EditKind_ChangeRunMode" />
+					<EnumerationMember Value="250" Name="EditKind_ChangeSequenceFileProperties" />
+					<EnumerationMember Value="251" Name="EditKind_ChangeSequenceProperties" />
+					<EnumerationMember Value="252" Name="EditKind_ChangeStep" />
+					<EnumerationMember Value="253" Name="EditKind_ChangeValue" />
+					<EnumerationMember Value="254" Name="EditKind_DeleteProperty" />
+					<EnumerationMember Value="255" Name="EditKind_DeleteSequence" />
+					<EnumerationMember Value="256" Name="EditKind_DeleteStep" />
+					<EnumerationMember Value="257" Name="EditKind_InsertProperty" />
+					<EnumerationMember Value="258" Name="EditKind_InsertSequence" />
+					<EnumerationMember Value="259" Name="EditKind_InsertStep" />
+					<EnumerationMember Value="260" Name="EditKind_InsertType" />
+					<EnumerationMember Value="261" Name="EditKind_ModifyAttributes" />
+					<EnumerationMember Value="262" Name="EditKind_ModifyComment" />
+					<EnumerationMember Value="263" Name="EditKind_ModifyFlags" />
+					<EnumerationMember Value="264" Name="EditKind_MoveProperty" />
+					<EnumerationMember Value="265" Name="EditKind_MoveSequence" />
+					<EnumerationMember Value="266" Name="EditKind_MoveStep" />
+					<EnumerationMember Value="267" Name="EditKind_MoveType" />
+					<EnumerationMember Value="268" Name="EditKind_None" />
+					<EnumerationMember Value="269" Name="EditKind_Rename" />
+					<EnumerationMember Value="270" Name="EditKind_ReplaceProperty" />
+					<EnumerationMember Value="271" Name="EditNumFormat_AllowDefaultFormat" />
+					<EnumerationMember Value="272" Name="EditNumFormat_ModalToAppMainWind" />
+					<EnumerationMember Value="273" Name="EditNumFormat_NoOptions" />
+					<EnumerationMember Value="274" Name="EditPaths_AllowEditOfReadOnlyFiles" />
+					<EnumerationMember Value="275" Name="EditPaths_ModalToAppMainWind" />
+					<EnumerationMember Value="276" Name="EditPaths_NoOptions" />
+					<EnumerationMember Value="277" Name="EditPaths_ReadOnly" />
+					<EnumerationMember Value="278" Name="Err_AccessDenied" />
+					<EnumerationMember Value="279" Name="Err_ActiveXAutomationServerException" />
+					<EnumerationMember Value="280" Name="Err_AdapterNoConnectToAutoServer" />
+					<EnumerationMember Value="281" Name="Err_AdapterServerConnectionLost" />
+					<EnumerationMember Value="282" Name="Err_ArrayIndexOutOfBounds" />
+					<EnumerationMember Value="283" Name="Err_ArrayLocked" />
+					<EnumerationMember Value="284" Name="Err_AutomationObjNotValid" />
+					<EnumerationMember Value="285" Name="Err_BadExpressionError" />
+					<EnumerationMember Value="286" Name="Err_BadFileFormat" />
+					<EnumerationMember Value="287" Name="Err_BadNetPath" />
+					<EnumerationMember Value="288" Name="Err_BadPropertyOrVariableName" />
+					<EnumerationMember Value="289" Name="Err_CVIAutoCmdFailed" />
+					<EnumerationMember Value="290" Name="Err_CVICantConnectToTecrunServer" />
+					<EnumerationMember Value="291" Name="Err_CVIFuncNotFoundInModule" />
+					<EnumerationMember Value="292" Name="Err_CVIModuleHasUnresolvedReferences" />
+					<EnumerationMember Value="293" Name="Err_CVINotReg" />
+					<EnumerationMember Value="294" Name="Err_CVIOleError" />
+					<EnumerationMember Value="295" Name="Err_CVIRegGenericReadError" />
+					<EnumerationMember Value="296" Name="Err_CVIRegKeyNotFound" />
+					<EnumerationMember Value="297" Name="Err_CVIRegValueNotFound" />
+					<EnumerationMember Value="298" Name="Err_CVIRegValueTypeMismatch" />
+					<EnumerationMember Value="299" Name="Err_CVIUnableToTerminateUserProgInCVI" />
+					<EnumerationMember Value="300" Name="Err_CurrentSeqFileNotAvailable" />
+					<EnumerationMember Value="301" Name="Err_DDEFail" />
+					<EnumerationMember Value="302" Name="Err_DLLNotLoadable" />
+					<EnumerationMember Value="303" Name="Err_DiskFull" />
+					<EnumerationMember Value="304" Name="Err_DispMissingParamID" />
+					<EnumerationMember Value="305" Name="Err_DispMissingParamName" />
+					<EnumerationMember Value="306" Name="Err_DispMissingRequiredArg" />
+					<EnumerationMember Value="307" Name="Err_DispObsoleteMember" />
+					<EnumerationMember Value="308" Name="Err_DispUnknownInterface" />
+					<EnumerationMember Value="309" Name="Err_DispUnknownMemberID" />
+					<EnumerationMember Value="310" Name="Err_DispUnknownMemberName" />
+					<EnumerationMember Value="311" Name="Err_DispUnknownParamID" />
+					<EnumerationMember Value="312" Name="Err_DispUnknownParamName" />
+					<EnumerationMember Value="313" Name="Err_DispWrongNumPositionalParams" />
+					<EnumerationMember Value="314" Name="Err_DoesNotHaveRequiredPrivilege" />
+					<EnumerationMember Value="315" Name="Err_DriveNotReady" />
+					<EnumerationMember Value="316" Name="Err_DuplicateItemOrValue" />
+					<EnumerationMember Value="317" Name="Err_EvaluationContextNotAvailable" />
+					<EnumerationMember Value="318" Name="Err_ExprTypeIncompatibleWithParameter" />
+					<EnumerationMember Value="319" Name="Err_ExprValueNotSuperSetOfParameter" />
+					<EnumerationMember Value="320" Name="Err_FailToRegisterClipFormat" />
+					<EnumerationMember Value="321" Name="Err_FileAlreadyExists" />
+					<EnumerationMember Value="322" Name="Err_FileFormatIsOutOfDate" />
+					<EnumerationMember Value="323" Name="Err_FileFormatNewerThanCurrentVersion" />
+					<EnumerationMember Value="324" Name="Err_FileNotConvertableToSeqFile" />
+					<EnumerationMember Value="325" Name="Err_FileWasNotFound" />
+					<EnumerationMember Value="326" Name="Err_FunctionNotFoundInLib" />
+					<EnumerationMember Value="327" Name="Err_IOError" />
+					<EnumerationMember Value="328" Name="Err_IllegalOperationOnValue" />
+					<EnumerationMember Value="329" Name="Err_IncompatibleParameters" />
+					<EnumerationMember Value="330" Name="Err_IndexOutOfRange" />
+					<EnumerationMember Value="331" Name="Err_InvalidAdapterName" />
+					<EnumerationMember Value="332" Name="Err_InvalidDrive" />
+					<EnumerationMember Value="333" Name="Err_InvalidPathname" />
+					<EnumerationMember Value="334" Name="Err_ItemCannotBeDeleted" />
+					<EnumerationMember Value="335" Name="Err_LVAutoServerError" />
+					<EnumerationMember Value="336" Name="Err_LVRTDllNotLoaded" />
+					<EnumerationMember Value="337" Name="Err_LVReportedError" />
+					<EnumerationMember Value="338" Name="Err_LValueExpected" />
+					<EnumerationMember Value="339" Name="Err_MismatchedArrayBounds" />
+					<EnumerationMember Value="340" Name="Err_MissingType" />
+					<EnumerationMember Value="341" Name="Err_ModuleLoadFailure" />
+					<EnumerationMember Value="342" Name="Err_ModuleNotSpecified" />
+					<EnumerationMember Value="343" Name="Err_NameAlreadyInUse" />
+					<EnumerationMember Value="344" Name="Err_NoError" />
+					<EnumerationMember Value="345" Name="Err_NoFileAssoc" />
+					<EnumerationMember Value="346" Name="Err_NoItemsInList" />
+					<EnumerationMember Value="347" Name="Err_OS_Exception" />
+					<EnumerationMember Value="348" Name="Err_ObjectCannotBeAdded" />
+					<EnumerationMember Value="349" Name="Err_ObjectTypeIncompatibleWithParameter" />
+					<EnumerationMember Value="350" Name="Err_OperationCanceled" />
+					<EnumerationMember Value="351" Name="Err_OperationFailed" />
+					<EnumerationMember Value="352" Name="Err_OperationInProgress" />
+					<EnumerationMember Value="353" Name="Err_OperationOnlyValidWhenSuspended" />
+					<EnumerationMember Value="354" Name="Err_OperationTimedOut" />
+					<EnumerationMember Value="355" Name="Err_OutOfMemory" />
+					<EnumerationMember Value="356" Name="Err_PathNotFound" />
+					<EnumerationMember Value="357" Name="Err_ProgramError" />
+					<EnumerationMember Value="358" Name="Err_RStringNotFound" />
+					<EnumerationMember Value="359" Name="Err_ReadObjectNotFound" />
+					<EnumerationMember Value="360" Name="Err_RegistryAccessError" />
+					<EnumerationMember Value="361" Name="Err_RegistryItemNotFound" />
+					<EnumerationMember Value="362" Name="Err_RemoteHostNotSpecified" />
+					<EnumerationMember Value="363" Name="Err_RemoteSequenceError" />
+					<EnumerationMember Value="364" Name="Err_RemoteSequenceErrorUnableToConnect" />
+					<EnumerationMember Value="365" Name="Err_RemoteSequenceRemoteExecutionDenied" />
+					<EnumerationMember Value="366" Name="Err_SequenceAborted" />
+					<EnumerationMember Value="367" Name="Err_SequenceTerminated" />
+					<EnumerationMember Value="368" Name="Err_SharingViolation" />
+					<EnumerationMember Value="369" Name="Err_SingleDimensionalNumericArrayExpected" />
+					<EnumerationMember Value="370" Name="Err_SourceCodeControlError" />
+					<EnumerationMember Value="371" Name="Err_StackOverflow" />
+					<EnumerationMember Value="372" Name="Err_StepTypeNotFound" />
+					<EnumerationMember Value="373" Name="Err_ThreadCreationFailed" />
+					<EnumerationMember Value="374" Name="Err_TooManyItems" />
+					<EnumerationMember Value="375" Name="Err_TypeCannotBeDeleted" />
+					<EnumerationMember Value="376" Name="Err_TypeConflict" />
+					<EnumerationMember Value="377" Name="Err_TypeLibraryReadError" />
+					<EnumerationMember Value="378" Name="Err_TypeMismatchError" />
+					<EnumerationMember Value="379" Name="Err_TypeWithDependingInstancesCannotBeDeleted" />
+					<EnumerationMember Value="380" Name="Err_UnRecognizedValue" />
+					<EnumerationMember Value="381" Name="Err_UnableToAllocateSystemResource" />
+					<EnumerationMember Value="382" Name="Err_UnableToCloseFile" />
+					<EnumerationMember Value="383" Name="Err_UnableToInitializeOLESystemDLLs" />
+					<EnumerationMember Value="384" Name="Err_UnableToLaunchCVI" />
+					<EnumerationMember Value="385" Name="Err_UnableToOpenFile" />
+					<EnumerationMember Value="386" Name="Err_UnableToPassByReference" />
+					<EnumerationMember Value="387" Name="Err_UnexpectedSystemError" />
+					<EnumerationMember Value="388" Name="Err_UnexpectedType" />
+					<EnumerationMember Value="389" Name="Err_UnknownFunctionOrSequenceName" />
+					<EnumerationMember Value="390" Name="Err_UnknownType" />
+					<EnumerationMember Value="391" Name="Err_UnknownVariableOrProperty" />
+					<EnumerationMember Value="392" Name="Err_ValueIsInvalidOrOutOfRange" />
+					<EnumerationMember Value="393" Name="Err_WriteProtected" />
+					<EnumerationMember Value="394" Name="Err_WrongNumberOfArrayIndices" />
+					<EnumerationMember Value="395" Name="Err_WrongNumberOfParameters" />
+					<EnumerationMember Value="396" Name="EscapingOption_NoOptions" />
+					<EnumerationMember Value="397" Name="EscapingOption_SurroundedByQuotes" />
+					<EnumerationMember Value="398" Name="EvalOption_AllowEmptyExpression" />
+					<EnumerationMember Value="399" Name="EvalOption_AllowIndexingEmptyArrays" />
+					<EnumerationMember Value="400" Name="EvalOption_CreateNonExistentVariables" />
+					<EnumerationMember Value="401" Name="EvalOption_DoNotAlterValues" />
+					<EnumerationMember Value="402" Name="EvalOption_ForErrorChecking" />
+					<EnumerationMember Value="403" Name="EvalOption_IgnoreNoValidationDirective" />
+					<EnumerationMember Value="404" Name="EvalOption_NoOptions" />
+					<EnumerationMember Value="405" Name="EvalPrecondOption_EvaluatePrecond" />
+					<EnumerationMember Value="406" Name="EvalPrecondOption_NoEvaluatePrecond" />
+					<EnumerationMember Value="407" Name="EvalPrecondOption_UseStationOption" />
+					<EnumerationMember Value="408" Name="ExecMask_AllowBreakWhileInCodeModules" />
+					<EnumerationMember Value="409" Name="ExecMask_BreakOnRunTimeError" />
+					<EnumerationMember Value="410" Name="ExecMask_BreakWhileTerminating" />
+					<EnumerationMember Value="411" Name="ExecMask_BreakpointsEnabled" />
+					<EnumerationMember Value="412" Name="ExecMask_DefaultExecutionMask" />
+					<EnumerationMember Value="413" Name="ExecMask_InteractiveEvaluatePreconditions" />
+					<EnumerationMember Value="414" Name="ExecMask_InteractiveRecordResults" />
+					<EnumerationMember Value="415" Name="ExecMask_InteractiveRunSetupCleanup" />
+					<EnumerationMember Value="416" Name="ExecMask_TraceAllThreads" />
+					<EnumerationMember Value="417" Name="ExecMask_TraceIntoEntryPoints" />
+					<EnumerationMember Value="418" Name="ExecMask_TraceIntoPostActionCallbacks" />
+					<EnumerationMember Value="419" Name="ExecMask_TraceIntoPrePostCallbacks" />
+					<EnumerationMember Value="420" Name="ExecMask_TraceIntoSeparateExecutionCallbacks" />
+					<EnumerationMember Value="421" Name="ExecMask_TraceIntoSequenceCallsMarkedAsTraceOff" />
+					<EnumerationMember Value="422" Name="ExecMask_TraceIntoSetupCleanup" />
+					<EnumerationMember Value="423" Name="ExecMask_TraceWhileTerminating" />
+					<EnumerationMember Value="424" Name="ExecMask_TracingEnabled" />
+					<EnumerationMember Value="425" Name="ExecRunState_Paused" />
+					<EnumerationMember Value="426" Name="ExecRunState_Running" />
+					<EnumerationMember Value="427" Name="ExecRunState_Stopped" />
+					<EnumerationMember Value="428" Name="ExecTermState_Aborting" />
+					<EnumerationMember Value="429" Name="ExecTermState_KillingThreads" />
+					<EnumerationMember Value="430" Name="ExecTermState_Normal" />
+					<EnumerationMember Value="431" Name="ExecTermState_Terminating" />
+					<EnumerationMember Value="432" Name="ExecTermState_TerminatingInteractive" />
+					<EnumerationMember Value="433" Name="ExecTypeMask_AutoWaitAtEndOfSequence" />
+					<EnumerationMember Value="434" Name="ExecTypeMask_BreakOnSequenceFailure" />
+					<EnumerationMember Value="435" Name="ExecTypeMask_BreakOnStepFailure" />
+					<EnumerationMember Value="436" Name="ExecTypeMask_CloseWindowWhenDone" />
+					<EnumerationMember Value="437" Name="ExecTypeMask_DiscardArgumentsWhenDone" />
+					<EnumerationMember Value="438" Name="ExecTypeMask_DisplayPreloadProgress" />
+					<EnumerationMember Value="439" Name="ExecTypeMask_InitiallyHidden" />
+					<EnumerationMember Value="440" Name="ExecTypeMask_InitiallySuspended" />
+					<EnumerationMember Value="441" Name="ExecTypeMask_Normal" />
+					<EnumerationMember Value="442" Name="ExecTypeMask_NotRestartable" />
+					<EnumerationMember Value="443" Name="ExecTypeMask_TracingInitiallyOff" />
+					<EnumerationMember Value="444" Name="ExecTypeMask_UseSTA" />
+					<EnumerationMember Value="445" Name="FailureAction_GotoCleanup" />
+					<EnumerationMember Value="446" Name="FailureAction_None" />
+					<EnumerationMember Value="447" Name="FailureAction_UseStationOption" />
+					<EnumerationMember Value="448" Name="FileGlobalsScopeOption_AllExecutionsShare" />
+					<EnumerationMember Value="449" Name="FileGlobalsScopeOption_SeparateForEachExecution" />
+					<EnumerationMember Value="450" Name="FileModificationIndicatorPolicy_DefaultPolicy" />
+					<EnumerationMember Value="451" Name="FileModificationIndicatorPolicy_ExcludeTestStandVersionUpgrade" />
+					<EnumerationMember Value="452" Name="FileType_ConfigFile" />
+					<EnumerationMember Value="453" Name="FileType_ProjectFile" />
+					<EnumerationMember Value="454" Name="FileType_PropertyObjectFile" />
+					<EnumerationMember Value="455" Name="FileType_SequenceFile" />
+					<EnumerationMember Value="456" Name="FileType_StationGlobalsFile" />
+					<EnumerationMember Value="457" Name="FileType_TemplatesFile" />
+					<EnumerationMember Value="458" Name="FileType_TypePaletteFile" />
+					<EnumerationMember Value="459" Name="FileType_UsersFile" />
+					<EnumerationMember Value="460" Name="FileType_WorkspaceFile" />
+					<EnumerationMember Value="461" Name="FileVersionInc_Build" />
+					<EnumerationMember Value="462" Name="FileVersionInc_Major" />
+					<EnumerationMember Value="463" Name="FileVersionInc_Minor" />
+					<EnumerationMember Value="464" Name="FileVersionInc_None" />
+					<EnumerationMember Value="465" Name="FileVersionInc_Revision" />
+					<EnumerationMember Value="466" Name="FileWritingFormat_Binary" />
+					<EnumerationMember Value="467" Name="FileWritingFormat_Ini" />
+					<EnumerationMember Value="468" Name="FileWritingFormat_Xml" />
+					<EnumerationMember Value="469" Name="FindFile_AddDirToSrchList_Ask" />
+					<EnumerationMember Value="470" Name="FindFile_AddDirToSrchList_Ask_IgnorePrivileges" />
+					<EnumerationMember Value="471" Name="FindFile_AddDirToSrchList_No" />
+					<EnumerationMember Value="472" Name="FindFile_AddDirToSrchList_Yes" />
+					<EnumerationMember Value="473" Name="FindFile_AddDirToSrchList_Yes_IgnorePrivileges" />
+					<EnumerationMember Value="474" Name="FindFile_PromptDisable" />
+					<EnumerationMember Value="475" Name="FindFile_PromptEnable" />
+					<EnumerationMember Value="476" Name="FindFile_PromptHonorUserPreference" />
+					<EnumerationMember Value="477" Name="FindPath_PathIsDir" />
+					<EnumerationMember Value="478" Name="FindPath_PathIsFile" />
+					<EnumerationMember Value="479" Name="FindPath_PathNotFound" />
+					<EnumerationMember Value="480" Name="FindPath_PathNotValid" />
+					<EnumerationMember Value="481" Name="GetSeqFile_AllowTypeConflicts" />
+					<EnumerationMember Value="482" Name="GetSeqFile_CheckModelOptions" />
+					<EnumerationMember Value="483" Name="GetSeqFile_DoNotRunLoadCallback" />
+					<EnumerationMember Value="484" Name="GetSeqFile_FindFile" />
+					<EnumerationMember Value="485" Name="GetSeqFile_GetFileOnlyIfInCache" />
+					<EnumerationMember Value="486" Name="GetSeqFile_NoOptions" />
+					<EnumerationMember Value="487" Name="GetSeqFile_OperatorInterfaceFlags" />
+					<EnumerationMember Value="488" Name="GetSeqFile_PreloadModules" />
+					<EnumerationMember Value="489" Name="GetSeqFile_SearchCurrentDir" />
+					<EnumerationMember Value="490" Name="GetSeqFile_UpdateFromDisk" />
+					<EnumerationMember Value="491" Name="GetTemplatesFileOption_LoadIfNotLoaded" />
+					<EnumerationMember Value="492" Name="GetTemplatesFileOption_NoOptions" />
+					<EnumerationMember Value="493" Name="GotoLocationOption_DoNotDisplayMessageIfLocationNotFound" />
+					<EnumerationMember Value="494" Name="GotoLocationOption_NoOptions" />
+					<EnumerationMember Value="495" Name="HierarchicalExecMask_DontRunSetupAndCleanup" />
+					<EnumerationMember Value="496" Name="HierarchicalExecMask_IgnorePreconditions" />
+					<EnumerationMember Value="497" Name="HierarchicalExecMask_RunRemainingSequence" />
+					<EnumerationMember Value="498" Name="InteractiveBranchMode_AllowAll" />
+					<EnumerationMember Value="499" Name="InteractiveBranchMode_GotoEnd" />
+					<EnumerationMember Value="500" Name="InteractiveBranchMode_Ignore" />
+					<EnumerationMember Value="501" Name="InteractiveBranchMode_None" />
+					<EnumerationMember Value="502" Name="InteractiveBranchMode_RaiseRTE" />
+					<EnumerationMember Value="503" Name="InternalOption_ApplicationManager" />
+					<EnumerationMember Value="504" Name="InternalOption_AutomationAdapterUsesDispatchForDualInterfaces" />
+					<EnumerationMember Value="505" Name="InternalOption_DisableFloatingWindowsForModalDialogs" />
+					<EnumerationMember Value="506" Name="InternalOption_UpdateExternalEnvironments" />
+					<EnumerationMember Value="507" Name="InternalOption_WarnOnAPICallThroughDispatchInterface" />
+					<EnumerationMember Value="508" Name="LicenseType_BaseDeploymentEngine" />
+					<EnumerationMember Value="509" Name="LicenseType_CustomEditorDeployment" />
+					<EnumerationMember Value="510" Name="LicenseType_DebugDeploymentEnv" />
+					<EnumerationMember Value="511" Name="LicenseType_DevelopmentSystem" />
+					<EnumerationMember Value="512" Name="LicenseType_Evaluation" />
+					<EnumerationMember Value="513" Name="LicenseType_NoLicense" />
+					<EnumerationMember Value="514" Name="LicenseType_OEM" />
+					<EnumerationMember Value="515" Name="LicenseType_Other" />
+					<EnumerationMember Value="516" Name="LicenseType_Temporary" />
+					<EnumerationMember Value="517" Name="LoadModule_DoNotPromptToFindFile" />
+					<EnumerationMember Value="518" Name="LoadModule_DoNotRunLoadCallbacks" />
+					<EnumerationMember Value="519" Name="LoadModule_EvaluateExpressions" />
+					<EnumerationMember Value="520" Name="LoadModule_IgnoreErrors" />
+					<EnumerationMember Value="521" Name="LoadModule_IgnoreSkippedSteps" />
+					<EnumerationMember Value="522" Name="LoadModule_LoadModulesInSubSequences" />
+					<EnumerationMember Value="523" Name="LoadModule_NoOptions" />
+					<EnumerationMember Value="524" Name="LoadModule_ThrowExceptionOnError" />
+					<EnumerationMember Value="525" Name="LoadOption_DynamicLoad" />
+					<EnumerationMember Value="526" Name="LoadOption_PreloadWhenExecuted" />
+					<EnumerationMember Value="527" Name="LoadOption_PreloadWhenOpened" />
+					<EnumerationMember Value="528" Name="LoadOption_UseStepLoadOption" />
+					<EnumerationMember Value="529" Name="LoadPrototypeOption_MapExistingParameters" />
+					<EnumerationMember Value="530" Name="LoadPrototypeOption_NoOptions" />
+					<EnumerationMember Value="531" Name="LoadTypePaletteOptions_DisplayErrors" />
+					<EnumerationMember Value="532" Name="LoadTypePaletteOptions_NoOptions" />
+					<EnumerationMember Value="533" Name="LocationKind_Execution" />
+					<EnumerationMember Value="534" Name="LocationKind_File" />
+					<EnumerationMember Value="535" Name="LocationKind_Type" />
+					<EnumerationMember Value="536" Name="LockUnlockDialogOption_HideRememberPasswordControls" />
+					<EnumerationMember Value="537" Name="LockUnlockDialogOption_Lock" />
+					<EnumerationMember Value="538" Name="LockUnlockDialogOption_ModalToAppMainWind" />
+					<EnumerationMember Value="539" Name="LockUnlockDialogOption_None" />
+					<EnumerationMember Value="540" Name="LockUnlockDialogOption_Unlock" />
+					<EnumerationMember Value="541" Name="ModelOption_NoModel" />
+					<EnumerationMember Value="542" Name="ModelOption_RequireSpecificModel" />
+					<EnumerationMember Value="543" Name="ModelOption_UseStationModel" />
+					<EnumerationMember Value="544" Name="MsgBox_Custom" />
+					<EnumerationMember Value="545" Name="MsgBox_Error" />
+					<EnumerationMember Value="546" Name="MsgBox_Information" />
+					<EnumerationMember Value="547" Name="MsgBox_Warning" />
+					<EnumerationMember Value="548" Name="NewThreadOption_AutoWaitAtEndOfSequence" />
+					<EnumerationMember Value="549" Name="NewThreadOption_InitiallySuspended" />
+					<EnumerationMember Value="550" Name="NewThreadOption_NoOptions" />
+					<EnumerationMember Value="551" Name="NewThreadOption_UseSTA" />
+					<EnumerationMember Value="552" Name="OpenFile_DisableUseAbsPathCheck" />
+					<EnumerationMember Value="553" Name="OpenFile_FileMustNotExist" />
+					<EnumerationMember Value="554" Name="OpenFile_HideMultiSelectListCtrl" />
+					<EnumerationMember Value="555" Name="OpenFile_HideUseAbsPathCheck" />
+					<EnumerationMember Value="556" Name="OpenFile_IgnoreInitialPathExtension" />
+					<EnumerationMember Value="557" Name="OpenFile_InitialSetBrowseIntoLLB" />
+					<EnumerationMember Value="558" Name="OpenFile_InitialSetUseAbsPathCheck" />
+					<EnumerationMember Value="559" Name="OpenFile_InitialUnsetUseAbsPathCheck" />
+					<EnumerationMember Value="560" Name="OpenFile_ModalToAppMainWind" />
+					<EnumerationMember Value="561" Name="OpenFile_NoOptions" />
+					<EnumerationMember Value="562" Name="OpenFile_ResolveNonExistentFile" />
+					<EnumerationMember Value="563" Name="OpenFile_SaveAsDialog" />
+					<EnumerationMember Value="564" Name="OpenFile_SelectDirectoriesOnly" />
+					<EnumerationMember Value="565" Name="OpenFile_ShowBrowseIntoLLBCheck" />
+					<EnumerationMember Value="566" Name="OpenFile_SubstituteMacrosByDefault" />
+					<EnumerationMember Value="567" Name="OpenFile_UseAbsolutePath" />
+					<EnumerationMember Value="568" Name="OpenFile_UseRelativePath" />
+					<EnumerationMember Value="569" Name="OpenFile_UseSequenceFileFilters" />
+					<EnumerationMember Value="570" Name="OpenStatus_InWindow" />
+					<EnumerationMember Value="571" Name="OpenWorkspaceFile_IgnoreMissingFiles" />
+					<EnumerationMember Value="572" Name="OpenWorkspaceFile_NoOptions" />
+					<EnumerationMember Value="573" Name="OpenWorkspaceFile_SearchCurrentDirectory" />
+					<EnumerationMember Value="574" Name="OpenWorkspaceFile_UseSearchDirectories" />
+					<EnumerationMember Value="575" Name="OutputMessageSeverity_Error" />
+					<EnumerationMember Value="576" Name="OutputMessageSeverity_Information" />
+					<EnumerationMember Value="577" Name="OutputMessageSeverity_Warning" />
+					<EnumerationMember Value="578" Name="ParseLookupStringOption_NoOptions" />
+					<EnumerationMember Value="579" Name="ParseLookupStringOption_TreatArrayIndicesAsSeparateTokens" />
+					<EnumerationMember Value="580" Name="PerformActionOption_No" />
+					<EnumerationMember Value="581" Name="PerformActionOption_Prompt" />
+					<EnumerationMember Value="582" Name="PerformActionOption_Yes" />
+					<EnumerationMember Value="583" Name="PostResultsCallbackMaskOption_All" />
+					<EnumerationMember Value="584" Name="PostResultsCallbackMaskOption_None" />
+					<EnumerationMember Value="585" Name="PostResultsCallbackMaskOption_PostAction" />
+					<EnumerationMember Value="586" Name="PostResultsCallbackMaskOption_PostInteractive" />
+					<EnumerationMember Value="587" Name="PostResultsCallbackMaskOption_PostResultListEntry" />
+					<EnumerationMember Value="588" Name="PostResultsCallbackMaskOption_PostStep" />
+					<EnumerationMember Value="589" Name="PostResultsCallbackMaskOption_PostStepFailure" />
+					<EnumerationMember Value="590" Name="PostResultsCallbackMaskOption_PostStepRuntimeError" />
+					<EnumerationMember Value="591" Name="PostResultsCallbackMaskOption_PreInteractive" />
+					<EnumerationMember Value="592" Name="PostResultsCallbackMaskOption_PreStep" />
+					<EnumerationMember Value="593" Name="PostResultsCallbackMaskOption_SequenceCall" />
+					<EnumerationMember Value="594" Name="PostResultsCallbackOption_CallAfterProvisionalResult" />
+					<EnumerationMember Value="595" Name="PostResultsCallbackOption_NoOptions" />
+					<EnumerationMember Value="596" Name="PromptResult_Cancel" />
+					<EnumerationMember Value="597" Name="PromptResult_No" />
+					<EnumerationMember Value="598" Name="PromptResult_Yes" />
+					<EnumerationMember Value="599" Name="PropDlgOption_DisableAdvancedButton" />
+					<EnumerationMember Value="600" Name="PropDlgOption_DisableNumericFormatButton" />
+					<EnumerationMember Value="601" Name="PropDlgOption_ModalToAppMainWind" />
+					<EnumerationMember Value="602" Name="PropDlgOption_NoOptions" />
+					<EnumerationMember Value="603" Name="PropDlgOption_ReadOnly" />
+					<EnumerationMember Value="604" Name="PropDlgOption_ShowViewContentsButton" />
+					<EnumerationMember Value="605" Name="PropDlgOutput_AppliedChanges" />
+					<EnumerationMember Value="606" Name="PropDlgOutput_AppliedToAllInstances" />
+					<EnumerationMember Value="607" Name="PropDlgOutput_ModifiedFile" />
+					<EnumerationMember Value="608" Name="PropDlgOutput_ModifiedObject" />
+					<EnumerationMember Value="609" Name="PropDlgOutput_ViewContents" />
+					<EnumerationMember Value="610" Name="PropFlags_CommentNotEditable" />
+					<EnumerationMember Value="611" Name="PropFlags_DontCopyToResults" />
+					<EnumerationMember Value="612" Name="PropFlags_DontTypeCheckParameter" />
+					<EnumerationMember Value="613" Name="PropFlags_ExcludeFromComparison" />
+					<EnumerationMember Value="614" Name="PropFlags_ExcludeFromCopy" />
+					<EnumerationMember Value="615" Name="PropFlags_Hidden" />
+					<EnumerationMember Value="616" Name="PropFlags_HiddenInTypes" />
+					<EnumerationMember Value="617" Name="PropFlags_IncludeInReport" />
+					<EnumerationMember Value="618" Name="PropFlags_IntermediateExprValue" />
+					<EnumerationMember Value="619" Name="PropFlags_IsLimit" />
+					<EnumerationMember Value="620" Name="PropFlags_IsMeasurementValue" />
+					<EnumerationMember Value="621" Name="PropFlags_NameNotEditable" />
+					<EnumerationMember Value="622" Name="PropFlags_NoFlags" />
+					<EnumerationMember Value="623" Name="PropFlags_NotDeletable" />
+					<EnumerationMember Value="624" Name="PropFlags_NotEditable" />
+					<EnumerationMember Value="625" Name="PropFlags_PassByReference" />
+					<EnumerationMember Value="626" Name="PropFlags_PermitPropagation" />
+					<EnumerationMember Value="627" Name="PropFlags_Propagate" />
+					<EnumerationMember Value="628" Name="PropFlags_SerializeAlias" />
+					<EnumerationMember Value="629" Name="PropFlags_Shared" />
+					<EnumerationMember Value="630" Name="PropFlags_SharedAtRunTime" />
+					<EnumerationMember Value="631" Name="PropFlags_UnstructuredProperty" />
+					<EnumerationMember Value="632" Name="PropOption_CaseInsensitive" />
+					<EnumerationMember Value="633" Name="PropOption_Coerce" />
+					<EnumerationMember Value="634" Name="PropOption_CoerceBadNumbersToZero" />
+					<EnumerationMember Value="635" Name="PropOption_CoerceFromBoolean" />
+					<EnumerationMember Value="636" Name="PropOption_CoerceFromNumber" />
+					<EnumerationMember Value="637" Name="PropOption_CoerceFromReference" />
+					<EnumerationMember Value="638" Name="PropOption_CoerceFromString" />
+					<EnumerationMember Value="639" Name="PropOption_CoerceToBoolean" />
+					<EnumerationMember Value="640" Name="PropOption_CoerceToNumber" />
+					<EnumerationMember Value="641" Name="PropOption_CoerceToReference" />
+					<EnumerationMember Value="642" Name="PropOption_CoerceToString" />
+					<EnumerationMember Value="643" Name="PropOption_CopyAllFlags" />
+					<EnumerationMember Value="644" Name="PropOption_DecimalPoint_UseComma" />
+					<EnumerationMember Value="645" Name="PropOption_DecimalPoint_UsePeriod" />
+					<EnumerationMember Value="646" Name="PropOption_DecimalPoint_UsePreference" />
+					<EnumerationMember Value="647" Name="PropOption_DecimalPoint_UseSystemSetting" />
+					<EnumerationMember Value="648" Name="PropOption_DeleteIfExists" />
+					<EnumerationMember Value="649" Name="PropOption_DoNotAdoptCurrentName" />
+					<EnumerationMember Value="650" Name="PropOption_DoNotRecurse" />
+					<EnumerationMember Value="651" Name="PropOption_DoNotShareProperties" />
+					<EnumerationMember Value="652" Name="PropOption_DoNothingIfExists" />
+					<EnumerationMember Value="653" Name="PropOption_InsertElement" />
+					<EnumerationMember Value="654" Name="PropOption_InsertIfMissing" />
+					<EnumerationMember Value="655" Name="PropOption_NoOptions" />
+					<EnumerationMember Value="656" Name="PropOption_NotOwning" />
+					<EnumerationMember Value="657" Name="PropOption_OverrideNotDeletable" />
+					<EnumerationMember Value="658" Name="PropOption_ReferToAlias" />
+					<EnumerationMember Value="659" Name="PropOption_RemoveElement" />
+					<EnumerationMember Value="660" Name="PropOption_RequireIdenticalStructure" />
+					<EnumerationMember Value="661" Name="PropOption_SetOnlyIfDoesNotExist" />
+					<EnumerationMember Value="662" Name="PropTypeFlags_DisableEditingInstanceFlags" />
+					<EnumerationMember Value="663" Name="PropTypeFlags_IsModifiedType" />
+					<EnumerationMember Value="664" Name="PropTypeFlags_NIInstalledType" />
+					<EnumerationMember Value="665" Name="PropTypeFlags_NoAutoConvertVersions" />
+					<EnumerationMember Value="666" Name="PropTypeFlags_NoFlags" />
+					<EnumerationMember Value="667" Name="PropTypeFlags_PreventEditingType" />
+					<EnumerationMember Value="668" Name="PropValTypeFlag_Any" />
+					<EnumerationMember Value="669" Name="PropValTypeFlag_ArrayOfNamedType" />
+					<EnumerationMember Value="670" Name="PropValTypeFlag_Boolean" />
+					<EnumerationMember Value="671" Name="PropValTypeFlag_BooleanArray" />
+					<EnumerationMember Value="672" Name="PropValTypeFlag_Container" />
+					<EnumerationMember Value="673" Name="PropValTypeFlag_ContainerArray" />
+					<EnumerationMember Value="674" Name="PropValTypeFlag_NamedType" />
+					<EnumerationMember Value="675" Name="PropValTypeFlag_Nothing" />
+					<EnumerationMember Value="676" Name="PropValTypeFlag_Number" />
+					<EnumerationMember Value="677" Name="PropValTypeFlag_NumberArray" />
+					<EnumerationMember Value="678" Name="PropValTypeFlag_Object" />
+					<EnumerationMember Value="679" Name="PropValTypeFlag_PlainContainer" />
+					<EnumerationMember Value="680" Name="PropValTypeFlag_PlainReference" />
+					<EnumerationMember Value="681" Name="PropValTypeFlag_Reference" />
+					<EnumerationMember Value="682" Name="PropValTypeFlag_ReferenceArray" />
+					<EnumerationMember Value="683" Name="PropValTypeFlag_String" />
+					<EnumerationMember Value="684" Name="PropValTypeFlag_StringArray" />
+					<EnumerationMember Value="685" Name="PropValType_Array" />
+					<EnumerationMember Value="686" Name="PropValType_Boolean" />
+					<EnumerationMember Value="687" Name="PropValType_Container" />
+					<EnumerationMember Value="688" Name="PropValType_NamedType" />
+					<EnumerationMember Value="689" Name="PropValType_Number" />
+					<EnumerationMember Value="690" Name="PropValType_Reference" />
+					<EnumerationMember Value="691" Name="PropValType_String" />
+					<EnumerationMember Value="692" Name="PropertyObjectElement_Attributes" />
+					<EnumerationMember Value="693" Name="PropertyObjectElement_Comment" />
+					<EnumerationMember Value="694" Name="PropertyObjectElement_Flags" />
+					<EnumerationMember Value="695" Name="PropertyObjectElement_Name" />
+					<EnumerationMember Value="696" Name="PropertyObjectElement_None" />
+					<EnumerationMember Value="697" Name="PropertyObjectElement_NumericFormat" />
+					<EnumerationMember Value="698" Name="PropertyObjectElement_Representation" />
+					<EnumerationMember Value="699" Name="PropertyObjectElement_Value" />
+					<EnumerationMember Value="700" Name="PropertyRepresentation_Float64" />
+					<EnumerationMember Value="701" Name="PropertyRepresentation_Int64" />
+					<EnumerationMember Value="702" Name="PropertyRepresentation_None" />
+					<EnumerationMember Value="703" Name="PropertyRepresentation_UInt64" />
+					<EnumerationMember Value="704" Name="ProtectedObjectOption_None" />
+					<EnumerationMember Value="705" Name="ProtectedObjectOption_NotEditable" />
+					<EnumerationMember Value="706" Name="ProtectedObjectOption_NotViewable" />
+					<EnumerationMember Value="707" Name="RTEOption_Abort" />
+					<EnumerationMember Value="708" Name="RTEOption_Continue" />
+					<EnumerationMember Value="709" Name="RTEOption_Ignore" />
+					<EnumerationMember Value="710" Name="RTEOption_Retry" />
+					<EnumerationMember Value="711" Name="RTEOption_ShowDialog" />
+					<EnumerationMember Value="712" Name="RWOption_DoNotWriteTypes" />
+					<EnumerationMember Value="713" Name="RWOption_EraseAll" />
+					<EnumerationMember Value="714" Name="RWOption_EraseExistingObject" />
+					<EnumerationMember Value="715" Name="RWOption_NoOptions" />
+					<EnumerationMember Value="716" Name="RWOption_ValuesOnly" />
+					<EnumerationMember Value="717" Name="ReadPropertyObjectFileOption_None" />
+					<EnumerationMember Value="718" Name="ReadPropertyObjectFileOption_TypesOnly" />
+					<EnumerationMember Value="719" Name="ReleaseSeqFile_DoNotRunUnloadCallback" />
+					<EnumerationMember Value="720" Name="ReleaseSeqFile_NoOptions" />
+					<EnumerationMember Value="721" Name="ReleaseSeqFile_UnloadFile" />
+					<EnumerationMember Value="722" Name="ReleaseSeqFile_UnloadFileIfModified" />
+					<EnumerationMember Value="723" Name="ReportConv_FromCRLF" />
+					<EnumerationMember Value="724" Name="ReportConv_NoConversion" />
+					<EnumerationMember Value="725" Name="ReportConv_ToCRLF" />
+					<EnumerationMember Value="726" Name="ResetTypeInst_NoOptions" />
+					<EnumerationMember Value="727" Name="ResetTypeInst_RecurseSubProperties" />
+					<EnumerationMember Value="728" Name="ResetTypeInst_ResetFlags" />
+					<EnumerationMember Value="729" Name="ResetTypeInst_ResetValues" />
+					<EnumerationMember Value="730" Name="RestartOption_BreakOnEntry" />
+					<EnumerationMember Value="731" Name="RestartOption_BreakOnSequenceFailure" />
+					<EnumerationMember Value="732" Name="RestartOption_BreakOnStepFailure" />
+					<EnumerationMember Value="733" Name="RestartOption_NoOptions" />
+					<EnumerationMember Value="734" Name="RestartOption_OverrideNotRestartable" />
+					<EnumerationMember Value="735" Name="ResultLogRecordType_BatchDone" />
+					<EnumerationMember Value="736" Name="ResultLogRecordType_BatchStart" />
+					<EnumerationMember Value="737" Name="ResultLogRecordType_Begin" />
+					<EnumerationMember Value="738" Name="ResultLogRecordType_Deleted" />
+					<EnumerationMember Value="739" Name="ResultLogRecordType_End" />
+					<EnumerationMember Value="740" Name="ResultLogRecordType_NotARecordType" />
+					<EnumerationMember Value="741" Name="ResultLogRecordType_OnTheFlyStepResults" />
+					<EnumerationMember Value="742" Name="ResultLogRecordType_PostBatch" />
+					<EnumerationMember Value="743" Name="ResultLogRecordType_PostUUT" />
+					<EnumerationMember Value="744" Name="ResultLogRecordType_PreBatch" />
+					<EnumerationMember Value="745" Name="ResultLogRecordType_PreUUT" />
+					<EnumerationMember Value="746" Name="ResultLogRecordType_UUTDone" />
+					<EnumerationMember Value="747" Name="ResultLogRecordType_UUTStart" />
+					<EnumerationMember Value="748" Name="ResultRecordingOption_Disabled" />
+					<EnumerationMember Value="749" Name="ResultRecordingOption_Enabled" />
+					<EnumerationMember Value="750" Name="ResultRecordingOption_EnabledAndOverrideSequenceSetting" />
+					<EnumerationMember Value="751" Name="SCCmdOption_DoNotRecurse" />
+					<EnumerationMember Value="752" Name="SCCmdOption_NoOptions" />
+					<EnumerationMember Value="753" Name="SCCmdOption_ShowPromptDialog" />
+					<EnumerationMember Value="754" Name="SCCmdOption_SkipErrorDialog" />
+					<EnumerationMember Value="755" Name="SCCmdOption_SkipPromptDialog" />
+					<EnumerationMember Value="756" Name="SCCmd_AddToSC" />
+					<EnumerationMember Value="757" Name="SCCmd_CheckIn" />
+					<EnumerationMember Value="758" Name="SCCmd_CheckOut" />
+					<EnumerationMember Value="759" Name="SCCmd_GetLatest" />
+					<EnumerationMember Value="760" Name="SCCmd_RemoveFromSC" />
+					<EnumerationMember Value="761" Name="SCCmd_ShowDifferences" />
+					<EnumerationMember Value="762" Name="SCCmd_ShowHistory" />
+					<EnumerationMember Value="763" Name="SCCmd_ShowProperties" />
+					<EnumerationMember Value="764" Name="SCCmd_ShowProviderOptions" />
+					<EnumerationMember Value="765" Name="SCCmd_UndoCheckOut" />
+					<EnumerationMember Value="766" Name="SCStatus_CheckedOut" />
+					<EnumerationMember Value="767" Name="SCStatus_CheckedOutByUser" />
+					<EnumerationMember Value="768" Name="SCStatus_CheckedOutMultiple" />
+					<EnumerationMember Value="769" Name="SCStatus_CheckedOutOther" />
+					<EnumerationMember Value="770" Name="SCStatus_Deleted" />
+					<EnumerationMember Value="771" Name="SCStatus_InSC" />
+					<EnumerationMember Value="772" Name="SCStatus_NotInSC" />
+					<EnumerationMember Value="773" Name="SCStatus_OutOfDate" />
+					<EnumerationMember Value="774" Name="SaveAllSeqFiles_NoOptions" />
+					<EnumerationMember Value="775" Name="SaveAllSeqFiles_PromptUser" />
+					<EnumerationMember Value="776" Name="SaveWorkspaceFile_NoOptions" />
+					<EnumerationMember Value="777" Name="SaveWorkspaceFile_PromptUser" />
+					<EnumerationMember Value="778" Name="SaveWorkspaceFile_SkipReadOnlyFiles" />
+					<EnumerationMember Value="779" Name="SaveWorkspaceFile_SkipWorkspaceFile" />
+					<EnumerationMember Value="780" Name="SearchDirectoryType_AdapterSupportDir" />
+					<EnumerationMember Value="781" Name="SearchDirectoryType_ApplicationDir" />
+					<EnumerationMember Value="782" Name="SearchDirectoryType_ContainingProjectDir" />
+					<EnumerationMember Value="783" Name="SearchDirectoryType_CurrentSequenceFileDir" />
+					<EnumerationMember Value="784" Name="SearchDirectoryType_CurrentWorkspaceDir" />
+					<EnumerationMember Value="785" Name="SearchDirectoryType_ExplicitDir" />
+					<EnumerationMember Value="786" Name="SearchDirectoryType_InitialWorkingDir" />
+					<EnumerationMember Value="787" Name="SearchDirectoryType_NIComponentsDir" />
+					<EnumerationMember Value="788" Name="SearchDirectoryType_PathEnvironmentVarDir" />
+					<EnumerationMember Value="789" Name="SearchDirectoryType_PublicComponentsDir" />
+					<EnumerationMember Value="790" Name="SearchDirectoryType_TestStandBinDir" />
+					<EnumerationMember Value="791" Name="SearchDirectoryType_TestStandDir" />
+					<EnumerationMember Value="792" Name="SearchDirectoryType_TestStandPublicDir" />
+					<EnumerationMember Value="793" Name="SearchDirectoryType_UserComponentsDir" />
+					<EnumerationMember Value="794" Name="SearchDirectoryType_WindowsDir" />
+					<EnumerationMember Value="795" Name="SearchDirectoryType_WindowsSystemDir" />
+					<EnumerationMember Value="796" Name="SearchElement_All" />
+					<EnumerationMember Value="797" Name="SearchElement_AllValues" />
+					<EnumerationMember Value="798" Name="SearchElement_Attributes" />
+					<EnumerationMember Value="799" Name="SearchElement_BooleanValue" />
+					<EnumerationMember Value="800" Name="SearchElement_Comment" />
+					<EnumerationMember Value="801" Name="SearchElement_Name" />
+					<EnumerationMember Value="802" Name="SearchElement_NumericValue" />
+					<EnumerationMember Value="803" Name="SearchElement_StringValue" />
+					<EnumerationMember Value="804" Name="SearchElement_TypeName" />
+					<EnumerationMember Value="805" Name="SearchFilterOptions_All" />
+					<EnumerationMember Value="806" Name="SearchFilterOptions_BuiltinSeqAndSeqFileProps" />
+					<EnumerationMember Value="807" Name="SearchFilterOptions_BuiltinStepProps" />
+					<EnumerationMember Value="808" Name="SearchFilterOptions_CustomDataTypes" />
+					<EnumerationMember Value="809" Name="SearchFilterOptions_CustomStepProps" />
+					<EnumerationMember Value="810" Name="SearchFilterOptions_FileGlobals" />
+					<EnumerationMember Value="811" Name="SearchFilterOptions_Locals" />
+					<EnumerationMember Value="812" Name="SearchFilterOptions_ModuleStepProps" />
+					<EnumerationMember Value="813" Name="SearchFilterOptions_Parameters" />
+					<EnumerationMember Value="814" Name="SearchFilterOptions_StandardDataTypes" />
+					<EnumerationMember Value="815" Name="SearchFilterOptions_StepTypes" />
+					<EnumerationMember Value="816" Name="SearchFilterOptions_Steps" />
+					<EnumerationMember Value="817" Name="SearchFilterOptions_TypesOnly" />
+					<EnumerationMember Value="818" Name="SearchOptions_IncludeSubsequenceFiles" />
+					<EnumerationMember Value="819" Name="SearchOptions_MatchCase" />
+					<EnumerationMember Value="820" Name="SearchOptions_RegExpr" />
+					<EnumerationMember Value="821" Name="SearchOptions_WholeWordOnly" />
+					<EnumerationMember Value="822" Name="SeqDefValueScope_Execution" />
+					<EnumerationMember Value="823" Name="SeqDefValueScope_ExecutionTree" />
+					<EnumerationMember Value="824" Name="SeqFileBatchSyncOption_NoSync" />
+					<EnumerationMember Value="825" Name="SeqFileBatchSyncOption_OneThreadOnly" />
+					<EnumerationMember Value="826" Name="SeqFileBatchSyncOption_Parallel" />
+					<EnumerationMember Value="827" Name="SeqFileBatchSyncOption_Serial" />
+					<EnumerationMember Value="828" Name="SeqFileBatchSyncOption_UseModelSetting" />
+					<EnumerationMember Value="829" Name="SeqFileType_FrontEndCBacks" />
+					<EnumerationMember Value="830" Name="SeqFileType_Model" />
+					<EnumerationMember Value="831" Name="SeqFileType_Normal" />
+					<EnumerationMember Value="832" Name="SeqFileType_StationCBacks" />
+					<EnumerationMember Value="833" Name="SeqFileType_Template" />
+					<EnumerationMember Value="834" Name="SeqType_Callback" />
+					<EnumerationMember Value="835" Name="SeqType_CfgEntryPoint" />
+					<EnumerationMember Value="836" Name="SeqType_ExeEntryPoint" />
+					<EnumerationMember Value="837" Name="SeqType_Normal" />
+					<EnumerationMember Value="838" Name="SeqType_ReservedCallback" />
+					<EnumerationMember Value="839" Name="SequenceFileDifferOptions_IgnoreUniqueStepId" />
+					<EnumerationMember Value="840" Name="SequenceFileDifferOptions_NoOptions" />
+					<EnumerationMember Value="841" Name="SequenceFileDifferenceType_ArrayDimensions" />
+					<EnumerationMember Value="842" Name="SequenceFileDifferenceType_Attributes" />
+					<EnumerationMember Value="843" Name="SequenceFileDifferenceType_ChangeComment" />
+					<EnumerationMember Value="844" Name="SequenceFileDifferenceType_ChangeFlags" />
+					<EnumerationMember Value="845" Name="SequenceFileDifferenceType_ChangeNumericFormat" />
+					<EnumerationMember Value="846" Name="SequenceFileDifferenceType_ChangeType" />
+					<EnumerationMember Value="847" Name="SequenceFileDifferenceType_ChangeValue" />
+					<EnumerationMember Value="848" Name="SequenceFileDifferenceType_Delete" />
+					<EnumerationMember Value="849" Name="SequenceFileDifferenceType_Insert" />
+					<EnumerationMember Value="850" Name="SequenceFileDifferenceType_NoDifference" />
+					<EnumerationMember Value="851" Name="SequenceFileDifferenceType_SubProperties" />
+					<EnumerationMember Value="852" Name="SequenceFileDifferenceType_UnknownProblem" />
+					<EnumerationMember Value="853" Name="SerializationOption_NoOptions" />
+					<EnumerationMember Value="854" Name="SerializationOption_SupportNonTypedefMatchingInstances" />
+					<EnumerationMember Value="855" Name="SerializationOption_UseBinary" />
+					<EnumerationMember Value="856" Name="SerializationOption_UseXml" />
+					<EnumerationMember Value="857" Name="SetTempFileDirectoryOption_Default" />
+					<EnumerationMember Value="858" Name="SetTempFileDirectoryOption_NeverOverride" />
+					<EnumerationMember Value="859" Name="SpecMod_AllowPrototypeChanges" />
+					<EnumerationMember Value="860" Name="SpecMod_NoOptions" />
+					<EnumerationMember Value="861" Name="SpecMod_NoParameterLogging" />
+					<EnumerationMember Value="862" Name="SpecMod_NoSyntaxChecking" />
+					<EnumerationMember Value="863" Name="SpecMod_ReadOnly" />
+					<EnumerationMember Value="864" Name="SpecifyStepsByUniqueIdOption_Ask" />
+					<EnumerationMember Value="865" Name="SpecifyStepsByUniqueIdOption_No" />
+					<EnumerationMember Value="866" Name="SpecifyStepsByUniqueIdOption_Yes" />
+					<EnumerationMember Value="867" Name="StepDescOption_IncludeBreakpoint" />
+					<EnumerationMember Value="868" Name="StepDescOption_Long" />
+					<EnumerationMember Value="869" Name="StepDescOption_NoOptions" />
+					<EnumerationMember Value="870" Name="StepGroup_Cleanup" />
+					<EnumerationMember Value="871" Name="StepGroup_Main" />
+					<EnumerationMember Value="872" Name="StepGroup_Setup" />
+					<EnumerationMember Value="873" Name="SwitchExecLifetime_Execution" />
+					<EnumerationMember Value="874" Name="SwitchExecLifetime_Manual" />
+					<EnumerationMember Value="875" Name="SwitchExecLifetime_Sequence" />
+					<EnumerationMember Value="876" Name="SwitchExecLifetime_Step" />
+					<EnumerationMember Value="877" Name="SwitchExecLifetime_Thread" />
+					<EnumerationMember Value="878" Name="SwitchExecMulticonnectMode_Default" />
+					<EnumerationMember Value="879" Name="SwitchExecMulticonnectMode_Multiconnect" />
+					<EnumerationMember Value="880" Name="SwitchExecMulticonnectMode_None" />
+					<EnumerationMember Value="881" Name="SwitchExecOperationOrder_DisconnectAfterConnect" />
+					<EnumerationMember Value="882" Name="SwitchExecOperationOrder_DisconnectBeforeConnect" />
+					<EnumerationMember Value="883" Name="SwitchExecOperation_Connect" />
+					<EnumerationMember Value="884" Name="SwitchExecOperation_ConnectDisconnect" />
+					<EnumerationMember Value="885" Name="SwitchExecOperation_Disconnect" />
+					<EnumerationMember Value="886" Name="SwitchExecOperation_DisconnectAll" />
+					<EnumerationMember Value="887" Name="TS_Err_AccessDenied" />
+					<EnumerationMember Value="888" Name="TS_Err_ActiveXAutomationServerException" />
+					<EnumerationMember Value="889" Name="TS_Err_AdapterNoConnectToAutoServer" />
+					<EnumerationMember Value="890" Name="TS_Err_AdapterServerConnectionLost" />
+					<EnumerationMember Value="891" Name="TS_Err_ArrayDimensionExpected" />
+					<EnumerationMember Value="892" Name="TS_Err_ArrayDimensionSizeExpected" />
+					<EnumerationMember Value="893" Name="TS_Err_ArrayIndexOutOfBounds" />
+					<EnumerationMember Value="894" Name="TS_Err_ArrayLocked" />
+					<EnumerationMember Value="895" Name="TS_Err_ArrayTypeExpected" />
+					<EnumerationMember Value="896" Name="TS_Err_AutomationObjNotValid" />
+					<EnumerationMember Value="897" Name="TS_Err_BadExpressionError" />
+					<EnumerationMember Value="898" Name="TS_Err_BadFileFormat" />
+					<EnumerationMember Value="899" Name="TS_Err_BadNetPath" />
+					<EnumerationMember Value="900" Name="TS_Err_BadPropertyOrVariableName" />
+					<EnumerationMember Value="901" Name="TS_Err_CVIAutoCmdFailed" />
+					<EnumerationMember Value="902" Name="TS_Err_CVICantConnectToTecrunServer" />
+					<EnumerationMember Value="903" Name="TS_Err_CVIFuncNotFoundInModule" />
+					<EnumerationMember Value="904" Name="TS_Err_CVIModuleHasUnresolvedReferences" />
+					<EnumerationMember Value="905" Name="TS_Err_CVINonDllModuleNotSupported" />
+					<EnumerationMember Value="906" Name="TS_Err_CVINotReg" />
+					<EnumerationMember Value="907" Name="TS_Err_CVIOleError" />
+					<EnumerationMember Value="908" Name="TS_Err_CVIRegGenericReadError" />
+					<EnumerationMember Value="909" Name="TS_Err_CVIRegKeyNotFound" />
+					<EnumerationMember Value="910" Name="TS_Err_CVIRegValueNotFound" />
+					<EnumerationMember Value="911" Name="TS_Err_CVIRegValueTypeMismatch" />
+					<EnumerationMember Value="912" Name="TS_Err_CVIUnableToTerminateUserProgInCVI" />
+					<EnumerationMember Value="913" Name="TS_Err_CVIVersionNotSupported" />
+					<EnumerationMember Value="914" Name="TS_Err_ConvertedErrorCode" />
+					<EnumerationMember Value="915" Name="TS_Err_CurrentSeqFileNotAvailable" />
+					<EnumerationMember Value="916" Name="TS_Err_DDEFail" />
+					<EnumerationMember Value="917" Name="TS_Err_DLLNotLoadable" />
+					<EnumerationMember Value="918" Name="TS_Err_DNAssemblyMissing" />
+					<EnumerationMember Value="919" Name="TS_Err_DiskFull" />
+					<EnumerationMember Value="920" Name="TS_Err_DispMissingParamID" />
+					<EnumerationMember Value="921" Name="TS_Err_DispMissingParamName" />
+					<EnumerationMember Value="922" Name="TS_Err_DispMissingRequiredArg" />
+					<EnumerationMember Value="923" Name="TS_Err_DispObsoleteMember" />
+					<EnumerationMember Value="924" Name="TS_Err_DispUnknownInterface" />
+					<EnumerationMember Value="925" Name="TS_Err_DispUnknownMemberID" />
+					<EnumerationMember Value="926" Name="TS_Err_DispUnknownMemberName" />
+					<EnumerationMember Value="927" Name="TS_Err_DispUnknownParamID" />
+					<EnumerationMember Value="928" Name="TS_Err_DispUnknownParamName" />
+					<EnumerationMember Value="929" Name="TS_Err_DispWrongNumPositionalParams" />
+					<EnumerationMember Value="930" Name="TS_Err_DoesNotHaveRequiredPrivilege" />
+					<EnumerationMember Value="931" Name="TS_Err_DriveNotReady" />
+					<EnumerationMember Value="932" Name="TS_Err_DuplicateItemOrValue" />
+					<EnumerationMember Value="933" Name="TS_Err_EmptyExpressionError" />
+					<EnumerationMember Value="934" Name="TS_Err_EvaluateFunctionEmptyExpressionError" />
+					<EnumerationMember Value="935" Name="TS_Err_EvaluationContextNotAvailable" />
+					<EnumerationMember Value="936" Name="TS_Err_ExprTypeIncompatibleWithParameter" />
+					<EnumerationMember Value="937" Name="TS_Err_ExprValueNotSuperSetOfParameter" />
+					<EnumerationMember Value="938" Name="TS_Err_ExternalServerUnavailable" />
+					<EnumerationMember Value="939" Name="TS_Err_FailToRegisterClipFormat" />
+					<EnumerationMember Value="940" Name="TS_Err_FileAlreadyExists" />
+					<EnumerationMember Value="941" Name="TS_Err_FileFormatIsOutOfDate" />
+					<EnumerationMember Value="942" Name="TS_Err_FileFormatNewerThanCurrentVersion" />
+					<EnumerationMember Value="943" Name="TS_Err_FileNotConvertableToSeqFile" />
+					<EnumerationMember Value="944" Name="TS_Err_FileWasNotFound" />
+					<EnumerationMember Value="945" Name="TS_Err_FunctionNotFoundInLib" />
+					<EnumerationMember Value="946" Name="TS_Err_IOError" />
+					<EnumerationMember Value="947" Name="TS_Err_IllegalOperationOnValue" />
+					<EnumerationMember Value="948" Name="TS_Err_IncompatibleParameters" />
+					<EnumerationMember Value="949" Name="TS_Err_IndexOutOfRange" />
+					<EnumerationMember Value="950" Name="TS_Err_Int32Overflow" />
+					<EnumerationMember Value="951" Name="TS_Err_InvalidAdapterName" />
+					<EnumerationMember Value="952" Name="TS_Err_InvalidDrive" />
+					<EnumerationMember Value="953" Name="TS_Err_InvalidPathname" />
+					<EnumerationMember Value="954" Name="TS_Err_InvalidPointer" />
+					<EnumerationMember Value="955" Name="TS_Err_InvalidRegularExpression" />
+					<EnumerationMember Value="956" Name="TS_Err_ItemCannotBeDeleted" />
+					<EnumerationMember Value="957" Name="TS_Err_LVAutoServerError" />
+					<EnumerationMember Value="958" Name="TS_Err_LVMissingRequiredArg" />
+					<EnumerationMember Value="959" Name="TS_Err_LVRTDllNotLoaded" />
+					<EnumerationMember Value="960" Name="TS_Err_LVReportedError" />
+					<EnumerationMember Value="961" Name="TS_Err_LVRunTimeEngineError" />
+					<EnumerationMember Value="962" Name="TS_Err_LVTypeConversionError" />
+					<EnumerationMember Value="963" Name="TS_Err_LValueExpected" />
+					<EnumerationMember Value="964" Name="TS_Err_LabVIEWTypeNotSupportedInCVI" />
+					<EnumerationMember Value="965" Name="TS_Err_MeasStudioInterfaceNotFound" />
+					<EnumerationMember Value="966" Name="TS_Err_MemoryChecking" />
+					<EnumerationMember Value="967" Name="TS_Err_MethodOrPropertyNotAvailable" />
+					<EnumerationMember Value="968" Name="TS_Err_MismatchedArrayBounds" />
+					<EnumerationMember Value="969" Name="TS_Err_MismatchedItems" />
+					<EnumerationMember Value="970" Name="TS_Err_MissingType" />
+					<EnumerationMember Value="971" Name="TS_Err_ModuleLoadFailure" />
+					<EnumerationMember Value="972" Name="TS_Err_ModuleNotSpecified" />
+					<EnumerationMember Value="973" Name="TS_Err_NameAlreadyInUse" />
+					<EnumerationMember Value="974" Name="TS_Err_NoError" />
+					<EnumerationMember Value="975" Name="TS_Err_NoFileAssoc" />
+					<EnumerationMember Value="976" Name="TS_Err_NoItemsInList" />
+					<EnumerationMember Value="977" Name="TS_Err_NotSupported" />
+					<EnumerationMember Value="978" Name="TS_Err_OS_Exception" />
+					<EnumerationMember Value="979" Name="TS_Err_ObjectCannotBeAdded" />
+					<EnumerationMember Value="980" Name="TS_Err_ObjectLocked" />
+					<EnumerationMember Value="981" Name="TS_Err_ObjectTypeIncompatibleWithParameter" />
+					<EnumerationMember Value="982" Name="TS_Err_OperationCanceled" />
+					<EnumerationMember Value="983" Name="TS_Err_OperationFailed" />
+					<EnumerationMember Value="984" Name="TS_Err_OperationInProgress" />
+					<EnumerationMember Value="985" Name="TS_Err_OperationOnlyValidWhenSuspended" />
+					<EnumerationMember Value="986" Name="TS_Err_OperationTimedOut" />
+					<EnumerationMember Value="987" Name="TS_Err_OutOfMemory" />
+					<EnumerationMember Value="988" Name="TS_Err_PathNotFound" />
+					<EnumerationMember Value="989" Name="TS_Err_ProgramError" />
+					<EnumerationMember Value="990" Name="TS_Err_RStringNotFound" />
+					<EnumerationMember Value="991" Name="TS_Err_ReadObjectNotFound" />
+					<EnumerationMember Value="992" Name="TS_Err_RegistryAccessError" />
+					<EnumerationMember Value="993" Name="TS_Err_RegistryItemNotFound" />
+					<EnumerationMember Value="994" Name="TS_Err_RemoteHostNotSpecified" />
+					<EnumerationMember Value="995" Name="TS_Err_RemoteSequenceError" />
+					<EnumerationMember Value="996" Name="TS_Err_RemoteSequenceErrorUnableToConnect" />
+					<EnumerationMember Value="997" Name="TS_Err_RemoteSequenceRemoteExecutionDenied" />
+					<EnumerationMember Value="998" Name="TS_Err_SequenceAborted" />
+					<EnumerationMember Value="999" Name="TS_Err_SequenceTerminated" />
+					<EnumerationMember Value="1000" Name="TS_Err_SharingViolation" />
+					<EnumerationMember Value="1001" Name="TS_Err_SingleDimensionalNumericArrayExpected" />
+					<EnumerationMember Value="1002" Name="TS_Err_SourceCodeControlError" />
+					<EnumerationMember Value="1003" Name="TS_Err_StackOverflow" />
+					<EnumerationMember Value="1004" Name="TS_Err_StepTypeNotFound" />
+					<EnumerationMember Value="1005" Name="TS_Err_ThreadCreationFailed" />
+					<EnumerationMember Value="1006" Name="TS_Err_TooManyItems" />
+					<EnumerationMember Value="1007" Name="TS_Err_TwoDimensionalNumericArrayExpected" />
+					<EnumerationMember Value="1008" Name="TS_Err_TypeCannotBeDeleted" />
+					<EnumerationMember Value="1009" Name="TS_Err_TypeConflict" />
+					<EnumerationMember Value="1010" Name="TS_Err_TypeLibraryReadError" />
+					<EnumerationMember Value="1011" Name="TS_Err_TypeMismatchError" />
+					<EnumerationMember Value="1012" Name="TS_Err_TypePaletteFileLoadErrors" />
+					<EnumerationMember Value="1013" Name="TS_Err_TypeWithDependingInstancesCannotBeDeleted" />
+					<EnumerationMember Value="1014" Name="TS_Err_UInt32Overflow" />
+					<EnumerationMember Value="1015" Name="TS_Err_UnRecognizedValue" />
+					<EnumerationMember Value="1016" Name="TS_Err_UnableToAllocateSystemResource" />
+					<EnumerationMember Value="1017" Name="TS_Err_UnableToCloseFile" />
+					<EnumerationMember Value="1018" Name="TS_Err_UnableToInitializeOLESystemDLLs" />
+					<EnumerationMember Value="1019" Name="TS_Err_UnableToLaunchCVI" />
+					<EnumerationMember Value="1020" Name="TS_Err_UnableToOpenDirectory" />
+					<EnumerationMember Value="1021" Name="TS_Err_UnableToOpenFile" />
+					<EnumerationMember Value="1022" Name="TS_Err_UnableToPassByReference" />
+					<EnumerationMember Value="1023" Name="TS_Err_UnexpectedChangeCount" />
+					<EnumerationMember Value="1024" Name="TS_Err_UnexpectedSystemError" />
+					<EnumerationMember Value="1025" Name="TS_Err_UnexpectedType" />
+					<EnumerationMember Value="1026" Name="TS_Err_UnknownFunctionOrSequenceName" />
+					<EnumerationMember Value="1027" Name="TS_Err_UnknownType" />
+					<EnumerationMember Value="1028" Name="TS_Err_UnknownVariableOrProperty" />
+					<EnumerationMember Value="1029" Name="TS_Err_ValueIsInvalidOrOutOfRange" />
+					<EnumerationMember Value="1030" Name="TS_Err_VisualStudioAutomationError" />
+					<EnumerationMember Value="1031" Name="TS_Err_WatchExpressionError" />
+					<EnumerationMember Value="1032" Name="TS_Err_WriteProtected" />
+					<EnumerationMember Value="1033" Name="TS_Err_WrongNumberOfArrayIndices" />
+					<EnumerationMember Value="1034" Name="TS_Err_WrongNumberOfParameters" />
+					<EnumerationMember Value="1035" Name="TS_Err_XMLError" />
+					<EnumerationMember Value="1036" Name="TestStandPath_Bin" />
+					<EnumerationMember Value="1037" Name="TestStandPath_CommonAppData" />
+					<EnumerationMember Value="1038" Name="TestStandPath_Config" />
+					<EnumerationMember Value="1039" Name="TestStandPath_LocalAppData" />
+					<EnumerationMember Value="1040" Name="TestStandPath_NIComponents" />
+					<EnumerationMember Value="1041" Name="TestStandPath_Public" />
+					<EnumerationMember Value="1042" Name="TestStandPath_PublicComponents" />
+					<EnumerationMember Value="1043" Name="TestStandPath_Temp" />
+					<EnumerationMember Value="1044" Name="TestStandPath_Temporary" />
+					<EnumerationMember Value="1045" Name="TestStandPath_TestStand" />
+					<EnumerationMember Value="1046" Name="ThreadTerminationOption_Never" />
+					<EnumerationMember Value="1047" Name="ThreadTerminationOption_Normal" />
+					<EnumerationMember Value="1048" Name="ThreadTerminationOption_Prompt" />
+					<EnumerationMember Value="1049" Name="TimeLimitAction_Abort" />
+					<EnumerationMember Value="1050" Name="TimeLimitAction_KillThreads" />
+					<EnumerationMember Value="1051" Name="TimeLimitAction_Prompt" />
+					<EnumerationMember Value="1052" Name="TimeLimitAction_Terminate" />
+					<EnumerationMember Value="1053" Name="TimeLimitOperation_Aborting" />
+					<EnumerationMember Value="1054" Name="TimeLimitOperation_Executing" />
+					<EnumerationMember Value="1055" Name="TimeLimitOperation_Terminating" />
+					<EnumerationMember Value="1056" Name="TimeLimitType_Exiting" />
+					<EnumerationMember Value="1057" Name="TimeLimitType_NormalExecution" />
+					<EnumerationMember Value="1058" Name="TokenCode_Assignment" />
+					<EnumerationMember Value="1059" Name="TokenCode_Bad" />
+					<EnumerationMember Value="1060" Name="TokenCode_BinaryInteger" />
+					<EnumerationMember Value="1061" Name="TokenCode_BitwiseAnd" />
+					<EnumerationMember Value="1062" Name="TokenCode_BitwiseAndAssignment" />
+					<EnumerationMember Value="1063" Name="TokenCode_BitwiseNot" />
+					<EnumerationMember Value="1064" Name="TokenCode_BitwiseOr" />
+					<EnumerationMember Value="1065" Name="TokenCode_BitwiseOrAssignment" />
+					<EnumerationMember Value="1066" Name="TokenCode_Colon" />
+					<EnumerationMember Value="1067" Name="TokenCode_Conditional" />
+					<EnumerationMember Value="1068" Name="TokenCode_Directive" />
+					<EnumerationMember Value="1069" Name="TokenCode_DivAssignment" />
+					<EnumerationMember Value="1070" Name="TokenCode_Divide" />
+					<EnumerationMember Value="1071" Name="TokenCode_DotDot" />
+					<EnumerationMember Value="1072" Name="TokenCode_Equal" />
+					<EnumerationMember Value="1073" Name="TokenCode_ExclusiveOr" />
+					<EnumerationMember Value="1074" Name="TokenCode_ExclusiveOrAssignment" />
+					<EnumerationMember Value="1075" Name="TokenCode_FieldSpecifier" />
+					<EnumerationMember Value="1076" Name="TokenCode_GreaterThan" />
+					<EnumerationMember Value="1077" Name="TokenCode_GreaterThanEqual" />
+					<EnumerationMember Value="1078" Name="TokenCode_HexInteger" />
+					<EnumerationMember Value="1079" Name="TokenCode_Identifier" />
+					<EnumerationMember Value="1080" Name="TokenCode_Integer" />
+					<EnumerationMember Value="1081" Name="TokenCode_Integer64" />
+					<EnumerationMember Value="1082" Name="TokenCode_LeftBrace" />
+					<EnumerationMember Value="1083" Name="TokenCode_LeftBracket" />
+					<EnumerationMember Value="1084" Name="TokenCode_LeftParenthesis" />
+					<EnumerationMember Value="1085" Name="TokenCode_LeftShift" />
+					<EnumerationMember Value="1086" Name="TokenCode_LeftShiftAssignment" />
+					<EnumerationMember Value="1087" Name="TokenCode_LessThan" />
+					<EnumerationMember Value="1088" Name="TokenCode_LessThanEqual" />
+					<EnumerationMember Value="1089" Name="TokenCode_LogicalAnd" />
+					<EnumerationMember Value="1090" Name="TokenCode_LogicalNot" />
+					<EnumerationMember Value="1091" Name="TokenCode_LogicalOr" />
+					<EnumerationMember Value="1092" Name="TokenCode_Minus" />
+					<EnumerationMember Value="1093" Name="TokenCode_MinusAssignment" />
+					<EnumerationMember Value="1094" Name="TokenCode_MinusMinus" />
+					<EnumerationMember Value="1095" Name="TokenCode_ModAssignment" />
+					<EnumerationMember Value="1096" Name="TokenCode_Modulus" />
+					<EnumerationMember Value="1097" Name="TokenCode_MultAssignment" />
+					<EnumerationMember Value="1098" Name="TokenCode_MultiLineComment" />
+					<EnumerationMember Value="1099" Name="TokenCode_Multiply" />
+					<EnumerationMember Value="1100" Name="TokenCode_NotAToken" />
+					<EnumerationMember Value="1101" Name="TokenCode_NotEqual" />
+					<EnumerationMember Value="1102" Name="TokenCode_OctalInteger" />
+					<EnumerationMember Value="1103" Name="TokenCode_Plus" />
+					<EnumerationMember Value="1104" Name="TokenCode_PlusAssignment" />
+					<EnumerationMember Value="1105" Name="TokenCode_PlusPlus" />
+					<EnumerationMember Value="1106" Name="TokenCode_Real" />
+					<EnumerationMember Value="1107" Name="TokenCode_ReferenceFieldSpecifier" />
+					<EnumerationMember Value="1108" Name="TokenCode_RightBrace" />
+					<EnumerationMember Value="1109" Name="TokenCode_RightBracket" />
+					<EnumerationMember Value="1110" Name="TokenCode_RightParenthesis" />
+					<EnumerationMember Value="1111" Name="TokenCode_RightShift" />
+					<EnumerationMember Value="1112" Name="TokenCode_RightShiftAssignment" />
+					<EnumerationMember Value="1113" Name="TokenCode_Separator" />
+					<EnumerationMember Value="1114" Name="TokenCode_SingleLineComment" />
+					<EnumerationMember Value="1115" Name="TokenCode_String" />
+					<EnumerationMember Value="1116" Name="TokenCode_SymbolicConstant" />
+					<EnumerationMember Value="1117" Name="TokenCode_UnescapedString" />
+					<EnumerationMember Value="1118" Name="TokenCode_UnsignedInteger64" />
+					<EnumerationMember Value="1119" Name="TokenCode_UnterminatedMultiLineComment" />
+					<EnumerationMember Value="1120" Name="TokenCode_UnterminatedString" />
+					<EnumerationMember Value="1121" Name="TokenizeOption_NoOptions" />
+					<EnumerationMember Value="1122" Name="TokenizeOption_PreserveComments" />
+					<EnumerationMember Value="1123" Name="TokenizeOption_RecognizeCPPIdentifiers" />
+					<EnumerationMember Value="1124" Name="TokenizeOption_RecognizeIncompleteExpression" />
+					<EnumerationMember Value="1125" Name="ToolMenuItem_EditsSelectedFile" />
+					<EnumerationMember Value="1126" Name="ToolMenuItem_Enabled" />
+					<EnumerationMember Value="1127" Name="ToolMenuItem_SeparatorBefore" />
+					<EnumerationMember Value="1128" Name="ToolMenuType_Command" />
+					<EnumerationMember Value="1129" Name="ToolMenuType_Sequence" />
+					<EnumerationMember Value="1130" Name="ToolMenuType_SequenceFile" />
+					<EnumerationMember Value="1131" Name="ToolMenuType_SubMenu" />
+					<EnumerationMember Value="1132" Name="TypeCategory_BuiltinDataTypes" />
+					<EnumerationMember Value="1133" Name="TypeCategory_CustomDataTypes" />
+					<EnumerationMember Value="1134" Name="TypeCategory_None" />
+					<EnumerationMember Value="1135" Name="TypeCategory_StepTypes" />
+					<EnumerationMember Value="1136" Name="TypeEqualOption_DoNotCompareDimensions" />
+					<EnumerationMember Value="1137" Name="TypeEqualOption_DoNotCompareIsObject" />
+					<EnumerationMember Value="1138" Name="TypeEqualOption_NoOptions" />
+					<EnumerationMember Value="1139" Name="TypeVersionInc_Build" />
+					<EnumerationMember Value="1140" Name="TypeVersionInc_Major" />
+					<EnumerationMember Value="1141" Name="TypeVersionInc_Minor" />
+					<EnumerationMember Value="1142" Name="TypeVersionInc_None" />
+					<EnumerationMember Value="1143" Name="TypeVersionInc_Revision" />
+					<EnumerationMember Value="1144" Name="UIMsg_AbortingExecution" />
+					<EnumerationMember Value="1145" Name="UIMsg_BreakOnBreakpoint" />
+					<EnumerationMember Value="1146" Name="UIMsg_BreakOnRunTimeError" />
+					<EnumerationMember Value="1147" Name="UIMsg_BreakOnUserRequest" />
+					<EnumerationMember Value="1148" Name="UIMsg_CascadeWindows" />
+					<EnumerationMember Value="1149" Name="UIMsg_ClientFileChanged" />
+					<EnumerationMember Value="1150" Name="UIMsg_CloseWindows" />
+					<EnumerationMember Value="1151" Name="UIMsg_DisplayReport" />
+					<EnumerationMember Value="1152" Name="UIMsg_EndExecution" />
+					<EnumerationMember Value="1153" Name="UIMsg_EndFileExecution" />
+					<EnumerationMember Value="1154" Name="UIMsg_EndInteractiveExecution" />
+					<EnumerationMember Value="1155" Name="UIMsg_GotoLocation" />
+					<EnumerationMember Value="1156" Name="UIMsg_KillingExecutionThreads" />
+					<EnumerationMember Value="1157" Name="UIMsg_LocalizationSettingChanged" />
+					<EnumerationMember Value="1158" Name="UIMsg_ModelState_BeginTesting" />
+					<EnumerationMember Value="1159" Name="UIMsg_ModelState_EnabledStateSet" />
+					<EnumerationMember Value="1160" Name="UIMsg_ModelState_Identified" />
+					<EnumerationMember Value="1161" Name="UIMsg_ModelState_Initializing" />
+					<EnumerationMember Value="1162" Name="UIMsg_ModelState_PostProcessing" />
+					<EnumerationMember Value="1163" Name="UIMsg_ModelState_PostProcessingComplete" />
+					<EnumerationMember Value="1164" Name="UIMsg_ModelState_TestingComplete" />
+					<EnumerationMember Value="1165" Name="UIMsg_ModelState_Waiting" />
+					<EnumerationMember Value="1166" Name="UIMsg_NonTerminatableThreadsArePreventingTermination" />
+					<EnumerationMember Value="1167" Name="UIMsg_OpenWindows" />
+					<EnumerationMember Value="1168" Name="UIMsg_OutputMessages" />
+					<EnumerationMember Value="1169" Name="UIMsg_ProgressPercent" />
+					<EnumerationMember Value="1170" Name="UIMsg_ProgressText" />
+					<EnumerationMember Value="1171" Name="UIMsg_PushUndoItem" />
+					<EnumerationMember Value="1172" Name="UIMsg_RefreshWindows" />
+					<EnumerationMember Value="1173" Name="UIMsg_ReportChanged" />
+					<EnumerationMember Value="1174" Name="UIMsg_ReportCollectionChanged" />
+					<EnumerationMember Value="1175" Name="UIMsg_ReportLocationChanged" />
+					<EnumerationMember Value="1176" Name="UIMsg_ResumeFromBreak" />
+					<EnumerationMember Value="1177" Name="UIMsg_RuntimeError" />
+					<EnumerationMember Value="1178" Name="UIMsg_ShutDownCancelled" />
+					<EnumerationMember Value="1179" Name="UIMsg_ShutDownComplete" />
+					<EnumerationMember Value="1180" Name="UIMsg_StartExecution" />
+					<EnumerationMember Value="1181" Name="UIMsg_StartFileExecution" />
+					<EnumerationMember Value="1182" Name="UIMsg_StartInteractiveExecution" />
+					<EnumerationMember Value="1183" Name="UIMsg_TerminatingExecution" />
+					<EnumerationMember Value="1184" Name="UIMsg_TerminatingInteractiveExecution" />
+					<EnumerationMember Value="1185" Name="UIMsg_TerminationCancelled" />
+					<EnumerationMember Value="1186" Name="UIMsg_TileWindows" />
+					<EnumerationMember Value="1187" Name="UIMsg_Trace" />
+					<EnumerationMember Value="1188" Name="UIMsg_TypePaletteFileListChanged" />
+					<EnumerationMember Value="1189" Name="UIMsg_UserMessageBase" />
+					<EnumerationMember Value="1190" Name="UnloadOption_AfterSequenceExecution" />
+					<EnumerationMember Value="1191" Name="UnloadOption_AfterStepExecution" />
+					<EnumerationMember Value="1192" Name="UnloadOption_OnPreconditionFailure" />
+					<EnumerationMember Value="1193" Name="UnloadOption_UseStepUnloadOption" />
+					<EnumerationMember Value="1194" Name="UnloadOption_WithSequenceFile" />
+					<EnumerationMember Value="1195" Name="VersionConstant_BuildVersion" />
+					<EnumerationMember Value="1196" Name="VersionConstant_MajorVersion" />
+					<EnumerationMember Value="1197" Name="VersionConstant_MinorVersion" />
+					<EnumerationMember Value="1198" Name="VersionConstant_RevisionVersion" />
+					<EnumerationMember Value="1199" Name="WatchExpressionBreakType_None" />
+					<EnumerationMember Value="1200" Name="WatchExpressionBreakType_OnChange" />
+					<EnumerationMember Value="1201" Name="WatchExpressionBreakType_OnExpressionTrue" />
+					<EnumerationMember Value="1202" Name="WatchExpressionFilter_FilterByExecution" />
+					<EnumerationMember Value="1203" Name="WatchExpressionFilter_FilterBySequence" />
+					<EnumerationMember Value="1204" Name="WatchExpressionFilter_FilterBySequenceFile" />
+					<EnumerationMember Value="1205" Name="WatchExpressionFilter_IncludeGlobals" />
+					<EnumerationMember Value="1206" Name="WatchExpressionFilter_NoOptions" />
+					<EnumerationMember Value="1207" Name="WinActOption_ActivateWhenStepCompletes" />
+					<EnumerationMember Value="1208" Name="WinActOption_IfActiveReactivateWhenStepCompletes" />
+					<EnumerationMember Value="1209" Name="WinActOption_None" />
+					<EnumerationMember Value="1210" Name="WinFileDlg_ALLOWMULTISELECT" />
+					<EnumerationMember Value="1211" Name="WinFileDlg_CREATEPROMPT" />
+					<EnumerationMember Value="1212" Name="WinFileDlg_DONTADDTORECENT" />
+					<EnumerationMember Value="1213" Name="WinFileDlg_ENABLEHOOK" />
+					<EnumerationMember Value="1214" Name="WinFileDlg_ENABLEINCLUDENOTIFY" />
+					<EnumerationMember Value="1215" Name="WinFileDlg_ENABLESIZING" />
+					<EnumerationMember Value="1216" Name="WinFileDlg_ENABLETEMPLATE" />
+					<EnumerationMember Value="1217" Name="WinFileDlg_ENABLETEMPLATEHANDLE" />
+					<EnumerationMember Value="1218" Name="WinFileDlg_EXPLORER" />
+					<EnumerationMember Value="1219" Name="WinFileDlg_EXTENSIONDIFFERENT" />
+					<EnumerationMember Value="1220" Name="WinFileDlg_FILEMUSTEXIST" />
+					<EnumerationMember Value="1221" Name="WinFileDlg_FORCESHOWHIDDEN" />
+					<EnumerationMember Value="1222" Name="WinFileDlg_HIDEREADONLY" />
+					<EnumerationMember Value="1223" Name="WinFileDlg_LONGNAMES" />
+					<EnumerationMember Value="1224" Name="WinFileDlg_NOCHANGEDIR" />
+					<EnumerationMember Value="1225" Name="WinFileDlg_NODEREFERENCELINKS" />
+					<EnumerationMember Value="1226" Name="WinFileDlg_NOLONGNAMES" />
+					<EnumerationMember Value="1227" Name="WinFileDlg_NONETWORKBUTTON" />
+					<EnumerationMember Value="1228" Name="WinFileDlg_NOREADONLYRETURN" />
+					<EnumerationMember Value="1229" Name="WinFileDlg_NOTESTFILECREATE" />
+					<EnumerationMember Value="1230" Name="WinFileDlg_NOVALIDATE" />
+					<EnumerationMember Value="1231" Name="WinFileDlg_OVERWRITEPROMPT" />
+					<EnumerationMember Value="1232" Name="WinFileDlg_PATHMUSTEXIST" />
+					<EnumerationMember Value="1233" Name="WinFileDlg_READONLY" />
+					<EnumerationMember Value="1234" Name="WinFileDlg_SHAREAWARE" />
+					<EnumerationMember Value="1235" Name="WinFileDlg_SHOWHELP" />
+					<EnumerationMember Value="1236" Name="WorkspaceBrowserDlgOption_Editable" />
+					<EnumerationMember Value="1237" Name="WorkspaceBrowserDlgOption_ModalToAppMainWind" />
+					<EnumerationMember Value="1238" Name="WorkspaceBrowserDlgOption_NoOptions" />
+					<EnumerationMember Value="1239" Name="WorkspaceObjType_Folder" />
+					<EnumerationMember Value="1240" Name="WorkspaceObjType_OtherFile" />
+					<EnumerationMember Value="1241" Name="WorkspaceObjType_ProjectFile" />
+					<EnumerationMember Value="1242" Name="WorkspaceObjType_SequenceFile" />
+					<EnumerationMember Value="1243" Name="WorkspaceObjType_WorkspaceFile" />
+					<EnumerationMember Value="1244" Name="WriteFileFormat_Current" />
+					<EnumerationMember Value="1245" Name="WriteFileFormat_TestStand1" />
+					<EnumerationMember Value="1246" Name="WriteFileFormat_TestStand2" />
+					<EnumerationMember Value="1247" Name="WriteFileFormat_TestStand201" />
+					<EnumerationMember Value="1248" Name="WriteFileFormat_TestStand3" />
+					<EnumerationMember Value="1249" Name="WriteFileFormat_TestStand31" />
+					<EnumerationMember Value="1250" Name="WriteFileFormat_TestStand35" />
+					<EnumerationMember Value="1251" Name="WriteFileFormat_TestStand4" />
+					<EnumerationMember Value="1252" Name="WriteFileFormat_TestStand41" />
+					<EnumerationMember Value="1253" Name="WriteFileFormat_TestStand42" />
+					<EnumerationMember Value="1254" Name="WriteFileFormat_TestStand45" />
+					<EnumerationMember Value="1255" Name="WriteFileFormat_TestStand50" />
+					<EnumerationMember Value="1256" Name="WriteFileFormat_TestStand51" />
+					<EnumerationMember Value="1257" Name="WriteFileFormat_TestStand_14_0" />
+					<EnumerationMember Value="1258" Name="XMLOption_ExcludeAliasObjects" />
+					<EnumerationMember Value="1259" Name="XMLOption_ExcludeArrayPrototypes" />
+					<EnumerationMember Value="1260" Name="XMLOption_ExcludeAttributes" />
+					<EnumerationMember Value="1261" Name="XMLOption_ExcludeComments" />
+					<EnumerationMember Value="1262" Name="XMLOption_ExcludeEmptyObjects" />
+					<EnumerationMember Value="1263" Name="XMLOption_ExcludeFlags" />
+					<EnumerationMember Value="1264" Name="XMLOption_ExcludeVersionInfo" />
+					<EnumerationMember Value="1265" Name="XMLOption_NoCRLF" />
+					<EnumerationMember Value="1266" Name="XMLOption_NoIndentation" />
+					<EnumerationMember Value="1267" Name="XMLOption_NoOptions" />
+					<EnumerationMember Value="1268" Name="XMLOption_UseCRLFInsteadOfLF" />
+					<EnumerationMember Value="1269" Name="XMLOption_UseValueFormatIfDefined" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c9360091ec584b6d9416364ad3b4ade3">
+			<Composite Id="1" Name="TagEndpointGeneric" ReferenceClass="" Interface="" GenericTypeDefinition="@f57ea81acb454fcfba3fcb02929dae1e">
+				<GenericParameters>
+					<Generic GenericName="DataType" />
+				</GenericParameters>
+				<BaseType>Void</BaseType>
+				<Interfaces>
+					<Attributed AttributedType="@9b45f57dd67448a2a9491ff8e3cf4c71">
+						<AttributeValues>
+							<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]DataComms" />
+						</AttributeValues>
+					</Attributed>
+				</Interfaces>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Scope" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="State" DataType="@2c321e28b0f54fa3b8aeed02c781702f" />
+					<Field FieldAccessPolicy="Read" Name="Timestamp" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9b45f57dd67448a2a9491ff8e3cf4c71">
+			<Typedef TypedefName="TagEndpoint" UnderlyingType="@1a2b76b6db0d4f73844c1c5a90d58276" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2c321e28b0f54fa3b8aeed02c781702f">
+			<Typedef TypedefName="DataCommsEndpointState.gtype" UnderlyingType="@5d641d96c8c948ad85ad4def409488d8" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1a2b76b6db0d4f73844c1c5a90d58276">
+			<Attributed AttributedType="@66d2af1f53864856b2b55b2774203b0c">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]TagEndpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5d641d96c8c948ad85ad4def409488d8">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Inactive" />
+					<EnumerationMember Value="1" Name="Active" />
+					<EnumerationMember Value="2" Name="Linking" />
+					<EnumerationMember Value="3" Name="Unresponsive" />
+					<EnumerationMember Value="4" Name="Error" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="66d2af1f53864856b2b55b2774203b0c">
+			<Composite Id="1" Name="TagEndpoint" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void">
+				<Interfaces>
+					<Attributed AttributedType="@13b15744bb2c47bc9b90e2ab57c84b0a">
+						<AttributeValues>
+							<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]DataComms" />
+						</AttributeValues>
+					</Attributed>
+				</Interfaces>
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+					<Field FieldAccessPolicy="Read" Name="Scope" DataType="Int32" />
+					<Field FieldAccessPolicy="Read" Name="State" DataType="@2c321e28b0f54fa3b8aeed02c781702f" />
+					<Field FieldAccessPolicy="Read" Name="Timestamp" DataType="Boolean" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="13b15744bb2c47bc9b90e2ab57c84b0a">
+			<Typedef TypedefName="Endpoint" UnderlyingType="@403ba24502184406983a74e7b0e4b924" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="403ba24502184406983a74e7b0e4b924">
+			<Attributed AttributedType="@56601ec9ea664877bb19b107548ce150">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
+					<AttributeValue Name="NI_UdrClass" Value="[string]Endpoint" />
+					<AttributeValue Name="NI_UdrNamespace" Value="[string]DataComms" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="56601ec9ea664877bb19b107548ce150">
+			<Composite Id="1" Name="Endpoint" ReferenceClass="" Interface="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="PluginName" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="TSUtility:TestStand\ API\ Numeric\ Constants\.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+							</IconTemplate>
+							<Image Height="[float]30" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADmSURBVEhL7ZLhCcQgDEbdyZ1cobNkhc6SnewXvxpTaeHgej8OfASNiT6lNNWfsdQTSz3x1+r0ErSRsfAGklJKUosIlqpZRCy/WpxYv97TGhhdGhPVhEBi8aAG3rpXn74GXZCis+/7WfTz/QiXYLQ4Ed+Hw5oTw3LJKItkr/jOSHN8puYII2oi/Zqgjke4BKPFifg+tS9Ab7E9ikSwZHz1ahUk7b34xJq2bStSLUBLJpEvwWhxIr4P/xel7b1pSPsYXRM36lGCWtQejr+NXpf2/Ekd60P3CrSR+8tfYaknlnpiqS/UegAW0b1NLTkLvgAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]TSUtility.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

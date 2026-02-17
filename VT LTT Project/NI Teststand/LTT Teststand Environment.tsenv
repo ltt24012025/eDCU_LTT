@@ -1,0 +1,5 @@
+[TestStandPaths]
+CommonAppData = "LTTCommonAppData\\TestStand 2023 (32-bit)"
+Public = "LTTPublic\\TestStand 2023 (32-bit)"
+LocalAppData = "LTTLocalAppData\\TestStand 2023 (32-bit)"
+

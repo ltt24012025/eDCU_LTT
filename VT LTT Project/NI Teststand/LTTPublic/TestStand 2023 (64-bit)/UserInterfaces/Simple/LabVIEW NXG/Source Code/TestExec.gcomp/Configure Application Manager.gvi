@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5816490808F0B3D1FAD8F8BC0F8878B057EF529F71C05B3EBBD5A1230EA1E3877837C5216C411FED6B5D0BF659623CCFABB3A148D73DA285FDEFDB7803682B7F" Timestamp="1D57886B92B8C32" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="7.1.0.49152" Version="7.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="7.1.0.50148" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="7.1.0.49153" Version="7.1.0.49153" />
+		<ApplicationVersionInfo Build="7.1.0.50148" Name="LabVIEW NXG" Version="4.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Center" Id="228" Left="[float]0" TemplateName="[string]Custom3" Top="[float]0" VerticalAlignment="[VerticalAlignment]Center" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="229" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffebebeb" Id="230" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+					<Path Data="[PathGeometry]M 0,11 L 0,2 C 0,0.899999976 0.899999976,0 2,0 L 2,11 L 0,11 Z" Fill="[SMSolidColorBrush]#ff8cdfff" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Left" Id="231" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Rectangle Fill="[SMSolidColorBrush]#ff8cdfff" Height="[float]11" Id="232" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
+					<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#ff8cdfff" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" Id="233" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+					<Text HorizontalAlignment="[HorizontalAlignment]Left" Id="234" Left="[float]4" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Ctls" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]32">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="236" />
+					</Text>
+					<Text Height="[float]23" HorizontalAlignment="[HorizontalAlignment]Left" Id="235" Left="[float]4" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Config&#xD;&#xA;AppMgr" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]14" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]33">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="237" />
+					</Text>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="109" />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 65" Parameter="186" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 50" Parameter="112" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 80" Parameter="216" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<Cluster BaseName="[string]UI Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@05eb24b82d6b49cc8bdde2a44874d378" Height="[float]474" Id="764" IsTabStop="[bool]True" Label="[UIModel]819" LabelLinked="[bool]True" Left="[float]128" TabIndex="[int]0" Top="[float]20" Value="{DataItemBinding Id=112}" Width="[float]522" p4:ControlDefinitionChecksum="KFel1DWBXGENUvPd6qEHrIJf8LW4sm9BlwKIf+2R1Pw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="TestExec::UI Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@798c61ff90914832905f42d64b7925c8" Height="[float]164" Id="c489ee687c3f4ee79a66537e5fab1ce6" Label="[UIModel]2d4cc281416f47d58bca749d02541ab5" Left="[float]11" TabIndex="[int]0" Top="[float]22" Value="{ClusterBinding FieldName=Manager\ Controls}" Width="[float]129">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d6923518a9ac4ae283f41c8baa8a00fa" Label="[UIModel]96c300c4cd264c54ba2c6f93cf9a2652" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=ApplicationMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="96c300c4cd264c54ba2c6f93cf9a2652" LabelOwner="[UIModel]d6923518a9ac4ae283f41c8baa8a00fa" Left="[float]4" Text="[string]ApplicationMgr" Top="[float]4" Width="[float]83" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="c16c6b6c27554a32a59de3ce35fa08b3" Label="[UIModel]fecd0b7b771946e5a450dba7774d19f2" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=ExecutionViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="fecd0b7b771946e5a450dba7774d19f2" LabelOwner="[UIModel]c16c6b6c27554a32a59de3ce35fa08b3" Left="[float]4" Text="[string]ExecutionViewMgr" Top="[float]56" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d71a90398ea44faca94d18158a7ccbfa" Label="[UIModel]dcc2402beee9457db4450c30c54df8d7" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=SequenceFileViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="dcc2402beee9457db4450c30c54df8d7" LabelOwner="[UIModel]d71a90398ea44faca94d18158a7ccbfa" Left="[float]4" Text="[string]SequenceFileViewMgr" Top="[float]108" Width="[float]117" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="2d4cc281416f47d58bca749d02541ab5" LabelOwner="[UIModel]c489ee687c3f4ee79a66537e5fab1ce6" Left="[float]11" Text="[string]Manager Controls" Top="[float]2" Width="[float]96" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@39e0ae27f46d47118a7af9813fa206f3" Height="[float]437" Id="c5141efb14ef4460a04afb29942fa9d7" Label="[UIModel]59cdb38332844ebdb04d15d4eb068f9d" Left="[float]235" TabIndex="[int]1" Top="[float]22" Value="{ClusterBinding FieldName=Visible\ Controls}" Width="[float]266">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="3e4f014171454c39b6cbd69bf799639f" Label="[UIModel]eca054b458bd466aad5f5693432cd932" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Open\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="eca054b458bd466aad5f5693432cd932" LabelOwner="[UIModel]3e4f014171454c39b6cbd69bf799639f" Left="[float]9" Text="[string]Open Sequence File" Top="[float]0" Width="[float]106" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="64f0b4ae98754293a77db1f712c90abe" Label="[UIModel]6cbd98a993294adeb7f3e4faad13f8d7" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]1" Top="[float]72" Value="{ClusterBinding FieldName=Close\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="6cbd98a993294adeb7f3e4faad13f8d7" LabelOwner="[UIModel]64f0b4ae98754293a77db1f712c90abe" Left="[float]9" Text="[string]Close Sequence File" Top="[float]52" Width="[float]105" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9696277cdc5b4c6f883e0b825e61c991" Label="[UIModel]fe023b27263743eeb01dd64dec9bdd8d" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]2" Top="[float]124" Value="{ClusterBinding FieldName=EntryPoint\ 1}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="fe023b27263743eeb01dd64dec9bdd8d" LabelOwner="[UIModel]9696277cdc5b4c6f883e0b825e61c991" Left="[float]9" Text="[string]EntryPoint 1" Top="[float]104" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="28a6579f3df0423c99b56a4d94452fec" Label="[UIModel]8764f4eb4106466ab5a0810afd7d8d16" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]3" Top="[float]176" Value="{ClusterBinding FieldName=EntryPoint\ 2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="8764f4eb4106466ab5a0810afd7d8d16" LabelOwner="[UIModel]28a6579f3df0423c99b56a4d94452fec" Left="[float]9" Text="[string]EntryPoint 2" Top="[float]156" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="f51a75a236134036b519dec1461304a6" Label="[UIModel]59fad15f0087469995eec79da3ed9fd2" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]4" Top="[float]228" Value="{ClusterBinding FieldName=Run\ Sequence}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="59fad15f0087469995eec79da3ed9fd2" LabelOwner="[UIModel]f51a75a236134036b519dec1461304a6" Left="[float]9" Text="[string]Run Sequence" Top="[float]208" Width="[float]76" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="1a2e9a7db8424831a0f5b8cc41460c49" Label="[UIModel]97fc6a689f1c47139be0136d3ede063a" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]5" Top="[float]280" Value="{ClusterBinding FieldName=Close\ Execution}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="97fc6a689f1c47139be0136d3ede063a" LabelOwner="[UIModel]1a2e9a7db8424831a0f5b8cc41460c49" Left="[float]9" Text="[string]Close Execution" Top="[float]260" Width="[float]84" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="686a6e7bdf2a440ea8ecdba010b343bc" Label="[UIModel]3aa7fc3a32354b1d86720b2e58539d60" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]6" Top="[float]332" Value="{ClusterBinding FieldName=Break/Resume}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="3aa7fc3a32354b1d86720b2e58539d60" LabelOwner="[UIModel]686a6e7bdf2a440ea8ecdba010b343bc" Left="[float]9" Text="[string]Break/Resume" Top="[float]312" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="8be5273806bd4865be04fea3b81f4698" Label="[UIModel]305272cf81504254bdd987b27d4c4dd6" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]7" Top="[float]22" Value="{ClusterBinding FieldName=Terminate/Restart}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="305272cf81504254bdd987b27d4c4dd6" LabelOwner="[UIModel]8be5273806bd4865be04fea3b81f4698" Left="[float]155" Text="[string]Terminate/Restart" Top="[float]2" Width="[float]95" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="3a850588231f47d5bb3f20d55e6fbc1f" Label="[UIModel]43a248a88d174bd29ed21252e8c33114" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]8" Top="[float]74" Value="{ClusterBinding FieldName=Terminate\ All}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="43a248a88d174bd29ed21252e8c33114" LabelOwner="[UIModel]3a850588231f47d5bb3f20d55e6fbc1f" Left="[float]155" Text="[string]Terminate All" Top="[float]54" Width="[float]71" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="8e13bcbaa2d44c19a693c20a4e22ffd" Label="[UIModel]d84dfc0132b84cecbe7663bcf0aca70e" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]9" Top="[float]126" Value="{ClusterBinding FieldName=Login/Logout}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="d84dfc0132b84cecbe7663bcf0aca70e" LabelOwner="[UIModel]8e13bcbaa2d44c19a693c20a4e22ffd" Left="[float]155" Text="[string]Login/Logout" Top="[float]106" Width="[float]72" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9cc428c2dc144334900a228c16558a94" Label="[UIModel]72acdfd1bb90475397eb293fd4d5d01c" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]10" Top="[float]178" Value="{ClusterBinding FieldName=Exit}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="72acdfd1bb90475397eb293fd4d5d01c" LabelOwner="[UIModel]9cc428c2dc144334900a228c16558a94" Left="[float]155" Text="[string]Exit" Top="[float]158" Width="[float]19" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="b9909062809f42ad9a27367df1422023" Label="[UIModel]465f97d1de9e4105b037c591dda28333" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]11" Top="[float]230" Value="{ClusterBinding FieldName=Sequence\ Files\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="465f97d1de9e4105b037c591dda28333" LabelOwner="[UIModel]b9909062809f42ad9a27367df1422023" Left="[float]155" Text="[string]Sequence Files List" Top="[float]210" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9a9da386cffd4db2acf3573f2493b17d" Label="[UIModel]c37768faa29b4288ab9a3fb68cb07597" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]12" Top="[float]282" Value="{ClusterBinding FieldName=Sequences\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="c37768faa29b4288ab9a3fb68cb07597" LabelOwner="[UIModel]9a9da386cffd4db2acf3573f2493b17d" Left="[float]155" Text="[string]Sequences List" Top="[float]262" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="837f15b842b84fa1a4491d3669ae8347" Label="[UIModel]6df924d25364c5c97e90ec51d0f9668" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]13" Top="[float]334" Value="{ClusterBinding FieldName=Executions\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="6df924d25364c5c97e90ec51d0f9668" LabelOwner="[UIModel]837f15b842b84fa1a4491d3669ae8347" Left="[float]155" Text="[string]Executions List" Top="[float]314" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="74a6a0f803f2418483c204f0ea584b79" Label="[UIModel]f2d5889a9bec4effa73d0ded00ca79df" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" TabIndex="[int]14" Top="[float]386" Value="{ClusterBinding FieldName=SequenceView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="f2d5889a9bec4effa73d0ded00ca79df" LabelOwner="[UIModel]74a6a0f803f2418483c204f0ea584b79" Left="[float]155" Text="[string]SequenceView" Top="[float]366" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d83d18e506b7495fb8cca5cdd61d5c05" Label="[UIModel]8a71f1195c28461a997dec7834647842" Left="[float]11" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" TabIndex="[int]15" Top="[float]389" Value="{ClusterBinding FieldName=ReportView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="8a71f1195c28461a997dec7834647842" LabelOwner="[UIModel]d83d18e506b7495fb8cca5cdd61d5c05" Left="[float]11" Text="[string]ReportView" Top="[float]369" Width="[float]62" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="59cdb38332844ebdb04d15d4eb068f9d" LabelOwner="[UIModel]c5141efb14ef4460a04afb29942fa9d7" Left="[float]235" Text="[string]Visible Controls" Top="[float]2" Width="[float]83" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1ff47a88c02848569a64e7433b7aacab" Height="[float]240" Id="b68eeff342e849c79a79f452d2ccfcd2" Label="[UIModel]cf159e8b0cee40f2a97773a0efb3270a" Left="[float]11" TabIndex="[int]2" Top="[float]218" Value="{ClusterBinding FieldName=Other\ References}" Width="[float]210">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="4f59e509a0f4a0196ad54f665a0a483" Label="[UIModel]d8e21c5e20884d7f8677f2e11e4b1905" Left="[float]8" RefnumType="[Type]@1215a398322c46edb5cdd6742d2c10ee" TabIndex="[int]0" Top="[float]112" Value="{ClusterBinding FieldName=LabVIEW\ -\ Event\ Registration\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="d8e21c5e20884d7f8677f2e11e4b1905" LabelOwner="[UIModel]4f59e509a0f4a0196ad54f665a0a483" Left="[float]8" Text="[string]LabVIEW - Event Registration Ref" Top="[float]92" Width="[float]175" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="a29341874b464fb691a7f1ad97120bdc" Label="[UIModel]9d469c9322c84530804185d18e702f2d" Left="[float]8" RefnumType="[Type]@882f43c8ee75407b88c40ab7ad6dd6e8" TabIndex="[int]1" Top="[float]158" Value="{ClusterBinding FieldName=LabVIEW\ -\ Quit\ Application\ Event}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="9d469c9322c84530804185d18e702f2d" LabelOwner="[UIModel]a29341874b464fb691a7f1ad97120bdc" Left="[float]8" Text="[string]LabVIEW - Quit Application Event" Top="[float]138" Width="[float]177" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="dd2956d7c34649859a750601be12f0c7" Label="[UIModel]f4602535d7234a89bba0fecff1dc6949" Left="[float]7" RefnumType="[Type]:VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" TabIndex="[int]2" Top="[float]65" Value="{ClusterBinding FieldName=Top\ Level\ VI\ reference}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="f4602535d7234a89bba0fecff1dc6949" LabelOwner="[UIModel]dd2956d7c34649859a750601be12f0c7" Left="[float]7" Text="[string]Top Level VI reference" Top="[float]45" Width="[float]118" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="f1c2a0bae7064055b02873718b6c1196" Label="[UIModel]a967f0abfaf49298d9f8cff183bffb9" Left="[float]9" RefnumType="[Type]@02448e8e71274c669626395b4618e34e" TabIndex="[int]3" Top="[float]205" Value="{ClusterBinding FieldName=ActiveX\ event\ callback\ ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="a967f0abfaf49298d9f8cff183bffb9" LabelOwner="[UIModel]f1c2a0bae7064055b02873718b6c1196" Left="[float]9" Text="[string]ActiveX event callback ref" Top="[float]185" Width="[float]135" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="cf49861e2a9e4f1fb569dbac918920ae" Label="[UIModel]cc4fab038ec84156a83809737fd937b2" Left="[float]6" RefnumType="[Type]:COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef5c0b611d0939c0020af68e893" TabIndex="[int]4" Top="[float]20" Value="{ClusterBinding FieldName=TestStand\ Engine}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="cc4fab038ec84156a83809737fd937b2" LabelOwner="[UIModel]cf49861e2a9e4f1fb569dbac918920ae" Left="[float]6" Text="[string]TestStand Engine" Top="[float]0" Width="[float]92" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="cf159e8b0cee40f2a97773a0efb3270a" LabelOwner="[UIModel]b68eeff342e849c79a79f452d2ccfcd2" Left="[float]11" Text="[string]Other References" Top="[float]198" Width="[float]92" />
+			</Cluster>
+			<Label Height="[float]16" Id="819" LabelOwner="[UIModel]764" Left="[float]128" Text="[string]UI Data Out" Top="[float]0" Width="[float]40" xmlns="http://www.ni.com/PanelCommon" />
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="384" IsTabStop="[bool]True" Label="[UIModel]391" LabelLinked="[bool]True" Left="[float]0" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]1" Top="[float]0" Value="{DataItemBinding Id=186}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="cc60e2e85884ca497487788d7e638c3" Label="[UIModel]9b3338a533b14ce09bcf2dfdb3db3974" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="9b3338a533b14ce09bcf2dfdb3db3974" LabelOwner="[UIModel]cc60e2e85884ca497487788d7e638c3" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="e5c37b20d20427c8aee80fb6c4769dd" Label="[UIModel]b296a92e95fe42b59f17c75dab197056" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="b296a92e95fe42b59f17c75dab197056" LabelOwner="[UIModel]e5c37b20d20427c8aee80fb6c4769dd" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="37337f4831b54e49a60fefbd6f216438" Label="[UIModel]d6d9584467784c59a51c3709515bbd2d" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="d6d9584467784c59a51c3709515bbd2d" LabelOwner="[UIModel]37337f4831b54e49a60fefbd6f216438" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Cluster BaseName="[string]Error" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="393" IsTabStop="[bool]True" Label="[UIModel]400" LabelLinked="[bool]True" Left="[float]266" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]2" Top="[float]67" Value="{DataItemBinding Id=216}" Width="[float]176" p4:ControlDefinitionChecksum="J+f/EiASvnzghyjtgi4nEE7z+0udh8Z1+KU2hWC1ppw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]22" Id="3d3da83469874a1b9345cb5105ecca6f" IsReadOnly="[bool]True" Label="[UIModel]679e578165a24a59b32f45c986c26c8c" Left="[float]3" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=status}" Width="[float]22" p6:DisplayAsErrorStatus="True" xmlns:p6="http://www.ni.com/Controls.LabVIEW.Design" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="679e578165a24a59b32f45c986c26c8c" LabelOwner="[UIModel]3d3da83469874a1b9345cb5105ecca6f" Left="[float]3" Text="[string]status" Top="[float]4" Width="[float]32" />
+				<NumericText Height="[float]24" Id="26251321009e4e74b2212988e8629fd6" IsReadOnly="[bool]True" Label="[UIModel]bcd33364c29344e9943b068fc6b1ad6c" Left="[float]54" RadixVisibility="[SMVisibility]Visible" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="bcd33364c29344e9943b068fc6b1ad6c" LabelOwner="[UIModel]26251321009e4e74b2212988e8629fd6" Left="[float]54" Text="[string]code" Top="[float]4" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="a3f39db8974d40cfb5b93a0f1b128ea9" IsReadOnly="[bool]True" Label="[UIModel]b86daebdc0e6474aa202d657607ff0e3" Left="[float]3" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="b86daebdc0e6474aa202d657607ff0e3" LabelOwner="[UIModel]a3f39db8974d40cfb5b93a0f1b128ea9" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
+			</Cluster>
+			<Label Height="[float]16" Id="391" LabelOwner="[UIModel]384" Left="[float]0" Text="[string]error in" Top="[float]-20" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="400" LabelOwner="[UIModel]393" Left="[float]266" Text="[string]error out" Top="[float]47" Width="[float]26" xmlns="http://www.ni.com/PanelCommon" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="210 250 40 15" DataItem="109" Id="110" Label="111" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@05eb24b82d6b49cc8bdde2a44874d378" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="110" Bounds="162 250 43 14" Id="111" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>UI Data</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1210 250 40 15" DataItem="112" Id="162" Label="163" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@05eb24b82d6b49cc8bdde2a44874d378" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="162" Bounds="1255 250 67 14" Id="163" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>UI Data Out</p.Text>
+			</NodeLabel>
+			<PropertyNode Bounds="290 250 218 20" HasErrorTerminals="False" Id="165" InstanceDataType="@05eb24b82d6b49cc8bdde2a44874d378" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="TestExec::UI Data.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Hotspot="218 15" Id="c0t0v" Path="Manager Controls:ApplicationMgr" PathElementMemberKinds="Field:Field" Usage="Optional" />
+				<PropertyItemTerminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" Hotspot="218 30" Id="c1t0v" Path="Visible Controls:Login/Logout" PathElementMemberKinds="Field:Field" Usage="Optional" />
+				<PropertyItemTerminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" Hotspot="218 45" Id="c2t0v" Path="Visible Controls:Exit" PathElementMemberKinds="Field:Field" Usage="Optional" />
+				<PropertyItemTerminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" Hotspot="218 60" Id="c3t0v" Path="Visible Controls:Terminate All" PathElementMemberKinds="Field:Field" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="166" Joints="N(110:Value)|(250,255) N(165:instance in)|(290,255)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="167" Joints="N(165:instance out)|(508,255) N(162:Value)|(1213,255)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="340 450 200 15" DataType="Int32" Id="176" Label="177" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>27</p.Data>
+				<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
+					<RingConstantInfo DisplayValue="CommandKind_NotACommand" ValueType="Int32">
+						<p.Value>0</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Container" ValueType="Int32">
+						<p.Value>1</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Separator" ValueType="Int32">
+						<p.Value>2</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Custom" ValueType="Int32">
+						<p.Value>3</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenSequenceFile" ValueType="Int32">
+						<p.Value>20</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Close" ValueType="Int32">
+						<p.Value>21</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseAll" ValueType="Int32">
+						<p.Value>22</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseCompletedExecutions" ValueType="Int32">
+						<p.Value>23</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenWorkspaceBrowser" ValueType="Int32">
+						<p.Value>24</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Login" ValueType="Int32">
+						<p.Value>25</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Logout" ValueType="Int32">
+						<p.Value>26</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoginLogout" ValueType="Int32">
+						<p.Value>27</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_UnloadAllModules" ValueType="Int32">
+						<p.Value>28</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFile" ValueType="Int32">
+						<p.Value>29</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Exit" ValueType="Int32">
+						<p.Value>30</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Restart" ValueType="Int32">
+						<p.Value>40</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPoint" ValueType="Int32">
+						<p.Value>41</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>42</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>43</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunCurrentSequence" ValueType="Int32">
+						<p.Value>44</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSpecificSequence" ValueType="Int32">
+						<p.Value>45</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedSteps" ValueType="Int32">
+						<p.Value>46</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>47</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedSteps" ValueType="Int32">
+						<p.Value>48</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>49</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnFirstStep" ValueType="Int32">
+						<p.Value>50</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnStepFailure" ValueType="Int32">
+						<p.Value>51</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnSequenceFailure" ValueType="Int32">
+						<p.Value>52</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TracingEnabled" ValueType="Int32">
+						<p.Value>53</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToggleBreakpoint" ValueType="Int32">
+						<p.Value>60</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetRunModeSubmenu" ValueType="Int32">
+						<p.Value>61</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForcePass" ValueType="Int32">
+						<p.Value>62</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForceFail" ValueType="Int32">
+						<p.Value>63</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeSkip" ValueType="Int32">
+						<p.Value>64</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeNormal" ValueType="Int32">
+						<p.Value>65</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Resume" ValueType="Int32">
+						<p.Value>66</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepInto" ValueType="Int32">
+						<p.Value>67</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOver" ValueType="Int32">
+						<p.Value>68</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOut" ValueType="Int32">
+						<p.Value>69</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetNextStep" ValueType="Int32">
+						<p.Value>70</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Break" ValueType="Int32">
+						<p.Value>71</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakResume" ValueType="Int32">
+						<p.Value>72</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Terminate" ValueType="Int32">
+						<p.Value>73</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateRestart" ValueType="Int32">
+						<p.Value>74</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Abort" ValueType="Int32">
+						<p.Value>75</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakAll" ValueType="Int32">
+						<p.Value>76</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateAll" ValueType="Int32">
+						<p.Value>77</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_AbortAll" ValueType="Int32">
+						<p.Value>78</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ResumeAll" ValueType="Int32">
+						<p.Value>79</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointsAndWatchExpressions" ValueType="Int32">
+						<p.Value>80</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointSettings" ValueType="Int32">
+						<p.Value>81</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakpointSubmenu" ValueType="Int32">
+						<p.Value>85</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureAdapters" ValueType="Int32">
+						<p.Value>90</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureStationOptions" ValueType="Int32">
+						<p.Value>91</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureSearchDirectories" ValueType="Int32">
+						<p.Value>92</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureExternalViewers" ValueType="Int32">
+						<p.Value>93</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToolItem" ValueType="Int32">
+						<p.Value>100</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CustomizeTools" ValueType="Int32">
+						<p.Value>101</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>110</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>111</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>112</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>113</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultFileMenu_Set" ValueType="Int32">
+						<p.Value>120</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultExecuteMenu_Set" ValueType="Int32">
+						<p.Value>121</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultDebugMenu_Set" ValueType="Int32">
+						<p.Value>123</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultConfigureMenu_Set" ValueType="Int32">
+						<p.Value>124</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultToolsMenu_Set" ValueType="Int32">
+						<p.Value>125</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultSequenceViewContextMenu_Set" ValueType="Int32">
+						<p.Value>126</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultListBarContextMenu_Set" ValueType="Int32">
+						<p.Value>127</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFiles_Set" ValueType="Int32">
+						<p.Value>140</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPoints_Set" ValueType="Int32">
+						<p.Value>141</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSequences_Set" ValueType="Int32">
+						<p.Value>142</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>143</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>144</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPoints_Set" ValueType="Int32">
+						<p.Value>145</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Tools_Set" ValueType="Int32">
+						<p.Value>146</p.Value>
+					</RingConstantInfo>
+				</RingBehavior>
+			</Literal>
+			<NodeLabel AttachedTo="176" Bounds="340 429 64 18" Id="177" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>cmdKind</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="205 400 40 15" DataItem="186" Id="195" Label="196" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="195" Bounds="158 400 42 14" Id="196" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<Literal Bounds="670 450 155 15" DataType="Int32" Id="210" Label="211" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>30</p.Data>
+				<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
+					<RingConstantInfo DisplayValue="CommandKind_NotACommand" ValueType="Int32">
+						<p.Value>0</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Container" ValueType="Int32">
+						<p.Value>1</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Separator" ValueType="Int32">
+						<p.Value>2</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Custom" ValueType="Int32">
+						<p.Value>3</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenSequenceFile" ValueType="Int32">
+						<p.Value>20</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Close" ValueType="Int32">
+						<p.Value>21</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseAll" ValueType="Int32">
+						<p.Value>22</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseCompletedExecutions" ValueType="Int32">
+						<p.Value>23</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenWorkspaceBrowser" ValueType="Int32">
+						<p.Value>24</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Login" ValueType="Int32">
+						<p.Value>25</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Logout" ValueType="Int32">
+						<p.Value>26</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoginLogout" ValueType="Int32">
+						<p.Value>27</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_UnloadAllModules" ValueType="Int32">
+						<p.Value>28</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFile" ValueType="Int32">
+						<p.Value>29</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Exit" ValueType="Int32">
+						<p.Value>30</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Restart" ValueType="Int32">
+						<p.Value>40</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPoint" ValueType="Int32">
+						<p.Value>41</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>42</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>43</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunCurrentSequence" ValueType="Int32">
+						<p.Value>44</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSpecificSequence" ValueType="Int32">
+						<p.Value>45</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedSteps" ValueType="Int32">
+						<p.Value>46</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>47</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedSteps" ValueType="Int32">
+						<p.Value>48</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>49</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnFirstStep" ValueType="Int32">
+						<p.Value>50</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnStepFailure" ValueType="Int32">
+						<p.Value>51</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnSequenceFailure" ValueType="Int32">
+						<p.Value>52</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TracingEnabled" ValueType="Int32">
+						<p.Value>53</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToggleBreakpoint" ValueType="Int32">
+						<p.Value>60</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetRunModeSubmenu" ValueType="Int32">
+						<p.Value>61</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForcePass" ValueType="Int32">
+						<p.Value>62</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForceFail" ValueType="Int32">
+						<p.Value>63</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeSkip" ValueType="Int32">
+						<p.Value>64</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeNormal" ValueType="Int32">
+						<p.Value>65</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Resume" ValueType="Int32">
+						<p.Value>66</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepInto" ValueType="Int32">
+						<p.Value>67</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOver" ValueType="Int32">
+						<p.Value>68</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOut" ValueType="Int32">
+						<p.Value>69</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetNextStep" ValueType="Int32">
+						<p.Value>70</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Break" ValueType="Int32">
+						<p.Value>71</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakResume" ValueType="Int32">
+						<p.Value>72</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Terminate" ValueType="Int32">
+						<p.Value>73</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateRestart" ValueType="Int32">
+						<p.Value>74</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Abort" ValueType="Int32">
+						<p.Value>75</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakAll" ValueType="Int32">
+						<p.Value>76</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateAll" ValueType="Int32">
+						<p.Value>77</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_AbortAll" ValueType="Int32">
+						<p.Value>78</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ResumeAll" ValueType="Int32">
+						<p.Value>79</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointsAndWatchExpressions" ValueType="Int32">
+						<p.Value>80</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointSettings" ValueType="Int32">
+						<p.Value>81</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakpointSubmenu" ValueType="Int32">
+						<p.Value>85</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureAdapters" ValueType="Int32">
+						<p.Value>90</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureStationOptions" ValueType="Int32">
+						<p.Value>91</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureSearchDirectories" ValueType="Int32">
+						<p.Value>92</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureExternalViewers" ValueType="Int32">
+						<p.Value>93</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToolItem" ValueType="Int32">
+						<p.Value>100</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CustomizeTools" ValueType="Int32">
+						<p.Value>101</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>110</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>111</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>112</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>113</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultFileMenu_Set" ValueType="Int32">
+						<p.Value>120</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultExecuteMenu_Set" ValueType="Int32">
+						<p.Value>121</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultDebugMenu_Set" ValueType="Int32">
+						<p.Value>123</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultConfigureMenu_Set" ValueType="Int32">
+						<p.Value>124</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultToolsMenu_Set" ValueType="Int32">
+						<p.Value>125</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultSequenceViewContextMenu_Set" ValueType="Int32">
+						<p.Value>126</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultListBarContextMenu_Set" ValueType="Int32">
+						<p.Value>127</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFiles_Set" ValueType="Int32">
+						<p.Value>140</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPoints_Set" ValueType="Int32">
+						<p.Value>141</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSequences_Set" ValueType="Int32">
+						<p.Value>142</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>143</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>144</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPoints_Set" ValueType="Int32">
+						<p.Value>145</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Tools_Set" ValueType="Int32">
+						<p.Value>146</p.Value>
+					</RingConstantInfo>
+				</RingBehavior>
+			</Literal>
+			<NodeLabel AttachedTo="210" Bounds="670 429 64 18" Id="211" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>cmdKind</p.Text>
+			</NodeLabel>
+			<Literal Bounds="415 530 200 15" DataType="Int32" Id="212" Label="213" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>77</p.Data>
+				<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
+					<RingConstantInfo DisplayValue="CommandKind_NotACommand" ValueType="Int32">
+						<p.Value>0</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Container" ValueType="Int32">
+						<p.Value>1</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Separator" ValueType="Int32">
+						<p.Value>2</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Custom" ValueType="Int32">
+						<p.Value>3</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenSequenceFile" ValueType="Int32">
+						<p.Value>20</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Close" ValueType="Int32">
+						<p.Value>21</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseAll" ValueType="Int32">
+						<p.Value>22</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CloseCompletedExecutions" ValueType="Int32">
+						<p.Value>23</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_OpenWorkspaceBrowser" ValueType="Int32">
+						<p.Value>24</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Login" ValueType="Int32">
+						<p.Value>25</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Logout" ValueType="Int32">
+						<p.Value>26</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoginLogout" ValueType="Int32">
+						<p.Value>27</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_UnloadAllModules" ValueType="Int32">
+						<p.Value>28</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFile" ValueType="Int32">
+						<p.Value>29</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Exit" ValueType="Int32">
+						<p.Value>30</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Restart" ValueType="Int32">
+						<p.Value>40</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPoint" ValueType="Int32">
+						<p.Value>41</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>42</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopEntryPointOnSelectedSteps" ValueType="Int32">
+						<p.Value>43</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunCurrentSequence" ValueType="Int32">
+						<p.Value>44</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSpecificSequence" ValueType="Int32">
+						<p.Value>45</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedSteps" ValueType="Int32">
+						<p.Value>46</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>47</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedSteps" ValueType="Int32">
+						<p.Value>48</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPointsSubmenu" ValueType="Int32">
+						<p.Value>49</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnFirstStep" ValueType="Int32">
+						<p.Value>50</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnStepFailure" ValueType="Int32">
+						<p.Value>51</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakOnSequenceFailure" ValueType="Int32">
+						<p.Value>52</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TracingEnabled" ValueType="Int32">
+						<p.Value>53</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToggleBreakpoint" ValueType="Int32">
+						<p.Value>60</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetRunModeSubmenu" ValueType="Int32">
+						<p.Value>61</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForcePass" ValueType="Int32">
+						<p.Value>62</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeForceFail" ValueType="Int32">
+						<p.Value>63</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeSkip" ValueType="Int32">
+						<p.Value>64</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunModeNormal" ValueType="Int32">
+						<p.Value>65</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Resume" ValueType="Int32">
+						<p.Value>66</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepInto" ValueType="Int32">
+						<p.Value>67</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOver" ValueType="Int32">
+						<p.Value>68</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_StepOut" ValueType="Int32">
+						<p.Value>69</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_SetNextStep" ValueType="Int32">
+						<p.Value>70</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Break" ValueType="Int32">
+						<p.Value>71</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakResume" ValueType="Int32">
+						<p.Value>72</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Terminate" ValueType="Int32">
+						<p.Value>73</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateRestart" ValueType="Int32">
+						<p.Value>74</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Abort" ValueType="Int32">
+						<p.Value>75</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakAll" ValueType="Int32">
+						<p.Value>76</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_TerminateAll" ValueType="Int32">
+						<p.Value>77</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_AbortAll" ValueType="Int32">
+						<p.Value>78</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ResumeAll" ValueType="Int32">
+						<p.Value>79</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointsAndWatchExpressions" ValueType="Int32">
+						<p.Value>80</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DisplayBreakpointSettings" ValueType="Int32">
+						<p.Value>81</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_BreakpointSubmenu" ValueType="Int32">
+						<p.Value>85</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureAdapters" ValueType="Int32">
+						<p.Value>90</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureStationOptions" ValueType="Int32">
+						<p.Value>91</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureSearchDirectories" ValueType="Int32">
+						<p.Value>92</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigureExternalViewers" ValueType="Int32">
+						<p.Value>93</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ToolItem" ValueType="Int32">
+						<p.Value>100</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_CustomizeTools" ValueType="Int32">
+						<p.Value>101</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>110</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>111</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointInsertionMarker" ValueType="Int32">
+						<p.Value>112</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPointDefaultMenuInsertionMarker" ValueType="Int32">
+						<p.Value>113</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultFileMenu_Set" ValueType="Int32">
+						<p.Value>120</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultExecuteMenu_Set" ValueType="Int32">
+						<p.Value>121</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultDebugMenu_Set" ValueType="Int32">
+						<p.Value>123</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultConfigureMenu_Set" ValueType="Int32">
+						<p.Value>124</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultToolsMenu_Set" ValueType="Int32">
+						<p.Value>125</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultSequenceViewContextMenu_Set" ValueType="Int32">
+						<p.Value>126</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_DefaultListBarContextMenu_Set" ValueType="Int32">
+						<p.Value>127</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_MRUFiles_Set" ValueType="Int32">
+						<p.Value>140</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ExecutionEntryPoints_Set" ValueType="Int32">
+						<p.Value>141</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSequences_Set" ValueType="Int32">
+						<p.Value>142</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_RunSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>143</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_LoopOnSelectedStepsUsingEntryPoints_Set" ValueType="Int32">
+						<p.Value>144</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_ConfigurationEntryPoints_Set" ValueType="Int32">
+						<p.Value>145</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="CommandKind_Tools_Set" ValueType="Int32">
+						<p.Value>146</p.Value>
+					</RingConstantInfo>
+				</RingBehavior>
+			</Literal>
+			<NodeLabel AttachedTo="212" Bounds="415 509 64 18" Id="213" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>cmdKind</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="1425 400 40 15" DataItem="216" Id="225" Label="226" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="225" Bounds="1470 400 50 14" Id="226" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<Wire Id="248" Joints="N(165:c0t0v)|(508,265) h(27) v(130) N(1017:L0)|(575,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="1180 390 213 45" Id="256" InstanceDataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<PropertyItemTerminal Action="Write" DataType="Int32" Hotspot="0 25" Id="c0t0v" Path="ReloadSequenceFilesOnStart" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="259" Joints="N(256:error out)|(1393,405) N(225:Value)|(1428,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="260" Joints="N(195:Value)|(245,405) N(1017:L1)|(575,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="980 550 130 15" DataType="Int32" Id="264" Label="265" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>2</p.Data>
+				<RingBehavior AllowNonSequentialValues="True" ValueFormatter="LV:G6">
+					<RingConstantInfo DisplayValue="ReloadFile_None" ValueType="Int32">
+						<p.Value>0</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="ReloadFile_Selected" ValueType="Int32">
+						<p.Value>1</p.Value>
+					</RingConstantInfo>
+					<RingConstantInfo DisplayValue="ReloadFile_All" ValueType="Int32">
+						<p.Value>2</p.Value>
+					</RingConstantInfo>
+				</RingBehavior>
+			</Literal>
+			<NodeLabel AttachedTo="264" Bounds="980 529 212 18" Id="265" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>ReloadSequenceFilesOnStart</p.Text>
+			</NodeLabel>
+			<Wire Id="266" Joints="N(264:Out)|(1110,555) h(65) v(-140) N(256:c0t0v)|(1180,415)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="750" Joints="N(176:Out)|(540,455) N(1017:L3)|(575,455)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="762" Joints="N(1034:R0)|(1148,395) N(256:instance in)|(1180,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="763" Joints="N(1034:R1)|(1148,405) N(256:error in)|(1180,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="575 390 88 115" Id="1017" Label="1024" ResolveFailedHint="IApplicationMgr.ConnectCommand.gvi, Package: (TestStand APIs, Version: 20.0.0.0)" Signature="@0e968295bb844d66b6f75d53a8577753" Target="Component::UI Controls::IApplicationMgr::IApplicationMgr.ConnectCommand.gvi" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="B0" Desc="opts" />
+						<Parameter Id="L0" Desc="reference in" />
+						<Parameter Id="L1" Desc="error in" />
+						<Parameter Id="L2" Desc="uiObj" />
+						<Parameter Id="L3" Desc="cmdKind" />
+						<Parameter Id="T0" Desc="Index" />
+						<Parameter Id="R0" Desc="reference out" />
+						<Parameter Id="R1" Desc="error out" />
+						<Parameter Id="R2" Desc="return" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 35" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@bd2232353db34e3ebe062acdcac878ce" Direction="Input" Hotspot="0 50" Id="L2" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 65" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 80" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Output" Hotspot="88 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="88 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:5b843d80d9b6412db33b4172dd5a4c96,00000000000000000000000000000000,f79076b55f5f438c9995508d2bd1f263" Direction="Output" Hotspot="88 95" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="1021" Joints="N(165:c1t0v)|(508,280) h(17) v(160) N(1017:L2)|(575,440)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="1017" Bounds="575 373 192 14" Id="1024" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>IApplicationMgr.ConnectCommand</p.Text>
+			</NodeLabel>
+			<MethodCall Bounds="835 390 88 115" Id="1025" Label="1026" ResolveFailedHint="IApplicationMgr.ConnectCommand.gvi, Package: (TestStand APIs, Version: 20.0.0.0)" Signature="@0e968295bb844d66b6f75d53a8577753" Target="Component::UI Controls::IApplicationMgr::IApplicationMgr.ConnectCommand.gvi" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="B0" Desc="opts" />
+						<Parameter Id="L0" Desc="reference in" />
+						<Parameter Id="L1" Desc="error in" />
+						<Parameter Id="L2" Desc="uiObj" />
+						<Parameter Id="L3" Desc="cmdKind" />
+						<Parameter Id="T0" Desc="Index" />
+						<Parameter Id="R0" Desc="reference out" />
+						<Parameter Id="R1" Desc="error out" />
+						<Parameter Id="R2" Desc="return" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 35" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@bd2232353db34e3ebe062acdcac878ce" Direction="Input" Hotspot="0 50" Id="L2" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 65" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 80" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Output" Hotspot="88 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="88 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:5b843d80d9b6412db33b4172dd5a4c96,00000000000000000000000000000000,f79076b55f5f438c9995508d2bd1f263" Direction="Output" Hotspot="88 95" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="1025" Bounds="835 373 192 14" Id="1026" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>IApplicationMgr.ConnectCommand</p.Text>
+			</NodeLabel>
+			<Wire Id="1028" Joints="N(1017:R0)|(663,395) N(1025:L0)|(835,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1030" Joints="N(1017:R1)|(663,405) N(1025:L1)|(835,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1031" Joints="N(210:Out)|(825,455) N(1025:L3)|(835,455)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1033" Joints="N(165:c2t0v)|(508,295) h(302) v(145) N(1025:L2)|(835,440)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="1060 390 88 115" Id="1034" Label="1035" ResolveFailedHint="IApplicationMgr.ConnectCommand.gvi, Package: (TestStand APIs, Version: 20.0.0.0)" Signature="@0e968295bb844d66b6f75d53a8577753" Target="Component::UI Controls::IApplicationMgr::IApplicationMgr.ConnectCommand.gvi" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="B0" Desc="opts" />
+						<Parameter Id="L0" Desc="reference in" />
+						<Parameter Id="L1" Desc="error in" />
+						<Parameter Id="L2" Desc="uiObj" />
+						<Parameter Id="L3" Desc="cmdKind" />
+						<Parameter Id="T0" Desc="Index" />
+						<Parameter Id="R0" Desc="reference out" />
+						<Parameter Id="R1" Desc="error out" />
+						<Parameter Id="R2" Desc="return" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 35" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@bd2232353db34e3ebe062acdcac878ce" Direction="Input" Hotspot="0 50" Id="L2" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 65" Id="L3" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Int32" Direction="Input" Hotspot="0 80" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" Direction="Output" Hotspot="88 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Error" Direction="Output" Hotspot="88 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType=":COM:5b843d80d9b6412db33b4172dd5a4c96,00000000000000000000000000000000,f79076b55f5f438c9995508d2bd1f263" Direction="Output" Hotspot="88 95" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<NodeLabel AttachedTo="1034" Bounds="1060 373 192 14" Id="1035" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>IApplicationMgr.ConnectCommand</p.Text>
+			</NodeLabel>
+			<Wire Id="1037" Joints="N(1025:R0)|(923,395) N(1034:L0)|(1060,395)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1039" Joints="N(1025:R1)|(923,405) N(1034:L1)|(1060,405)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1042" Joints="N(165:c3t0v)|(508,310) h(532) v(130) N(1034:L2)|(1060,440)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="1044" Joints="N(212:Out)|(615,535) h(430) v(-80) N(1034:L3)|(1060,455)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<NativeFrontPanel AllowMaximize="[bool]False" EnforceMaximumSize="[bool]True" Height="[float]1600" Id="13" Left="[float]0" MaxHeight="[float]1600" MaxWidth="[float]2000" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" WindowTitleOption="[WindowTitleOption]None">
+			<Cluster BaseName="[string]UI Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@05eb24b82d6b49cc8bdde2a44874d378" Height="[float]474" Id="821" IsTabStop="[bool]True" Label="[UIModel]876" LabelLinked="[bool]True" Left="[float]128" TabIndex="[int]0" Top="[float]20" Value="{DataItemBinding Id=109}" Width="[float]522" p4:ControlDefinitionChecksum="KFel1DWBXGENUvPd6qEHrIJf8LW4sm9BlwKIf+2R1Pw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="TestExec::UI Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@798c61ff90914832905f42d64b7925c8" Height="[float]164" Id="79088c72aa5e440b928a698577327918" Label="[UIModel]4163512a21414c9fa84fd4437791b442" Left="[float]11" TabIndex="[int]0" Top="[float]22" Value="{ClusterBinding FieldName=Manager\ Controls}" Width="[float]129">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="95dd905c5ab74df6be3ca19bd253158c" Label="[UIModel]618de7e0e1284d37ae0a20865bdede6d" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=ApplicationMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="618de7e0e1284d37ae0a20865bdede6d" LabelOwner="[UIModel]95dd905c5ab74df6be3ca19bd253158c" Left="[float]4" Text="[string]ApplicationMgr" Top="[float]4" Width="[float]83" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="ea75979a43194339a17cadaded5540b3" Label="[UIModel]474bdd5b86e649cb865c0f42c10d2db7" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=ExecutionViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="474bdd5b86e649cb865c0f42c10d2db7" LabelOwner="[UIModel]ea75979a43194339a17cadaded5540b3" Left="[float]4" Text="[string]ExecutionViewMgr" Top="[float]56" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="33cb98d0c8aa4fb58c019419271d8a8e" Label="[UIModel]71738bfd563e40269676710456f897ce" Left="[float]4" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=SequenceFileViewMgr}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="71738bfd563e40269676710456f897ce" LabelOwner="[UIModel]33cb98d0c8aa4fb58c019419271d8a8e" Left="[float]4" Text="[string]SequenceFileViewMgr" Top="[float]108" Width="[float]117" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="4163512a21414c9fa84fd4437791b442" LabelOwner="[UIModel]79088c72aa5e440b928a698577327918" Left="[float]11" Text="[string]Manager Controls" Top="[float]2" Width="[float]96" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@39e0ae27f46d47118a7af9813fa206f3" Height="[float]437" Id="2d4de29fe465458d9ef07a90555580e3" Label="[UIModel]8af70d739f174c28b347902f69c182a1" Left="[float]235" TabIndex="[int]1" Top="[float]22" Value="{ClusterBinding FieldName=Visible\ Controls}" Width="[float]266">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="a0db5096ebb144689a61b423d9e5f370" Label="[UIModel]38b53b2f92824e8983db4cf8f9e6d767" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]0" Top="[float]20" Value="{ClusterBinding FieldName=Open\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="38b53b2f92824e8983db4cf8f9e6d767" LabelOwner="[UIModel]a0db5096ebb144689a61b423d9e5f370" Left="[float]9" Text="[string]Open Sequence File" Top="[float]0" Width="[float]106" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="fc04e9d31aef4697b3fc0ea9aa8b0bf9" Label="[UIModel]640ca2ec8b864b4b98128d46fd611f78" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]1" Top="[float]72" Value="{ClusterBinding FieldName=Close\ Sequence\ File}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="640ca2ec8b864b4b98128d46fd611f78" LabelOwner="[UIModel]fc04e9d31aef4697b3fc0ea9aa8b0bf9" Left="[float]9" Text="[string]Close Sequence File" Top="[float]52" Width="[float]105" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9889c5ba83cc429cb6b5e0adc33e93ea" Label="[UIModel]68f704c6df954f6a9812a29c172cfefb" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]2" Top="[float]124" Value="{ClusterBinding FieldName=EntryPoint\ 1}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="68f704c6df954f6a9812a29c172cfefb" LabelOwner="[UIModel]9889c5ba83cc429cb6b5e0adc33e93ea" Left="[float]9" Text="[string]EntryPoint 1" Top="[float]104" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="e89425221c7044309884a41c97cbd13a" Label="[UIModel]58ffde08b7214fbc885aec3b1e5937fa" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]3" Top="[float]176" Value="{ClusterBinding FieldName=EntryPoint\ 2}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="58ffde08b7214fbc885aec3b1e5937fa" LabelOwner="[UIModel]e89425221c7044309884a41c97cbd13a" Left="[float]9" Text="[string]EntryPoint 2" Top="[float]156" Width="[float]65" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="49219781061b4f748a66528a11c23181" Label="[UIModel]2aeebd578fb4e89b59ab6165f700cd7" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]4" Top="[float]228" Value="{ClusterBinding FieldName=Run\ Sequence}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="2aeebd578fb4e89b59ab6165f700cd7" LabelOwner="[UIModel]49219781061b4f748a66528a11c23181" Left="[float]9" Text="[string]Run Sequence" Top="[float]208" Width="[float]76" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="5f27711dbd8444b6a1cac4d4f5dfad4f" Label="[UIModel]711648a09e3149d9ba74ebd3a9a0eea7" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]5" Top="[float]280" Value="{ClusterBinding FieldName=Close\ Execution}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="711648a09e3149d9ba74ebd3a9a0eea7" LabelOwner="[UIModel]5f27711dbd8444b6a1cac4d4f5dfad4f" Left="[float]9" Text="[string]Close Execution" Top="[float]260" Width="[float]84" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="ae048e3468f94d868c543c536e2c2a38" Label="[UIModel]54d81c542ddd4e63b9927487a4d31695" Left="[float]9" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]6" Top="[float]332" Value="{ClusterBinding FieldName=Break/Resume}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="54d81c542ddd4e63b9927487a4d31695" LabelOwner="[UIModel]ae048e3468f94d868c543c536e2c2a38" Left="[float]9" Text="[string]Break/Resume" Top="[float]312" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9f2f674787414b81a1b2eff0d7e2fd39" Label="[UIModel]d55457122b5b4321aad96e95639b5b59" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]7" Top="[float]22" Value="{ClusterBinding FieldName=Terminate/Restart}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="d55457122b5b4321aad96e95639b5b59" LabelOwner="[UIModel]9f2f674787414b81a1b2eff0d7e2fd39" Left="[float]155" Text="[string]Terminate/Restart" Top="[float]2" Width="[float]95" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="4c1b6825356246839078d13a114aabe8" Label="[UIModel]ee879675d1de48cdb6106401361659b8" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]8" Top="[float]74" Value="{ClusterBinding FieldName=Terminate\ All}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="ee879675d1de48cdb6106401361659b8" LabelOwner="[UIModel]4c1b6825356246839078d13a114aabe8" Left="[float]155" Text="[string]Terminate All" Top="[float]54" Width="[float]71" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="9325508d171a4a9a866caf2ca80a7d35" Label="[UIModel]7f3eafd74fd7449b9ca55e8d5f675579" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]9" Top="[float]126" Value="{ClusterBinding FieldName=Login/Logout}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="7f3eafd74fd7449b9ca55e8d5f675579" LabelOwner="[UIModel]9325508d171a4a9a866caf2ca80a7d35" Left="[float]155" Text="[string]Login/Logout" Top="[float]106" Width="[float]72" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="da6f1aabf5924af5b455a7e5be0f3892" Label="[UIModel]fd715780a4214c95afb0129f0f8077ef" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" TabIndex="[int]10" Top="[float]178" Value="{ClusterBinding FieldName=Exit}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="fd715780a4214c95afb0129f0f8077ef" LabelOwner="[UIModel]da6f1aabf5924af5b455a7e5be0f3892" Left="[float]155" Text="[string]Exit" Top="[float]158" Width="[float]19" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="88f2ecd21a7c4193a88502c0214bc032" Label="[UIModel]88890005caeb4aa2a17232ad7f5d16c8" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]11" Top="[float]230" Value="{ClusterBinding FieldName=Sequence\ Files\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="88890005caeb4aa2a17232ad7f5d16c8" LabelOwner="[UIModel]88f2ecd21a7c4193a88502c0214bc032" Left="[float]155" Text="[string]Sequence Files List" Top="[float]210" Width="[float]99" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="2fe0edb84194484c940b9d6f483f75db" Label="[UIModel]e7f89d85d16841bc95d3bf0cb07faa22" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]12" Top="[float]282" Value="{ClusterBinding FieldName=Sequences\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="e7f89d85d16841bc95d3bf0cb07faa22" LabelOwner="[UIModel]2fe0edb84194484c940b9d6f483f75db" Left="[float]155" Text="[string]Sequences List" Top="[float]262" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="355a72335bdb48a59805badef2bf9186" Label="[UIModel]86d6ab710f4e49879b85b0ea9c27cc53" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" TabIndex="[int]13" Top="[float]334" Value="{ClusterBinding FieldName=Executions\ List}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="86d6ab710f4e49879b85b0ea9c27cc53" LabelOwner="[UIModel]355a72335bdb48a59805badef2bf9186" Left="[float]155" Text="[string]Executions List" Top="[float]314" Width="[float]78" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="a9711612c77a4404ab7b2433f92ec169" Label="[UIModel]82b293602d7a43559904f1cf8c157481" Left="[float]155" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" TabIndex="[int]14" Top="[float]386" Value="{ClusterBinding FieldName=SequenceView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="82b293602d7a43559904f1cf8c157481" LabelOwner="[UIModel]a9711612c77a4404ab7b2433f92ec169" Left="[float]155" Text="[string]SequenceView" Top="[float]366" Width="[float]77" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="98f1c962857448d5b4f16464fd3eec71" Label="[UIModel]96fcda1d8202498ea5e5a089e8858e69" Left="[float]11" RefnumType="[Type]:COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" TabIndex="[int]15" Top="[float]389" Value="{ClusterBinding FieldName=ReportView}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="96fcda1d8202498ea5e5a089e8858e69" LabelOwner="[UIModel]98f1c962857448d5b4f16464fd3eec71" Left="[float]11" Text="[string]ReportView" Top="[float]369" Width="[float]62" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="8af70d739f174c28b347902f69c182a1" LabelOwner="[UIModel]2d4de29fe465458d9ef07a90555580e3" Left="[float]235" Text="[string]Visible Controls" Top="[float]2" Width="[float]83" />
+				<p4:Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@1ff47a88c02848569a64e7433b7aacab" Height="[float]240" Id="5ec8c0b80355499eb0202e457cf64dcc" Label="[UIModel]d20ccddf1294db9834982bdec65b4c7" Left="[float]11" TabIndex="[int]2" Top="[float]218" Value="{ClusterBinding FieldName=Other\ References}" Width="[float]210">
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="14edf5a42dbc45d7a2d99154e0cdc268" Label="[UIModel]3ed30a47a58c4bf296783ede82cb75cb" Left="[float]8" RefnumType="[Type]@1215a398322c46edb5cdd6742d2c10ee" TabIndex="[int]0" Top="[float]112" Value="{ClusterBinding FieldName=LabVIEW\ -\ Event\ Registration\ Ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="3ed30a47a58c4bf296783ede82cb75cb" LabelOwner="[UIModel]14edf5a42dbc45d7a2d99154e0cdc268" Left="[float]8" Text="[string]LabVIEW - Event Registration Ref" Top="[float]92" Width="[float]175" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="84d5cda053ca4b7abec046b1c374f7f4" Label="[UIModel]fe97bfc63d1449828a9f5b280a6cd6dc" Left="[float]8" RefnumType="[Type]@882f43c8ee75407b88c40ab7ad6dd6e8" TabIndex="[int]1" Top="[float]158" Value="{ClusterBinding FieldName=LabVIEW\ -\ Quit\ Application\ Event}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="fe97bfc63d1449828a9f5b280a6cd6dc" LabelOwner="[UIModel]84d5cda053ca4b7abec046b1c374f7f4" Left="[float]8" Text="[string]LabVIEW - Quit Application Event" Top="[float]138" Width="[float]177" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="a0f63b86ca364f8b9730fd9d43bea81e" Label="[UIModel]af7ef3b9453740c0b49f0b78b5c7578e" Left="[float]7" RefnumType="[Type]:VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" TabIndex="[int]2" Top="[float]65" Value="{ClusterBinding FieldName=Top\ Level\ VI\ reference}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="af7ef3b9453740c0b49f0b78b5c7578e" LabelOwner="[UIModel]a0f63b86ca364f8b9730fd9d43bea81e" Left="[float]7" Text="[string]Top Level VI reference" Top="[float]45" Width="[float]118" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="dee15cd7c06244329b223c8948a8b8fa" Label="[UIModel]a554402a008646cfbab09a889263d5cd" Left="[float]9" RefnumType="[Type]@02448e8e71274c669626395b4618e34e" TabIndex="[int]3" Top="[float]205" Value="{ClusterBinding FieldName=ActiveX\ event\ callback\ ref}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="a554402a008646cfbab09a889263d5cd" LabelOwner="[UIModel]dee15cd7c06244329b223c8948a8b8fa" Left="[float]9" Text="[string]ActiveX event callback ref" Top="[float]185" Width="[float]135" />
+					<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="96cebb7f7cad401aa245f6d67343636e" Label="[UIModel]e7186b26ffb943ad8b4ec5a24a4d751b" Left="[float]6" RefnumType="[Type]:COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef5c0b611d0939c0020af68e893" TabIndex="[int]4" Top="[float]20" Value="{ClusterBinding FieldName=TestStand\ Engine}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="e7186b26ffb943ad8b4ec5a24a4d751b" LabelOwner="[UIModel]96cebb7f7cad401aa245f6d67343636e" Left="[float]6" Text="[string]TestStand Engine" Top="[float]0" Width="[float]92" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="d20ccddf1294db9834982bdec65b4c7" LabelOwner="[UIModel]5ec8c0b80355499eb0202e457cf64dcc" Left="[float]11" Text="[string]Other References" Top="[float]198" Width="[float]92" />
+			</Cluster>
+			<Label Height="[float]16" Id="876" LabelOwner="[UIModel]821" Left="[float]128" Text="[string]UI Data" Top="[float]0" Width="[float]40" xmlns="http://www.ni.com/PanelCommon" />
+			<PanelExecutionWindow Id="877" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@05eb24b82d6b49cc8bdde2a44874d378" Id="109" Name="UI Data" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="TestExec::UI Data.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@05eb24b82d6b49cc8bdde2a44874d378" Id="112" Name="UI Data Out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="TestExec::UI Data.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" DataType="Error" Id="186" Name="error in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="1" DataType="Error" Id="216" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="05eb24b82d6b49cc8bdde2a44874d378">
+			<Attributed AttributedType="@761fd3236b474621b8b1e707f7edb458">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="798c61ff90914832905f42d64b7925c8">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="ApplicationMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ExecutionViewMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SequenceFileViewMgr" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="39e0ae27f46d47118a7af9813fa206f3">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Open Sequence File" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Close Sequence File" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EntryPoint 1" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="EntryPoint 2" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Run Sequence" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Close Execution" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Break/Resume" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Terminate/Restart" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Terminate All" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Login/Logout" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Exit" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998e98ef11d293b700a02411ebe6" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sequence Files List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Sequences List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Executions List" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,be67608061ac11d58efa0050dac50018" />
+					<Field FieldAccessPolicy="ReadWrite" Name="SequenceView" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ReportView" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1ff47a88c02848569a64e7433b7aacab">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="LabVIEW - Event Registration Ref" DataType="@1215a398322c46edb5cdd6742d2c10ee" />
+					<Field FieldAccessPolicy="ReadWrite" Name="LabVIEW - Quit Application Event" DataType="@882f43c8ee75407b88c40ab7ad6dd6e8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Top Level VI reference" DataType=":VIRefnum:NationalInstruments.SourceModel.DataTypes.VIRefnum" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ActiveX event callback ref" DataType="@02448e8e71274c669626395b4618e34e" />
+					<Field FieldAccessPolicy="ReadWrite" Name="TestStand Engine" DataType=":COM:b2794ef3c0b611d0939c0020af68e893,00000000000000000000000000000000,b2794ef5c0b611d0939c0020af68e893" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="1215a398322c46edb5cdd6742d2c10ee">
+			<Attributed AttributedType="@e0b47ed76597481d9bfeaee3394f3fee">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="882f43c8ee75407b88c40ab7ad6dd6e8">
+			<Attributed AttributedType="@07d4e6fea9ad428695f6d38821c5a30e">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="02448e8e71274c669626395b4618e34e">
+			<Attributed AttributedType="@8571fd989d0b4966b42948e2b61b8d8b">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="0e968295bb844d66b6f75d53a8577753">
+			<Attributed AttributedType="@4b46292139f74d81b4fb1571d20539cf">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bd2232353db34e3ebe062acdcac878ce">
+			<Composite Id="1" Name="Variant" Sealed="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="761fd3236b474621b8b1e707f7edb458">
+			<Typedef TypedefName="UI Data.gtype" UnderlyingType="@f339328ba70b4479ada7e39000cfb824" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e0b47ed76597481d9bfeaee3394f3fee">
+			<Composite Id="1" Name="CoreRuntime.EventRegistrationRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Quit Application Event" DataType="@882f43c8ee75407b88c40ab7ad6dd6e8" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="07d4e6fea9ad428695f6d38821c5a30e">
+			<Event Id="1" Name="Quit Application Event" GenericTypeDefinition="Void">
+				<Parameters>
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="Int32" />
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8571fd989d0b4966b42948e2b61b8d8b">
+			<Composite Id="1" Name="CoreRuntime.EventCallbackRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4b46292139f74d81b4fb1571d20539cf">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="IApplicationMgr.ConnectCommand.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@d11b11229c9b430bba4ff182ed52b19b">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]opts" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@107334296eee464b8547c1859bdb6057">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]reference in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@cb0c8867944b4a6d9584d0be8b56894a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@cdd565ae1ec0402798a5140905ac257e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]uiObj" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c48343654cbc4110a737b6372d29aabd">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]cmdKind" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c7b9005b7419479ead725c63e0ac87ab">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Index" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@80b70ae8acce486eab0e103170e32e57">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]reference out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@24fae8c7060a4a26a9ddf15f87dae160">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@1fccb7d048ec4ed2924aa4dd9bf167e9">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]return" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f339328ba70b4479ada7e39000cfb824">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Manager Controls" DataType="@798c61ff90914832905f42d64b7925c8" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Visible Controls" DataType="@39e0ae27f46d47118a7af9813fa206f3" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Other References" DataType="@1ff47a88c02848569a64e7433b7aacab" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d11b11229c9b430bba4ff182ed52b19b">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="B0" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="107334296eee464b8547c1859bdb6057">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cb0c8867944b4a6d9584d0be8b56894a">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cdd565ae1ec0402798a5140905ac257e">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="@bd2232353db34e3ebe062acdcac878ce" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c48343654cbc4110a737b6372d29aabd">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c7b9005b7419479ead725c63e0ac87ab">
+			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="Int32" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="80b70ae8acce486eab0e103170e32e57">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="24fae8c7060a4a26a9ddf15f87dae160">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="1fccb7d048ec4ed2924aa4dd9bf167e9">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Optional" Name="R2" DataType=":COM:5b843d80d9b6412db33b4172dd5a4c96,00000000000000000000000000000000,f79076b55f5f438c9995508d2bd1f263" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="Component::UI Controls::IApplicationMgr::IApplicationMgr.ConnectCommand.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate Height="[float]40" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 40,3.94700003 L 40,36 C 40,38.2000008 38.2000008,40 36,40 L 4.08300018,40 C 1.88300002,40 0,38.2000008 0,36 L 0,3.94700003 C 0,1.74699998 1.88300002,0 4.08300018,0 L 36,0 C 38.2000008,0 40,1.74699998 40,3.94700003 Z" Fill="[SMSolidColorBrush]#ff38b85f" Height="[float]40" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 37.0390015,35.1920013 C 37.0390015,36.2330017 36.1870003,37.0349998 35.1459999,37.0349998 L 4.8579998,37.0349998 C 3.81699991,37.0349998 2.96499991,36.2330017 2.96499991,35.1920013 L 2.96499991,4.85400009 C 2.96499991,3.81299996 3.81699991,2.96099997 4.8579998,2.96099997 L 35.1459999,2.96099997 C 36.1870003,2.96099997 37.0390015,3.81299996 37.0390015,4.85400009 L 37.0390015,35.1920013 Z" Fill="[SMSolidColorBrush]#ffebebeb" Height="[float]40" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<Path Data="[PathGeometry]M 28.6989994,10.3699999 L 22.2220001,10.3699999 L 22.2220001,5.00899982 L 28.6989994,10.3699999 Z M 29.6299992,32.5929985 L 5.92600012,32.5929985 L 5.92600012,4.44399977 L 19.2590008,4.44399977 C 19.8840008,4.46700001 20.7399998,5.30499983 20.7399998,5.92500019 C 20.7399998,5.9289999 20.7399998,11.8509998 20.7399998,11.8509998 L 28.1469994,11.8509998 C 28.7810001,11.8649998 29.6280003,12.7849998 29.6280003,13.4110003 L 29.6280003,32.5929985 Z M 28.1480007,13.3330002 L 15.4659996,25.0259991 L 8.88899994,20.5900002 L 15.4870005,30.8379993 L 28.1480007,15.1470003 L 28.1480007,13.3330002 Z M 32.5929985,14.8149996 L 31.1119995,14.8149996 L 31.1119995,34.0740013 L 10.3699999,34.0740013 L 10.3699999,35.5550003 L 34.0740013,35.5550003 L 34.0740013,16.375 C 34.0740013,15.7489996 33.2270012,14.8290005 32.5929985,14.8149996 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Left="[float]0" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]UI Controls.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>

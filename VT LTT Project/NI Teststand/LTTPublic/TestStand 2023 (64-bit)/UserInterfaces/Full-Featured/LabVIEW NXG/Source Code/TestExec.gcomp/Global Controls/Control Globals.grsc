@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="61140E5494697AA6D9647C89ECD8B42B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="Data Comms SystemDesigner plugin" Name="http://www.ni.com/DataComms/SystemDesigner/SystemModel" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.1.0.49153" Version="5.1.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="SharedResourceCollection" Name="http://www.ni.com/SharedResourceCollection" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="SharedResourceCollection" Name="http://www.ni.com/SharedResourceCollection/SystemModel" OldestCompatibleVersion="4.7.0.0" Version="4.7.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModel" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4771" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/SystemModelCore" OldestCompatibleVersion="5.1.0.5" Version="5.1.0.49152" />
+		<ApplicationVersionInfo Build="5.1.0.4771" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<SharedResourceCollection xmlns="http://www.ni.com/SharedResourceCollection">
+		<EnvoySuperimpositionContainer Id="1" xmlns="http://www.ni.com/SystemDesigner/EnvoyManagement">
+			<MappingManager Id="2" xmlns="http://www.ni.com/SystemDesigner/SystemModelCore">
+				<Instance Id="8" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="TabCtl Refnum" p9:Process.DataType="@7743d6a12d534091a8f39a32e5cc539d" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0x0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="13" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="ListBar Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="58" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="FileSteps Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="68" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="SequencesList Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="78" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="InsertionPalette Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="83" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="FileVariables Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="98" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="ExecutionSteps Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="108" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="CallStack Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="118" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Threads Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="128" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="ExecutionVariables Borders" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,bce69cf9134147059ecc23e033f2e101" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="138" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="ListBar" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,5ca55ac1a7f1470c90943dbeefe0acf9" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="143" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="StatusBar" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,9ce1ada409a84158b1e2f3489316e12b" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="148" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Execution Variables" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,aabdf204cd204fdf822e5db98192a4b9" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="153" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="File Variables" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,aabdf204cd204fdf822e5db98192a4b9" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="158" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="SequencesList" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998b98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="163" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Entry Point 1 Button" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,a6fa998f98ef11d293b700a02411ebe6,a6fa998e98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="168" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Entry Point 2 Button" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,a6fa998f98ef11d293b700a02411ebe6,a6fa998e98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="173" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="RunSequenceButton" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,a6fa998f98ef11d293b700a02411ebe6,a6fa998e98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="178" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="FileSteps" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="183" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="InsertionPalette" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,7575abc295204ef49df82c33b6da18bc" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="188" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Execution Steps" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,34b7e07355334a8aa6511230c0e6500a" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="193" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="CallStack" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998b98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="198" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Threads" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,a6fa998b98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="203" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="ReportView" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,f54f4eba497c11d58eeb0050dac50018" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="208" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Terminate/Restart Button" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,a6fa998f98ef11d293b700a02411ebe6,a6fa998e98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="213" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Break/Resume Button" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,a6fa998f98ef11d293b700a02411ebe6,a6fa998e98ef11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="218" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="SequenceFile Label" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,c50fd12199bf11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="223" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="Execution Label" p8:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,c50fd12199bf11d293b700a02411ebe6" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>0</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="228" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="Top Level VI Refnum" p9:Process.DataType="@3e1cdd47e3334c3d8854df6a12f785c9" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="233" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="Launcher VI Refnum" p9:Process.DataType="@3e1cdd47e3334c3d8854df6a12f785c9" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="238" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="menu refnum" p9:Process.DataType="@f8ed75e177bc45c7863f34916513d753" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0x0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="243" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="Application Manager" p9:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,d0743b7d50bf409d87df49983721dfdc" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="248" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="Execution View Manager" p9:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,0b2d723f0a0540fea0fc362ef92a1dcb" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="253" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:DataComms.TagInitialValuesSource="" p7:DataComms.TagInitialValuesSourceId="" p8:Process.UseInitialValueDefault="True" p9:Process.AliasName="Sequence File View Manager" p9:Process.DataType=":COM:03b81820510e42c693b8cfa253794662,00000000000000000000000000000000,817d7c9a8f4b4bb7aea6e118ceb0f823" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p7="http://www.ni.com/DataComms/SystemDesigner/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p9:p.Process.InitialValue>0</p9:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="258" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="Refreshing Display" p8:Process.DataType="Boolean" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>False</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="263" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="True" p8:Process.AliasName="TestStand UI Control Has Focus" p8:Process.DataType="Boolean" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>False</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Instance Id="268" Source="{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag">
+					<Symbols p6:Path="[{http://www.ni.com/DataComms/SystemDesigner/SystemModel}Tag]Tag" p7:Process.UseInitialValueDefault="False" p8:Process.AliasName="New Engine Environment File Path" p8:Process.DataType="@6e38352f9df34e5295e9c158207c2036" xmlns:p8="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p7="http://www.ni.com/SharedResourceCollection/SystemModel" xmlns:p6="http://www.ni.com/Core/Proxy">
+						<p8:p.Process.InitialValue>
+							<Path a="1" />
+						</p8:p.Process.InitialValue>
+					</Symbols>
+				</Instance>
+				<Superimposition Id="3" Name="Root Superimposition">
+					<Superimpose Source="8" />
+					<Superimpose Source="13" />
+					<Superimpose Source="58" />
+					<Superimpose Source="68" />
+					<Superimpose Source="78" />
+					<Superimpose Source="83" />
+					<Superimpose Source="98" />
+					<Superimpose Source="108" />
+					<Superimpose Source="118" />
+					<Superimpose Source="128" />
+					<Superimpose Source="138" />
+					<Superimpose Source="143" />
+					<Superimpose Source="148" />
+					<Superimpose Source="153" />
+					<Superimpose Source="158" />
+					<Superimpose Source="163" />
+					<Superimpose Source="168" />
+					<Superimpose Source="173" />
+					<Superimpose Source="178" />
+					<Superimpose Source="183" />
+					<Superimpose Source="188" />
+					<Superimpose Source="193" />
+					<Superimpose Source="198" />
+					<Superimpose Source="203" />
+					<Superimpose Source="208" />
+					<Superimpose Source="213" />
+					<Superimpose Source="218" />
+					<Superimpose Source="223" />
+					<Superimpose Source="228" />
+					<Superimpose Source="233" />
+					<Superimpose Source="238" />
+					<Superimpose Source="243" />
+					<Superimpose Source="248" />
+					<Superimpose Source="253" />
+					<Superimpose Source="258" />
+					<Superimpose Source="263" />
+					<Superimpose Source="268" />
+				</Superimposition>
+			</MappingManager>
+		</EnvoySuperimpositionContainer>
+	</SharedResourceCollection>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Control\ Globals\.grsc" NameTracksFileName="True" />
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="7743d6a12d534091a8f39a32e5cc539d">
+			<Attributed AttributedType="@069341c17bbc4e42a933760dc62ae1d8">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec:Global\ Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3e1cdd47e3334c3d8854df6a12f785c9">
+			<Attributed AttributedType="@cbc6c8163c2d4200b91fa36358990ec7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec:Global\ Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f8ed75e177bc45c7863f34916513d753">
+			<Attributed AttributedType="@905f6779399a4739beb21c63e787ce79">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec:Global\ Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="6e38352f9df34e5295e9c158207c2036">
+			<Attributed AttributedType="@98c21d64a04e4e7bbd76c61526a832c3">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]TestExec:Global\ Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="069341c17bbc4e42a933760dc62ae1d8">
+			<Typedef TypedefName="TabCtlRefnum.gtype" UnderlyingType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cbc6c8163c2d4200b91fa36358990ec7">
+			<Typedef TypedefName="VIRefnum.gtype" UnderlyingType="@af8340fd73e5438fbf2430f4f852231a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="905f6779399a4739beb21c63e787ce79">
+			<Typedef TypedefName="MenuRefnum.gtype" UnderlyingType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="98c21d64a04e4e7bbd76c61526a832c3">
+			<Typedef TypedefName="NewEngineEnvPath.gtype" UnderlyingType="Path" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="af8340fd73e5438fbf2430f4f852231a">
+			<Attributed AttributedType="@2534e30fed7c4d8086b0f8dced1a097e">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2534e30fed7c4d8086b0f8dced1a097e">
+			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.VIRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="Read" Name="Exec.State" DataType="@f2ee28fd107546e7bf1d005ad196ecc0" />
+					<Field FieldAccessPolicy="Read" Name="Panel" DataType=":DotNet:NationalInstruments.PanelRuntime.FrontPanelCanvasProxy, NationalInstruments.Controls.Runtime" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f2ee28fd107546e7bf1d005ad196ecc0">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Bad" />
+					<EnumerationMember Value="1" Name="Idle" />
+					<EnumerationMember Value="2" Name="Running Top Level" />
+					<EnumerationMember Value="3" Name="Running" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

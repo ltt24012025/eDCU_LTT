@@ -1,0 +1,96 @@
+[DEF, %OBJROOT]
+PersistedBreakpointArray = Objs
+PersistedWatchpointArray = Objs
+PersistedWatchpoint = Obj
+
+[DEF, PersistedBreakpointArray]
+%NAME = ""
+
+[__Header__]
+ProductName = "TestStand"
+ProductVersion = 23.0.0.49152
+CompatibleProdVersion = 23.0.0.0
+Version = 1022
+Type = "TEPersisted"
+Path = ""
+ProductVersionString = "2023 Q4 (23.0.0.49152)"
+Description = ""
+CharEncoding = ""
+
+[PersistedWatchpointArray]
+%HI = [9]
+
+[DEF, PersistedWatchpointArray]
+%[0] = "TYPE, PersistedWatchpoint"
+%[1] = "TYPE, PersistedWatchpoint"
+%[2] = "TYPE, PersistedWatchpoint"
+%[3] = "TYPE, PersistedWatchpoint"
+%[4] = "TYPE, PersistedWatchpoint"
+%[5] = "TYPE, PersistedWatchpoint"
+%[6] = "TYPE, PersistedWatchpoint"
+%[7] = "TYPE, PersistedWatchpoint"
+%[8] = "TYPE, PersistedWatchpoint"
+%[9] = "TYPE, PersistedWatchpoint"
+%NAME = ""
+
+[PersistedWatchpointArray[0]]
+Expression = "RunState.Sequence.Main[\"Set Given Mission Profile Mode\"].STPDATAIn.CAN_Write_Data"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\Pre DV Trial Seq 1.seq"
+
+[PersistedWatchpointArray[1]]
+Expression = "Parameters.Require_Chamber_Temperature"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest.seq"
+
+[PersistedWatchpointArray[2]]
+Expression = "FileGlobals.TemperatureTolerance"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest.seq"
+
+[PersistedWatchpointArray[3]]
+Expression = "StationGlobals.TotalCyclestoRun"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest.seq"
+
+[PersistedWatchpointArray[4]]
+Expression = "StationGlobals.TotalCyclesCompleted"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest.seq"
+
+[PersistedWatchpointArray[5]]
+Expression = "Locals.TotalCyclesCompleted"
+ClientFilePath = "N:\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest.seq"
+
+[PersistedWatchpointArray[6]]
+Expression = "StationGlobals.Test_Name"
+ClientFilePath = "C:\\Users\\eDCU_LTT\\Desktop\\TEST.seq"
+
+[PersistedWatchpointArray[7]]
+Expression = "Locals.ModelData"
+ClientFilePath = "C:\\Users\\eDCU_LTT\\Desktop\\TEST.seq"
+
+[PersistedWatchpointArray[8]]
+Expression = "Locals.ModelPluginConfiguration"
+ClientFilePath = "C:\\Users\\eDCU_LTT\\Desktop\\TEST.seq"
+
+[PersistedWatchpointArray[9]]
+Expression = "StationGlobals.Temperature_Monitor"
+ClientFilePath = "D:\\eDCU LTT\\VT LTT Project\\Client Sequence\\eDCU\\eDCU LifeTimeTest_VAL12.seq"
+
+[%TYPES]
+PersistedWatchpoint = "PersistedWatchpoint"
+
+[DEF, PersistedWatchpoint]
+%LOCATION = "StdTypes"
+Expression = Str
+BreakpointType = Num
+ClientFilePath = Str
+SequenceFilePath = Str
+SequenceName = Str
+NumericFormat = Str
+UseContextFromScope = Bool
+%ROOT_TYPE = True
+
+[PersistedWatchpoint]
+%TIMESTAMP = 1695801917
+%VERSION = "23.0.0.49152"
+%TYPELASTMOD = "23.0.0.49152"
+%MINPRODVER = "23.0.0.0"
+%TYPE_FLG = 33554436
+

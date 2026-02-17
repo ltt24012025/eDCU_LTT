@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2032E48F3EE78C26F27E36013D181F25" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4164" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.1.0.2" Version="5.1.0.2" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4164" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="5.1.0.2" Version="5.1.0.2" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4164" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="4.8.0.0" Version="5.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.1.0.4164" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.1.0.8" Version="5.1.0.8" />
+		<ApplicationVersionInfo Build="5.1.0.4164" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@fe47acf36bd54f368f54f97991561aa1" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="10" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="12" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="13" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="14" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="15" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+				</IconTemplate>
+				<Image Height="[float]30" Id="16" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFNSURBVEhLxZaNrYMwDIS9QlZgBa/ACqzgFViBFbICs2QFVmAF3gVHpapsIn6id0JVQp3P5uLQ0tZM/4FOKZXRXdlocJlZRMr8lgw0uOM4TtOkn+XudR1oUKAYY5k/lm1IIAohdF1X5rfkoEPo+74JGnvYCq1Vw5YyvyUXjcK16nme0Sp6/5IO9HeHKBrCVJKwsMZcklE1+hqHJaaYNuTZ0cw3DucvGmXCZU6iUEnvoaFlWYohcCLT8/Ad9LquemQgPAHlol9CQxnGDDTSwKJhGB6hfzoEuE9fg/ta1WqFdxoFeyB1i2w0qSHOaQQXIdUE9mJw7aqRjDJ0X4gr070ENrpqiKL3gDwwE7hobOM5Gt+qlI4rv2r2x9KwA43e+O6QVlV7IpqIxg/ag6oMNOLOf3YVfQJV2VVjAZrE+7NQhapcQ6orq3LRz9UMvW1/1SFNVHEzwicAAAAASUVORK5CYII=" Top="[float]5" Width="[float]30" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@fe47acf36bd54f368f54f97991561aa1" Id="18" Name="Enum">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Full\ UI\ States\.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Label Height="[float]16" Id="19" LabelOwner="[UIModel]17" Left="[float]100" Text="[string]Enum" Top="[float]10" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+					<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Enabled="[bool]True" Height="[float]24" Id="17" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]19" Left="[float]100" MinHeight="[float]24" TabIndex="[int]0" Top="[float]30" Value="{DataItemBinding Id=18}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]208" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<EnumSelectorInfo DisplayValue="[string]Initialize Controls" Value="[ushort]0" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Initialize" Value="[ushort]1" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Handle Events" Value="[ushort]2" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Shutdown" Value="[ushort]3" ValueType="[Type]UInt16" />
+					</EnumSelector>
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="fe47acf36bd54f368f54f97991561aa1">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Initialize Controls" />
+					<EnumerationMember Value="1" Name="Initialize" />
+					<EnumerationMember Value="2" Name="Handle Events" />
+					<EnumerationMember Value="3" Name="Shutdown" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

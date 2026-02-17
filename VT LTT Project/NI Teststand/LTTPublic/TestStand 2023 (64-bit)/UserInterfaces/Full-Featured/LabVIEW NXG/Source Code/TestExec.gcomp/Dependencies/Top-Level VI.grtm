@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="83F27FE5DC7BC473478BEA8030A3519C" Timestamp="1D33C66CA324544" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="5.2.0.1" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.2.0.6404" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.2.0.6404" Name="LabVIEW NXG" Version="2.0.0" />
+	</SourceModelFeatureSet>
+	<MenuDefinition Id="1" xmlns="http://www.ni.com/PanelCommon">
+		<Menu Id="2" IsApplicationMenu="[bool]True" Left="[float]0" Top="[float]0" Visible="[bool]False">
+			<UserDefinedMenuItem Id="3" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_FILE" ItemTag="[string]FILE" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="4" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_EDIT" ItemTag="[string]EDIT" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="5" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_EXECUTE" ItemTag="[string]EXECUTE" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="6" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_DEBUG" ItemTag="[string]DEBUG" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="7" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_CONFIGURE" ItemTag="[string]CONFIGURE" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="8" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_TOOLS" ItemTag="[string]TOOLS" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+			<UserDefinedMenuItem Id="9" IsChecked="[bool]False" IsEnabled="[bool]True" ItemName="[string]TS_HELP" ItemTag="[string]HELP" Left="[float]0" Shortcut="[string]" Top="[float]0" />
+		</Menu>
+	</MenuDefinition>
+</SourceFile>

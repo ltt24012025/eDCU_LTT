@@ -1,0 +1,112 @@
+ID,SIGNAL_NAME,OFFSET_NUM,NB_BYTES,MASK,SCALING_FACTOR,SCALING_OFFSET,UNIT
+1,FF frame - Begin,0,5,FF,,,DIG
+2,TILT_Status ,5,5,FF,,,DIG
+3,Spare,10,1,,,,DIG
+4,TILT_SW_WHO_AM_I,11,1,,,,DIG
+5,Spare,12,1,,,,DIG
+6,Start_Self_test,13,1,,,,DIG
+7,Spare,14,1,,,,DIG
+8,Start_Self_test_Response,15,8,,,,DIG
+9,Spare,23,1,,,,DIG
+10,Tilt_X_STOC,24,4,,,,DIG
+11,Tilt_Y_STOC,28,4,,,,DIG
+12,Tilt_Z_STOC,32,4,,,,DIG
+13,Spare,36,1,,,,DIG
+14,Tilt_x_STOF,37,4,,,,DIG
+15,Tilt_Y_STOF,41,4,,,,DIG
+16,Tilt_Z_STOF,45,4,,,,DIG
+17,Spare,49,1,,,,DIG
+18,Spare,50,1,,,,DIG
+19,Tilt_x_CONTI_MIN,51,2,,,,DIG
+20,Tilt_x_CONTI_MAx,53,2,,,,DIG
+21,Tilt_Y_CONTI_MIN,55,2,,,,DIG
+22,Tilt_Y_CONTI_MAx,57,2,,,,DIG
+23,Tilt_Z_CONTI_MIN,59,2,,,,DIG
+24,Tilt_Z_CONTI_MAx,61,2,,,,DIG
+25,TLE76502_Status,63,5,FF,,,DIG
+26,Disable_Sleep,68,1,,,,DIG
+27,Default_Setting_Out1_3,69,3,,,,DIG
+28,Read MAPIN0(0x4402),72,3,,,,DIG
+29,Read MAPIN1(0x4502),75,3,,,,DIG
+30,Read HWCR(0x4C02) Read Back,78,3,,,,DIG
+31,Write MAPIN0(0x8404),81,3,,,,DIG
+32,Read MAPIN0(0x4402),84,3,,,,DIG
+33,Write MAPIN1(0x850A),87,3,,,,DIG
+34,Read MAPIN1(0x4502),90,3,,,,DIG
+35,Clear_Latch_OL_OUT0,93,1,,,,DIG
+36,OUT0_OL_ON,94,1,,,,DIG
+37,Read_OUT0_OL_Status,95,3,,,,DIG
+38,Read_TLE_OL_Diagnostics,98,3,,,,DIG
+39,Clear_Latch_OL_OUT1,101,1,,,,DIG
+40,OUT1_OL_ON,102,1,,,,DIG
+41,Read_OUT1_OL_Status,103,3,,,,DIG
+42,Read_TLE_OL_Diagnostics,106,3,,,,DIG
+43,Clear_Latch_OL_OUT2,109,1,,,,DIG
+44,OUT2_OL_ON,110,1,,,,DIG
+45,Read_OUT2_Status,111,3,,,,DIG
+46,Read_TLE_OL_Diagnostics,114,3,,,,DIG
+47,Clear_Latch_OL_OUT3,117,1,,,,DIG
+48,OUT3_OL_ON,118,1,,,,DIG
+49,Read_OUT3_OL_Status,119,3,,,,DIG
+50,Read_TLE_OL_Diagnostics,122,3,,,,DIG
+51,Clear_Latch_OL_OUT4,125,1,,,,DIG
+52,OUT4_OL_ON,126,1,,,,DIG
+53,Read_OUT4_OL_Status,127,3,,,,DIG
+54,Read_TLE_OL_Diagnostics,130,3,,,,DIG
+55,Clear_Latch_OL_OUT5,133,1,,,,DIG
+56,OUT5_OL_ON,134,1,,,,DIG
+57,Read_OUT5_OL_Status,135,3,,,,DIG
+58,Read_TLE_OL_Diagnostics,138,3,,,,DIG
+59,Clear_Latch_OL_OUT6,141,1,,,,DIG
+60,OUT6_OL_ON,142,1,,,,DIG
+61,Read_OUT6_OL_Status,143,3,,,,DIG
+62,Read_TLE_OL_Diagnostics,146,3,,,,DIG
+63,Clear_Latch_OL_OUT7,149,1,,,,DIG
+64,OUT7_OL_ON,150,1,,,,DIG
+65,Read_OUT7_OL_Status,151,3,,,,DIG
+66,Read_TLE_OL_Diagnostics,154,3,,,,DIG
+67,OUT7_OL_OFF,157,1,,,,DIG
+68,Read_TLE_OL_Diagnostics_Post_RESET,158,3,,,,DIG
+69,Read_TLE_OL_Diagnostics,161,3,,,,DIG
+70,Clear_Latch_OVL_OUT0,164,1,,,,DIG
+71,OUT0_OVL_ON,165,1,,,,DIG
+72,Read_OUT0_OVL_Status,166,3,,,,DIG
+73,Read_TLE_OVL_Diagnostics,169,3,,,,DIG
+74,Clear_Latch_OVL_OUT1,172,1,,,,DIG
+75,OUT1_OVL_ON,173,1,,,,DIG
+76,Read_OUT1_OVL_Status,174,3,,,,DIG
+77,Read_TLE_OVL_Diagnostics,177,3,,,,DIG
+78,Clear_Latch_OVL_OUT2,180,1,,,,DIG
+79,OUT2_OVL_ON,181,1,,,,DIG
+80,Read_OUT2_Status,182,3,,,,DIG
+81,Read_TLE_OVL_Diagnostics,185,3,,,,DIG
+82,Clear_Latch_OVL_OUT3,188,1,,,,DIG
+83,OUT3_OVL_ON,189,1,,,,DIG
+84,Read_OUT3_OVL_Status,190,3,,,,DIG
+85,Read_TLE_OVL_Diagnostics,193,3,,,,DIG
+86,Clear_Latch_OVL_OUT4,196,1,,,,DIG
+87,OUT4_OVL_ON,197,1,,,,DIG
+88,Read_OUT4_OVL_Status,198,3,,,,DIG
+89,Read_TLE_OVL_Diagnostics,201,3,,,,DIG
+90,Clear_Latch_OVL_OUT5,204,1,,,,DIG
+91,OUT5_OVL_ON,205,1,,,,DIG
+92,Read_OUT5_OVL_Status,206,3,,,,DIG
+93,Read_TLE_OVL_Diagnostics,209,3,,,,DIG
+94,Clear_Latch_OVL_OUT6,212,1,,,,DIG
+95,OUT6_OVL_ON,213,1,,,,DIG
+96,Read_OUT6_OVL_Status,214,3,,,,DIG
+97,Read_TLE_OVL_Diagnostics,217,3,,,,DIG
+98,Clear_Latch_OVL_OUT7,220,1,,,,DIG
+99,OUT7_OVL_ON,221,1,,,,DIG
+100,Read_OUT7_OVL_Status,222,3,,,,DIG
+101,Read_TLE_OVL_Diagnostics,225,3,,,,DIG
+102,OUT7_OVL_OFF,228,1,,,,DIG
+103,Read_TLE_OVL_Diagnostics_Post_RESET,229,3,,,,DIG
+104,Read_TLE_OVL_Diagnostics,232,3,,,,DIG
+105,DRV3256_STATUS,235,5,FF,,,DIG
+106,DRV3256_INIT_STATUS,240,1,,,,DIG
+107,DRV3256_ IC_STAT_1_REG,241,1,,,,DIG
+108,DRV3256_ IC_STAT_3_REG,242,1,,,,DIG
+109,s16CurRmsEmLpf_MIN,243,2,,0.0625,-2048,A
+110,s16CurRmsEmLpf_MAx,245,2,,0.0625,-2048,A
+111,FF END,247,0,,,,

@@ -80,8 +80,6 @@
 				</Item>
 				<Item Name="VAL_SW_Testing.lvlib" Type="Library" URL="../Instruments UI/CAN/VAL SW Testing/VAL_SW_Testing.lvlib"/>
 			</Item>
-			<Item Name="Configure CAN STP.vi" Type="VI" URL="../Instruments UI/CAN/Configure CAN STP.vi"/>
-			<Item Name="CAN User Interface.vi" Type="VI" URL="../Instruments UI/CAN/CAN User Interface.vi"/>
 		</Item>
 		<Item Name="Digital Input" Type="Folder">
 			<Item Name="Control" Type="Folder">

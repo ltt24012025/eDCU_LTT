@@ -38,9 +38,7 @@
 			</Item>
 			<Item Name="CAN Read Engine.vi" Type="VI" URL="../CAN/CAN Engine/CAN Read Engine.vi"/>
 			<Item Name="CAN Start Engine.vi" Type="VI" URL="../CAN/CAN Engine/CAN Start Engine.vi"/>
-			<Item Name="CAN Start Engine_STP_Engine.vi" Type="VI" URL="../CAN/CAN Engine/CAN Start Engine_STP_Engine.vi"/>
 			<Item Name="CAN Stop Engine.vi" Type="VI" URL="../CAN/CAN Engine/CAN Stop Engine.vi"/>
-			<Item Name="CAN STP_Engine Stop Engine.vi" Type="VI" URL="../CAN/CAN Engine/CAN STP_Engine Stop Engine.vi"/>
 		</Item>
 		<Item Name="STP" Type="Folder">
 			<Item Name="Steptypes" Type="Folder">

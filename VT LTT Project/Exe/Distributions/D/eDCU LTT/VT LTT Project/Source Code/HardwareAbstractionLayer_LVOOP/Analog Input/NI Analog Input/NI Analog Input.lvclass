@@ -70,7 +70,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Create Task.vi" Type="VI" URL="../NI DAQ/Create Task.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;J!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;/33""&lt;G&amp;M&lt;W=A37ZQ&gt;81O&lt;(:D&lt;'&amp;T=Q!!%%&amp;O97RP:S"*&lt;H"V&gt;#"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!31$$`````#62B=WMA&lt;G&amp;N:1"91(!!(A!!0C2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7)84EEA17ZB&lt;'^H)%FO=(6U,GRW9WRB=X-!!!^"&lt;G&amp;M&lt;W=A37ZQ&gt;81A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#A!!!*)!!!!!!1!*!!!!!!</Property>
@@ -88,7 +88,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Hardware Device Get All Info.vi" Type="VI" URL="../NI DAQ/Hardware Device Get All Info.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;R!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;/33""&lt;G&amp;M&lt;W=A37ZQ&gt;81O&lt;(:D&lt;'&amp;T=Q!!%UZ*)%&amp;O97RP:S"*&lt;H"V&gt;#"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!&amp;R!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;/33""&lt;G&amp;M&lt;W=A37ZQ&gt;81O&lt;(:D&lt;'&amp;T=Q!!%EZ*)%&amp;O97RP:S"*&lt;H"V&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
@@ -97,7 +97,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1084236292</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
 		<Item Name="Hardware Device Get Info.vi" Type="VI" URL="../NI DAQ/Hardware Device Get Info.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;L!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;R!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;/33""&lt;G&amp;M&lt;W=A37ZQ&gt;81O&lt;(:D&lt;'&amp;T=Q!!%UZ*)%&amp;O97RP:S"*&lt;H"V&gt;#"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!&amp;R!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;/33""&lt;G&amp;M&lt;W=A37ZQ&gt;81O&lt;(:D&lt;'&amp;T=Q!!%EZ*)%&amp;O97RP:S"*&lt;H"V&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>

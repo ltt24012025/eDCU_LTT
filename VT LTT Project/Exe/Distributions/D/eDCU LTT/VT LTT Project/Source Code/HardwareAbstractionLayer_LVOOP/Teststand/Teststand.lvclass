@@ -164,7 +164,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1117782528</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="Get Termination Status.vi" Type="VI" URL="../Teststand Termination/Get Termination Status.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!(%!B&amp;V2F=GVJ&lt;G&amp;U;7ZH)'^S)%&amp;C&lt;X*U;7ZH!!1!!!"11(!!(A!!/#2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7)26'6T&gt;(.U97ZE,GRW9WRB=X-!!!V5:8.U=X2B&lt;G1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!5%"Q!"Y!!$AE3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC%62F=X2T&gt;'&amp;O:#ZM&gt;G.M98.T!!!-6'6T&gt;(.U97ZE)'FO!!"5!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!&amp;!!5!#!)!!(A!!!U)!!!*!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!EA!!!!!"!!E!!!!!</Property>
@@ -173,7 +173,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1109918208</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="Init Teststand.vi" Type="VI" URL="../Teststand Termination/Init Teststand.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!Y*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&amp;5:8.U=X2B&lt;G1O&lt;(:D&lt;'&amp;T=Q!!$62F=X2T&gt;'&amp;O:#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"A1(!!"Q%$!!!!!&lt;*Z4P0!NB(1EZQ!)+^I[*-!!!!#:#@1Y/11%&gt;#4N!!ALWDIEQ!!!!2E*^$AZ"!2U*/U!##P;/C4!!!!!1!!!!!45W6R&gt;76O9W5A1W^O&gt;'6Y&gt;#"*&lt;A"11(!!(A!!/#2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7)26'6T&gt;(.U97ZE,GRW9WRB=X-!!!R5:8.U=X2B&lt;G1A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!A!!!#3!!!!!!%!#1!!!!!</Property>

@@ -1,0 +1,30 @@
+LTT Version 1.1.0.22(Release)
+
+Fix:
+1. Error data missing, for FE/FF frame incase of any issue in decoding - Fixed, Need to verify
+
+New feature:
+1. Wait Monitor - Make monitor duration configurable, with station Global - Fixed, Need to verify
+2. Make the RMS reading from wait monitor farter by changing For loop to an parallel For loop - Fixed, Need to verify
+
+
+Known issues in Version 1.1.0.22
+1.
+
+
+
+
+LTT Version 1.1.0.21(Release)
+
+Fix:
+1. Added Default User ID for Log In(VT) as mentioned in the User Manual
+2. Issue in running any socket independently -Fixed, verified
+3. CAN log not visible in Manual Mode - Fixed, verified
+5. Rename of Mission Mode needed in Manul mode to make is generic - Fixed, verified
+6. WaitMOnitor Step: Raw power Monitor is hard coded, ignore only if MODE 0. - Fixed, verified
+
+New feature: NA
+
+
+Known issues in Version 1.1.0.21
+1.

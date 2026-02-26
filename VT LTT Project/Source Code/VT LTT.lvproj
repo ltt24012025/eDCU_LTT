@@ -684,7 +684,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5F5C0820-3E87-44A1-950A-5A58E0D7F4DC}</Property>
-				<Property Name="Bld_version.build" Type="Int">22</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LTT.exe</Property>
@@ -701,7 +701,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.depDestIndex" Type="Int">2</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8F3BF46F-5A26-4963-B333-DA9A38AD990E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B4CAD819-EA96-400D-8855-EE05B1653609}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GUI.lvlib/GUI/Launcher/Vitesco Launcher.lvlib/Splash Screen.vi</Property>

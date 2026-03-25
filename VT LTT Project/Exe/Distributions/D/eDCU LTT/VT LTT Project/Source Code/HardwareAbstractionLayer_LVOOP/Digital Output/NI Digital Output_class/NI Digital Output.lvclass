@@ -89,13 +89,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		</Item>
 		<Item Name="Hardware Device Get All Info.vi" Type="VI" URL="../NI DO DAQ/Hardware Device Get All Info.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'"!=!!?!!"!*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BF/33"%;7&gt;J&gt;'&amp;M)%^V&gt;("V&gt;#ZM&gt;G.M98.T!!!64EEA2'FH;82B&lt;#"0&gt;82Q&gt;81A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"A1(!!(A!!1#2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7):4EEA2'FH;82B&lt;#"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!!&amp;%Z*)%2J:WFU97QA4X6U=(6U)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'"!=!!?!!"!*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BF/33"%;7&gt;J&gt;'&amp;M)%^V&gt;("V&gt;#ZM&gt;G.M98.T!!!64EEA2'FH;82B&lt;#"0&gt;82Q&gt;81A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"A1(!!(A!!1#2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7):4EEA2'FH;82B&lt;#"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!!&amp;%Z*)%2J:WFU97QA4X6U=(6U)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Hardware Device Get Info.vi" Type="VI" URL="../NI DO DAQ/Hardware Device Get Info.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'"!=!!?!!"!*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BF/33"%;7&gt;J&gt;'&amp;M)%^V&gt;("V&gt;#ZM&gt;G.M98.T!!!64EEA2'FH;82B&lt;#"0&gt;82Q&gt;81A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"A1(!!(A!!1#2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7):4EEA2'FH;82B&lt;#"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!!&amp;%Z*)%2J:WFU97QA4X6U=(6U)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>

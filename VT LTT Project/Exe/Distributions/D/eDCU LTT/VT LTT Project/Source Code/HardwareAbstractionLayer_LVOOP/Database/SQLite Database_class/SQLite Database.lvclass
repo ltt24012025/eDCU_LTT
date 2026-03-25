@@ -127,13 +127,13 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 			</Item>
 			<Item Name="DB Insert Query.vi" Type="VI" URL="../SQL Lite/SQL Support/DB Insert Query.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;586F=HE!6E"Q!"Y!!$YE3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC&amp;V.24'FU:3"%982B9G&amp;T:3ZM&gt;G.M98.T!!!-2'&amp;U97*B=W5A&lt;X6U!!!/1$$`````"8:B&lt;(6F!"2!1!!"`````Q!("U:1)%2B&gt;'%!%E!Q`````QF597*M:5ZB&lt;75!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!=1%!!!@````]!"QZ%1C"$&lt;WRV&lt;7YA4G&amp;N:1!!%%!Q`````Q:49WBF&lt;7%!!&amp;2!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;455RJ&gt;'5A2'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!!#U2B&gt;'&amp;C98.F)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!A!#1!+!!M!$!!.!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!"#A!!!1I!!!!)!!!"#A!!!1I!!!#1!!!!!!%!$A!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;586F=HE!6E"Q!"Y!!$YE3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC&amp;V.24'FU:3"%982B9G&amp;T:3ZM&gt;G.M98.T!!!-2'&amp;U97*B=W5A&lt;X6U!!!/1$$`````"8:B&lt;(6F!"2!1!!"`````Q!("U:1)%2B&gt;'%!%E!Q`````QF597*M:5ZB&lt;75!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!=1%!!!@````]!"QZ%1C"$&lt;WRV&lt;7YA4G&amp;N:1!!%%!Q`````Q:49WBF&lt;7%!!&amp;2!=!!?!!!_*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B&gt;455RJ&gt;'5A2'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!!#U2B&gt;'&amp;C98.F)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!A!#1!+!!M!$!!.!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!"#A!!!1I!!!!)!!!"#A!!!1I!!!#1!!!!!!%!$A!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 			</Item>
 		</Item>
 	</Item>

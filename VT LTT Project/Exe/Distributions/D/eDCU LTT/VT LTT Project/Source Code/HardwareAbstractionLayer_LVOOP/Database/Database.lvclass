@@ -135,31 +135,31 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
 		</Item>
 		<Item Name="Build Insert Query.vi" Type="VI" URL="../SQL Support/Build Insert Query.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$5V&amp;-!"2!-0````],5W.I:7VB)%ZB&lt;75!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"F.U=GFO:Q!!&amp;E"!!!,``````````Q!)"%2B&gt;'%!!"J!1!!"`````Q!)$%.P&lt;(6N&lt;C"/97VF=Q!!&amp;%!Q`````QJ597*M:3"/97VF!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!*!!I!#Q)!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!B!!!!)1!!!!%!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$5V&amp;-!"2!-0````],5W.I:7VB)%ZB&lt;75!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"F.U=GFO:Q!!&amp;E"!!!,``````````Q!)"%2B&gt;'%!!"J!1!!"`````Q!)$%.P&lt;(6N&lt;C"/97VF=Q!!&amp;%!Q`````QJ597*M:3"/97VF!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!*!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!B!!!!)1!!!!%!!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Build Update Query.vi" Type="VI" URL="../SQL Support/Build Update Query.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$5V&amp;-!!Z!-0````]&amp;6WBF=G5!&amp;%!Q`````QN49WBF&lt;7%A4G&amp;N:1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````]'5X2S;7ZH!!!31%!!!@````]!#12%982B!!!;1%!!!@````]!#1R$&lt;WRV&lt;7YA4G&amp;N:8-!!"2!-0````]+6'&amp;C&lt;'5A4G&amp;N:1!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"A!(!!A!#A!,!!Q#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!)!!!!#!!!!!A!!!)3!!!#%A!!!"!!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!-0````]$5V&amp;-!!Z!-0````]&amp;6WBF=G5!&amp;%!Q`````QN49WBF&lt;7%A4G&amp;N:1!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!-0````]'5X2S;7ZH!!!31%!!!@````]!#12%982B!!!;1%!!!@````]!#1R$&lt;WRV&lt;7YA4G&amp;N:8-!!"2!-0````]+6'&amp;C&lt;'5A4G&amp;N:1!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"A!(!!A!#A!,!!Q$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!)!!!!#!!!!!A!!!)3!!!#%A!!!"!!!!!!!1!.!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
 		</Item>
 		<Item Name="DB Insert Query.vi" Type="VI" URL="../SQL Support/DB Insert Query.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&amp;!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;586F=HE!4E"Q!"Y!!$=E3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC%%2B&gt;'&amp;C98.F,GRW9WRB=X-!$%2B&gt;'&amp;C98.F)'^V&gt;!!!$E!Q`````Q6W97RV:1!51%!!!@````]!"Q&gt;'5#"%982B!"*!-0````]*6'&amp;C&lt;'6/97VF!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(%"!!!(`````!!=/2%)A1W^M&gt;7VO)%ZB&lt;75!!""!-0````]'5W.I:7VB!!"-1(!!(A!!.S2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7)12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!,2'&amp;U97*B=W5A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!#!!*!!I!#Q!-!!U#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!%+!!!"#A!!!!A!!!%+!!!"#A!!!*!!!!!!!1!/!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&amp;!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]&amp;586F=HE!4E"Q!"Y!!$=E3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC%%2B&gt;'&amp;C98.F,GRW9WRB=X-!$%2B&gt;'&amp;C98.F)'^V&gt;!!!$E!Q`````Q6W97RV:1!51%!!!@````]!"Q&gt;'5#"%982B!"*!-0````]*6'&amp;C&lt;'6/97VF!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(%"!!!(`````!!=/2%)A1W^M&gt;7VO)%ZB&lt;75!!""!-0````]'5W.I:7VB!!"-1(!!(A!!.S2)98*E&gt;W&amp;S:5&amp;C=X2S97.U;7^O4'&amp;Z:8*@4&amp;:04V!O&lt;(:M;7)12'&amp;U97*B=W5O&lt;(:D&lt;'&amp;T=Q!,2'&amp;U97*B=W5A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!#!!*!!I!#Q!-!!U$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!%+!!!"#A!!!!A!!!%+!!!"#A!!!*!!!!!!!1!/!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="DB List Tables.vi" Type="VI" URL="../SQL Support/DB List Tables.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!51%!!!@````]!"1:U97*M:8-!!%Z!=!!?!!!X*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B"%982B9G&amp;T:3ZM&gt;G.M98.T!!R%982B9G&amp;T:3"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!4%"Q!"Y!!$=E3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC%%2B&gt;'&amp;C98.F,GRW9WRB=X-!#U2B&gt;'&amp;C98.F)'FO!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!"!!*!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#A!!!!!</Property>
@@ -171,13 +171,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
 		<Item Name="DB FGV.vi" Type="VI" URL="../SQL Support/DB FGV.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*,!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"^!&amp;Q!"#E.P&lt;GZF9X2J&lt;WY!!!J$&lt;WZO:7.U;7^O!!"@!0(!"8/6!!!!!B6/36^%982B9G&amp;T:6^"5%EO&lt;(:M;7)91W^O&lt;C"09GJF9X23:7:F=G6O9W5O9X2M!#B!=!!"!!%!"2BD&lt;WZO:7.U;7^O)(*F:G6S:7ZD:3"0&gt;81!!&amp;:!=!!?!!!X*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B"%982B9G&amp;T:3ZM&gt;G.M98.T!"2%982B9G&amp;T:3"0&gt;81O&lt;(:D&lt;'&amp;T=Q!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"&gt;!&amp;A!#!U&gt;F&gt;!.4:81!"E&amp;D&gt;'FP&lt;A!!7Q$RQ!6TF1!!!!)64EF@2'&amp;U97*B=W6@16"*,GRW&lt;'FC'%.P&lt;GYA4W*K:7.U5G6G:8*F&lt;G.F,G.U&lt;!!E1(!!!1!"!!559W^O&lt;G6D&gt;'FP&lt;C"S:7:F=G6O9W5!!&amp;*!=!!?!!!X*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B"%982B9G&amp;T:3ZM&gt;G.M98.T!""%982B9G&amp;T:3ZM&gt;G.M98.T!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!*!!I!#Q)!!(A!!!E!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*,!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"^!&amp;Q!"#E.P&lt;GZF9X2J&lt;WY!!!J$&lt;WZO:7.U;7^O!!"@!0(!"8/6!!!!!B6/36^%982B9G&amp;T:6^"5%EO&lt;(:M;7)91W^O&lt;C"09GJF9X23:7:F=G6O9W5O9X2M!#B!=!!"!!%!"2BD&lt;WZO:7.U;7^O)(*F:G6S:7ZD:3"0&gt;81!!&amp;:!=!!?!!!X*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B"%982B9G&amp;T:3ZM&gt;G.M98.T!"2%982B9G&amp;T:3"0&gt;81O&lt;(:D&lt;'&amp;T=Q!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"&gt;!&amp;A!#!U&gt;F&gt;!.4:81!"E&amp;D&gt;'FP&lt;A!!7Q$RQ!6TF1!!!!)64EF@2'&amp;U97*B=W6@16"*,GRW&lt;'FC'%.P&lt;GYA4W*K:7.U5G6G:8*F&lt;G.F,G.U&lt;!!E1(!!!1!"!!559W^O&lt;G6D&gt;'FP&lt;C"S:7:F=G6O9W5!!&amp;*!=!!?!!!X*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9B"%982B9G&amp;T:3ZM&gt;G.M98.T!""%982B9G&amp;T:3ZM&gt;G.M98.T!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!*!!I!#Q-!!(A!!!E!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!#!!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 	</Item>
 	<Item Name="SQL Query" Type="Folder">

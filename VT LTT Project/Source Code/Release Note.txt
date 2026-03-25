@@ -1,4 +1,10 @@
-LTT Version 1.1.0.22(Release)
+
+
+LTT Version 1.1.0.23(Release)
+New feature:
+1. RMS Current Check.vi: Remove the error case to make sure input error will not stop the RMS reading
+2. Wait and Monitor_UPS.vi: Updated UI, added time elapsed data and RMS_refresh indicator on UI
+
 
 Fix:
 1. Error data missing, for FE/FF frame incase of any issue in decoding - Fixed, Need to verify

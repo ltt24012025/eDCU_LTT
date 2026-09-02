@@ -11,6 +11,7 @@
 		<Item Name="FE and FF Frame Error data Show Msg.lvclass" Type="LVClass" URL="../Error Log Messages/FE and FF Frame Error data Show Msg/FE and FF Frame Error data Show Msg.lvclass"/>
 		<Item Name="Initialise the Error log Based on Cycle number Msg.lvclass" Type="LVClass" URL="../Error Log Messages/Initialise the Error log Based on Cycle number Msg/Initialise the Error log Based on Cycle number Msg.lvclass"/>
 		<Item Name="Result Data Update the Self Msg.lvclass" Type="LVClass" URL="../Error Log Messages/Result Data Update the Self Msg/Result Data Update the Self Msg.lvclass"/>
+		<Item Name="Export Error Tree Data Msg.lvclass" Type="LVClass" URL="../Error Log Messages/Export Error Tree Data Msg/Export Error Tree Data Msg.lvclass"/>
 	</Item>
 	<Item Name="Error Log.lvclass" Type="LVClass" URL="../Error Log/Error Log.lvclass"/>
 </Library>

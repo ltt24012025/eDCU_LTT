@@ -15,4 +15,5 @@
 	<Item Name="UnMangle VI Name" Type="Folder"/>
 	<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="../Current VIs Parents Ref__ogtk.vi"/>
 	<Item Name="Fit VI window to Content__ogtk.vi" Type="VI" URL="../Fit VI window to Content__ogtk.vi"/>
+	<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="../Fit VI window to Largest Dec__ogtk.vi"/>
 </Library>

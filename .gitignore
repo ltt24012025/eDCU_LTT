@@ -1,4 +1,9 @@
 /VT LTT Project/Additional Installers/MYSQL/mysql-installer-community-8.0.35.0.msi
 *.zip
 /VT LTT Project/Data Analyser Tool Installer
-/VT LTT Project/Source Code/Log/CANLog
+/VT LTT Project/Source Code/Log
+/VT LTT Project/Client Sequence/eDCU/HighCurrent/Reports
+/VT LTT Project/Client Sequence/eDCU/HighCurrent/REPORT DEBUG
+/VT LTT Project/NI Teststand/LTTLocalAppData/TestStand 2023 (64-bit)/NIERDump/64ebd1b6-cd96-494c-9faf-05fd4648c71e/*.dmp
+Log
+/VT LTT Project/Data Analyzer Exe/Log

@@ -118,13 +118,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Hardware Device Get All Info.vi" Type="VI" URL="../NI Waveform DAQ/Hardware Device Get All Info.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!74EEA6W&amp;W:7:P=GUA4X6U=(6U)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!'"!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!64EEA6W&amp;W:7:P=GUA4X6U=(6U)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!74EEA6W&amp;W:7:P=GUA4X6U=(6U)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!'"!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!64EEA6W&amp;W:7:P=GUA4X6U=(6U)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
 		<Item Name="Hardware Device Get Info.vi" Type="VI" URL="../NI Waveform DAQ/Hardware Device Get Info.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'*!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!74EEA6W&amp;W:7:P=GUA4X6U=(6U)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!'"!=!!?!!""*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9BJ/33"898:F:G^S&lt;3"0&gt;82Q&gt;81O&lt;(:D&lt;'&amp;T=Q!64EEA6W&amp;W:7:P=GUA4X6U=(6U)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>

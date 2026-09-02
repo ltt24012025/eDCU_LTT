@@ -131,13 +131,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082401296</Property>
 		</Item>
 		<Item Name="Modbus FGV.vi" Type="VI" URL="../Function/Modbus FGV.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!V*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9AZ.&lt;W2C&gt;8-O&lt;(:D&lt;'&amp;T=Q!+47^E9H6T)&amp;*F:A!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%J!=!!?!!!V*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9AZ.&lt;W2C&gt;8-O&lt;(:D&lt;'&amp;T=Q!+47^E9H6T)&amp;.F&gt;!!!&lt;!$R!!!!!!!!!!-E3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC$EVP:'*V=SZM&gt;G.M98.T&amp;%VP:(6C=S"'2V9A5X2B&gt;'5O9X2M!"N!&amp;A!#!V.F&gt;!.(:81!"E&amp;D&gt;'FP&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!%!!A$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!!!!!A!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!V*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9AZ.&lt;W2C&gt;8-O&lt;(:D&lt;'&amp;T=Q!+47^E9H6T)&amp;*F:A!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%J!=!!?!!!V*%BB=G2X98*F17*T&gt;(*B9X2J&lt;WZ-98FF=F^-6E^05#ZM&gt;GRJ9AZ.&lt;W2C&gt;8-O&lt;(:D&lt;'&amp;T=Q!+47^E9H6T)&amp;.F&gt;!!!&lt;!$R!!!!!!!!!!-E3'&amp;S:(&gt;B=G6"9H.U=G&amp;D&gt;'FP&lt;ERB?76S8UR74U^1,GRW&lt;'FC$EVP:'*V=SZM&gt;G.M98.T&amp;%VP:(6C=S"'2V9A5X2B&gt;'5O9X2M!"N!&amp;A!#!V.F&gt;!.(:81!"E&amp;D&gt;'FP&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!%!!A#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!)!!!!!!!!!!A!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1084236288</Property>
 		</Item>
 	</Item>
 </LVClass>

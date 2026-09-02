@@ -629,6 +629,15 @@
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="MGI Get Executable Version.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Application Control/MGI Get Executable Version.vi"/>
 				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
+				<Item Name="FILE Delete__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/FILE Delete__ogtk.vi"/>
+				<Item Name="FILE Delete (Wide Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Delete (Wide Path)__ogtk.vi"/>
+				<Item Name="lvzlib64.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib64.dll"/>
+				<Item Name="PATH Refnum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/PATH Refnum__ogtk.ctl"/>
+				<Item Name="FILE Delete (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Delete (Path)__ogtk.vi"/>
+				<Item Name="FILE Create Wide Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/FILE Create Wide Path__ogtk.vi"/>
+				<Item Name="FILE Create Wide Path (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Create Wide Path (Path)__ogtk.vi"/>
+				<Item Name="FILE Create Wide Path (UTF8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Create Wide Path (UTF8)__ogtk.vi"/>
+				<Item Name="FILE Delete (UTF8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/fileutil.llb/subVIs/FILE Delete (UTF8)__ogtk.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -985,7 +994,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5237DABB-B168-471B-9586-DA723405E307}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Data Analysis.exe</Property>
